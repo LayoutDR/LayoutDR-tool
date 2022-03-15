@@ -1,0 +1,383 @@
+@charset  "utf-8";
+
+body {
+    color: #fff;
+    font-family: "Source Sans Pro",sans-serif;
+    background: linear-gradient(#493439 0%,#38343a 22%,#38343a 96%,#2c282d 100%);
+}
+
+hr {
+    clear: both;
+}
+
+header {
+    min-height: 120px;
+    background-color: #fa3631;
+}
+
+header .inner {
+    max-width: 930px;
+    padding: 30px 15px 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .search_form {
+    float: right;
+}
+
+header #logo {
+    opacity: .95;
+    width: 276px;
+    height: 54px;
+    float: left;
+}
+
+.search_form {
+    padding-top: 5px;
+}
+
+.search_form input {
+    border: none;
+    color: #a33232;
+    padding: 8px 12px;
+    font-size: 180%;
+    border-radius: 5px 0 0 5px;
+    transition: .3s;
+    background-color: #dc3531;
+}
+
+.search_form input:hover {
+    color: #7c3537;
+}
+
+.search_form input:focus {
+    outline: none;
+}
+
+.search_form input::-webkit-input-placeholder {
+    color: #a33232;
+}
+
+.search_form button {
+    opacity: .8;
+    border: none;
+    padding: 8px 12px;
+    font-size: 180%;
+    border-radius: 0 5px 5px 0;
+    width: 56px;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: .3s;
+    background-image: url(sprite.png);
+    background-color: #a33232;
+    background-position: 12px 9px;
+    background-repeat: no-repeat;
+}
+
+.search_form button span {
+    visibility: hidden;
+}
+
+.search_form button:hover {
+    opacity: 1;
+}
+
+#content .search_form label {
+    margin-right: 1em;
+}
+
+#content .search_form input {
+    background-color: #fff;
+}
+
+#content .search_form button {
+}
+
+#content {
+    max-width: 930px;
+    min-height: 600px;
+    padding: 30px 15px 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article.account {
+    font-size: 110%;
+    clear: both;
+    overflow: auto;
+    width: 100%;
+    padding: .5em 1em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    background-color: #3c383e;
+}
+
+article.account dl {
+    float: left;
+    width: 75%;
+    margin: 0;
+    padding: 0;
+}
+
+article.account form {
+    float: left;
+    width: 20%;
+}
+
+article.account dt {
+    color: #827d87;
+    float: left;
+    clear: left;
+    text-align: right;
+    width: 10%;
+    min-width: 80px;
+    padding: 1% 2%;
+}
+
+article.account dd {
+    float: left;
+    width: 65%;
+    padding: 1%;
+    margin-left: 0;
+}
+
+#share-it {
+    color: #827d87;
+    font-size: 110%;
+    clear: both;
+    overflow: auto;
+    width: 100%;
+    padding: .5em 1em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    text-align: center;
+    background: rgba(0,0,0,0.298039);
+}
+
+#share-it a {
+    color: #00c600;
+    text-decoration: underline;
+}
+
+kbd {
+    color: #e0dee1;
+    font-family: "Ubuntu Mono",monospace;
+    border-radius: 4px;
+    padding: .25em .5em;
+    transition: .3s;
+    text-shadow: rgba(0,0,0,0.8) 1px 1px;
+    background: rgba(0,0,0,0.298039);
+}
+
+kbd:hover,kbd.selected {
+    color: #e0dee1;
+    background: rgba(0,0,0,0.498039);
+}
+
+kbd::selection {
+    color: #fff;
+    text-shadow: none;
+    background: #00bfdd;
+}
+
+dt.stats {
+    visibility: hidden;
+}
+
+dd.stats {
+    color: #6f6b74;
+    font-weight: 300;
+    font-size: 90%;
+}
+
+dd.stats ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+dd.stats ul li {
+    float: left;
+    margin-right: 1em;
+    padding: .1em .4em .2em;
+}
+
+dd.stats ul li:last-child {
+    padding-left: 0;
+}
+
+li.success_rate {
+    border-radius: 4px;
+}
+
+.success_100 {
+    color: #00c600;
+    background-color: rgba(0,198,0,0.0980392);
+}
+
+.success_90 {
+    color: #32b400;
+    background-color: rgba(50,180,0,0.0980392);
+}
+
+.success_80 {
+    color: #63a400;
+    background-color: rgba(99,164,0,0.0980392);
+}
+
+.success_70 {
+    color: #959200;
+    background-color: rgba(149,146,0,0.0980392);
+}
+
+.success_60 {
+    color: #c78100;
+    background-color: rgba(199,129,0,0.0980392);
+}
+
+.success_50 {
+    color: #f77000;
+    background-color: rgba(247,112,0,0.0980392);
+}
+
+.success_40 {
+    color: #f75a00;
+    background-color: rgba(247,90,0,0.0980392);
+}
+
+.success_30 {
+    color: #f74300;
+    background-color: rgba(247,67,0,0.0980392);
+}
+
+.success_20 {
+    color: #f72d00;
+    background-color: rgba(247,45,0,0.0980392);
+}
+
+.success_10 {
+    color: #f71600;
+    background-color: rgba(247,22,0,0.0980392);
+}
+
+article.account fieldset {
+    color: #827d87;
+    font-weight: 300;
+    font-size: 90%;
+    border: none;
+    margin-top: .5em;
+    text-align: center;
+}
+
+article.account form button {
+    opacity: .4;
+    border: none;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    transition: .3s;
+    margin: .5em .5em 0 0;
+    box-shadow: none;
+    outline: none;
+    background: url(sprite.png) -58px 0 no-repeat;
+}
+
+article.account form button.vote_no {
+    margin-right: 0;
+    background-position: -112px 0;
+}
+
+article.account form button span {
+    visibility: hidden;
+}
+
+article.account form button:hover {
+    opacity: .6;
+}
+
+article.account form button:active {
+    opacity: .7;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2.75em;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 2em;
+}
+
+a:link {
+    color: rgba(255,255,255,0.8);
+}
+
+a:visited {
+    color: rgba(255,255,255,0.6);
+}
+
+a:hover {
+    color: #fff;
+}
+
+a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.related {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.related li {
+    display: inline;
+    font-size: 110%;
+    padding: 0 1em 0 0;
+}
+
+form .row {
+    margin: 1em 0;
+    clear: both;
+}
+
+form .row label {
+    display: block;
+    float: left;
+    clear: left;
+    width: 15%;
+    padding-right: 1em;
+    text-align: right;
+}
+
+footer {
+    max-width: 930px;
+    padding: 15px 15px 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    float: left;
+    margin-right: 1em;
+    padding: .1em .4em .2em;
+}
+
+footer ul li:last-child {
+    padding-left: 0;
+}
+
+footer a {
+    font-size: 90%;
+    color: #6f6b74;
+}

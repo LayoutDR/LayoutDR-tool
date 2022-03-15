@@ -1,0 +1,128 @@
+<!DOCTYPE html><html lang="en" ng-app="meetupApp" class="ng-scope"><head ng-controller="MeetupController as meetup" class="ng-scope"><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-animate){display:none !important;}ng\:form{display:block;}</style>
+        <title class="">MidwayMeetup | Where do you want to meet up?</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="description" content="This site allows users to enter their address, along with the addresses of their friends, and find meetup locations at the midpoint of those addresses.">
+        <meta name="keywords" content="meetup,hangout,middle,halfway,bars,restaurants,bored,local,movies,fun,maps,google">
+
+        <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap-responsive.min.css">
+        <link rel="stylesheet" type="text/css" href="meetup.css">
+        <link rel="stylesheet" type="text/css" href="font-awesome.css">
+        <link rel="shortcut icon" href="http://www.midwaymeetup.com/img/meetup.ico">
+
+        
+        <style type="text/css"></style>
+    </head>
+    <body ng-controller="MeetupController as meetup" ng-init="meetup.initController()" class="ng-scope">
+        <div class="container-fluid">
+        <div class="row-fluid">
+            <div id="header" class="span12 titleHeader page-header">
+                <h1 class="titleHeader">MidwayMeetup <small>Where do you want to meet up?</small></h1>
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="span3">
+                    <label class="label label-info" style="padding-right: 5px">Where is everyone?</label>
+                    <ul class="unstyled locationList ng-hide" ng-show="meetup.locations.length > 0">
+                        <!-- ngRepeat: location in meetup.locations -->
+                    </ul>
+                    <form name="locationEntryForm" ng-submit="meetup.processLocationFormEntry()" class="form-inline ng-pristine ng-valid">
+                        <div class="input-append">
+                            <input type="text" id="locationInput" autofocus="true" ng-class="{subtleInput:meetup.locations.length > 0}" class="input-large ng-pristine ng-valid ng-touched" placeholder="Enter a starting address" title="Enter addresses here!" ng-model="meetup.locationFormEntry">
+                            <input type="submit" class="btn btn-primary" value="Add">
+                        </div>
+                    </form>
+                    <div ng-show="meetup.locations.length == 0" class="instructions">
+                        <p>Enter the starting location for each member of your group, one at a time, in the box above.  You can use a full address, a zip code, a city name, or even just cross streets -- we'll do our best find it.</p>
+                        <p>Then, enter the type of place you'd like to go ('coffee', 'movie theater', 'Italian food', etc.) in the search box above the map, and click Go!</p>
+                        <p class="">MidwayMeetup will find places where all of your friends can meet up and display them on the map!</p>
+                    </div>
+                    <div ng-show="meetup.locations.length > 0" class="instructions ng-hide">
+                        <p>Are there more people in your group?  Continue to add locations in the box above!</p>
+                    </div>
+                    
+                    <!-- Skyscraper Banner -->
+                    <ins class="adsbygoogle desktopAd" style="width:300px;height:600px" data-ad-client="ca-pub-2343573223941119" data-ad-slot="9228153381"></ins>
+                    
+                </div>
+                <div class="span6">
+                <label class="label label-info" style="padding-right: 5px">What do you want to do?</label>
+                <form name="searchForm" ng-submit="meetup.performSearch()" class="form-inline ng-pristine ng-valid">
+                    <div class="input-append">
+                        <input type="text" id="searchInput" class="input-large ng-pristine ng-untouched ng-valid" placeholder="'coffee', 'bar', 'Italian food'" title="Enter a meetup spot!  For example: 'coffee'" ng-model="meetup.searchTerm">
+                        <input type="submit" class="btn btn-primary" value="Go!">
+                    </div>
+                    <div class="jumpToLink ng-hide" ng-show="meetup.getDisplayedResults().length > 0">
+                        <a ng-click="meetup.scrollTo('results')">&#9660;Jump to Results</a>
+                    </div>
+                </form>
+                <div id="map_canvas" class="">
+                    <div></div>
+                    <div gm-map-id="'simpleMap'" gm-bounds="meetup.bounds" gm-map-options="meetup.mapOptions.map" class="angular-google-map-container ng-isolate-scope"><div id="simpleMap" style="width:100%;height:100%;"><div style="overflow: hidden; width: 487px; height: 500px;"><img src="StaticMapService.GetMapIma.jpg" style="width: 487px; height: 500px;"></div></div><div ng-transclude="">
+                        <gm-markers gm-objects="meetup.locations" gm-id="'location' + object.formatted_address" gm-position="{lat: object.geometry.location.lat(), lng: object.geometry.location.lng()}" gm-marker-options="meetup.getMapLocationOptions(object)" class="ng-scope ng-isolate-scope">
+                        </gm-markers>
+                        <gm-markers gm-objects="meetup.centerOfSearchArea" gm-id="centerMarker" gm-position="{lat: meetup.centerOfSearchArea.lat(), lng: meetup.centerOfSearchArea.lng()}" gm-marker-options="meetup.getMapSearchAreaOptions()" gm-on-dragend="meetup.updateSearchArea(object, marker)" class="ng-scope ng-isolate-scope">
+                        </gm-markers>
+                        <gm-markers gm-objects="meetup.getDisplayedResults()" gm-id="'result' + object.place_id" gm-position="{lat: object.geometry.location.lat(), lng: object.geometry.location.lng()}" gm-marker-options="meetup.getMapSearchResultsOptions(object)" gm-events="meetup.markerEvents" gm-on-openresultsinfowindow="selectedLocation = object; resultsInfoWindow.open(marker.getMap(), marker)" gm-on-closeresultsinfowindow="selectedLocation = null; resultsInfoWindow.close()" gm-on-click="meetup.toggleSelection(object)" gm-on-mouseover="meetup.highlightResult(object)" gm-on-mouseout="meetup.unHighlightResult(object)" class="ng-scope ng-isolate-scope">
+                        </gm-markers>
+                    </div></div>
+                </div>
+                <div ng-show="meetup.locations.length > 0" class="ng-hide">
+                    <p>Drag the <span class="greenArrowText">green arrow</span> to refine your search area!  For example, drag it to a highway or major road.</p>
+                </div>
+                
+                <!-- Leaderboard Ad -->
+                <ins class="adsbygoogle desktopAd" data-ad-client="ca-pub-2343573223941119" data-ad-slot="4424064987"></ins>
+                
+            </div>
+                <div class="span3">
+                <div id="results"></div>
+                <div ng-show="meetup.locations.length == 0" class="instructions results">
+                    <p>Once you've entered the starting locations of the members of your group, and told us the kind of place for which you're looking, we'll list your results here.</p>
+                    <p>Clicking on a result will highlight its location on the map, and will give you the option to read reviews, visit their website, or even get directions!</p>
+                </div>
+                <div ng-show="meetup.getDisplayedResults().length > 0" class="resultsLabel ng-hide">
+                    <h2 class="resultsHeader">Results</h2>
+                    <div class="jumpToLink ng-hide" ng-show="meetup.getDisplayedResults().length > 0">
+                        <a class="jumpToTopLink" ng-click="meetup.scrollTo('header')">&#9650;Jump to Top</a>
+                    </div>
+                </div>
+                <div id="resultList" ng-controller="ResultListController as resultCtrl" ng-show="meetup.getDisplayedResults()" class="text-mode-right ng-scope ng-hide">
+                    <!-- ngRepeat: result in meetup.getDisplayedResults() -->
+                    <div class="text-place-pagination">
+                        <a ng-show="meetup.searchPageIndex > 0" class="text-place-pagination-button ng-hide" ng-click="meetup.getPreviousPage()">«</a>
+                        <span class="ng-binding"> Showing results </span>
+                        <a ng-show="meetup.nextPageAvailable()" class="text-place-pagination-button ng-hide" ng-click="meetup.getNextPage()">»</a>
+                    </div>
+                    <div class="instructions">
+                        <p><span class="bold">MidwayMeetup is currently in open beta.</span>  If you have any suggestions or ideas for improvement, please contact the developer at <a href="mailto:midwaymeetup@gmail.com">midwaymeetup@gmail.com</a>.</p>
+                        <p><span class="bold">Thank you!</span></p>
+                    </div>
+                </div>
+                <div class="instructions" ng-show="meetup.locations.length == 0">
+                    <p><span class="bold">MidwayMeetup is currently in open beta.</span>  If you have any suggestions or ideas for improvement, please contact the developer at <a href="mailto:midwaymeetup@gmail.com">midwaymeetup@gmail.com</a>.</p>
+                    <p><span class="bold">Thank you!</span></p>
+                </div>
+                
+                <!-- Mobile Ad -->
+                <ins class="adsbygoogle mobileAd" data-ad-client="ca-pub-2343573223941119" data-ad-slot="7237930585"></ins>
+                
+            </div>
+            </div>
+        </div>
+    </div>
+        <div class="finePrint">
+            Map data ©2016 Google
+        </div>
+        
+        
+        
+        
+        
+        
+        
+
+        
+    
+</body></html>

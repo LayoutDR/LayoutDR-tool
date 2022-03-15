@@ -1,0 +1,33 @@
+<svg width="145" height="250" viewBox="0 0 145 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Generic / Midnight Background / Color / pattern-footer-cta-module-bottom-right-145x250-color-midnight-bg">
+<g clip-path="url(#clip0)">
+<g id="Group 3">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="145" height="250">
+<rect id="Rectangle" x="145" y="250" width="145" height="250" transform="rotate(-180 145 250)" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+<g id="Group">
+<path id="Oval" fill-rule="evenodd" clip-rule="evenodd" d="M169 92C75.6639 92 0 167.664 0 261C0 354.336 75.6639 430 169 430C262.336 430 338 354.336 338 261C338 167.664 262.336 92 169 92Z" fill="#7DE2D1"/>
+</g>
+<g id="Group 2">
+<path id="Fill 7" fill-rule="evenodd" clip-rule="evenodd" d="M59 186H41V204H59V186Z" fill="#F6947E"/>
+<path id="Fill 9" fill-rule="evenodd" clip-rule="evenodd" d="M59 140H41V158H59V140Z" fill="#FB744E"/>
+<path id="Fill 10" fill-rule="evenodd" clip-rule="evenodd" d="M59 94H41V112H59V94Z" fill="#F6947E"/>
+<path id="Fill 11" fill-rule="evenodd" clip-rule="evenodd" d="M59 48H41V66H59V48Z" fill="#FB744E"/>
+<path id="Fill 7_2" fill-rule="evenodd" clip-rule="evenodd" d="M59 232H41V250H59V232Z" fill="#F6947E"/>
+<path id="Fill 17" fill-rule="evenodd" clip-rule="evenodd" d="M105 186H87V204H105V186Z" fill="#FB744E"/>
+<path id="Fill 18" fill-rule="evenodd" clip-rule="evenodd" d="M105 140H87V158H105V140Z" fill="#FB744E"/>
+<path id="Fill 19" fill-rule="evenodd" clip-rule="evenodd" d="M105 94H87V112H105V94Z" fill="#FB744E"/>
+<path id="Fill 20" fill-rule="evenodd" clip-rule="evenodd" d="M105 48H87V66H105V48Z" fill="#F6947E"/>
+<path id="Fill 21" fill-rule="evenodd" clip-rule="evenodd" d="M105 2L87 2V20L105 20V2Z" fill="#FB744E"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="145" height="250" fill="white"/>
+</clipPath>
+</defs>
+</svg>

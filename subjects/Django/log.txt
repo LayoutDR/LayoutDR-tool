@@ -1,0 +1,488 @@
+--2021-01-28 21:20:01--  http://xn--user-agent=mozilla-kl9ja/5.0%20(X11;%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/86.0.4240.198%20Safari/537.36
+Resolving xn--user-agent=mozilla-kl9ja (xn--user-agent=mozilla-kl9ja)... failed: Name or service not known.
+wget: unable to resolve host address ‘xn--user-agent=mozilla-kl9ja’
+--2021-01-28 21:20:01--  http://xn--execute-406ca/
+Resolving xn--execute-406ca (xn--execute-406ca)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘xn--execute-406ca’
+--2021-01-28 21:20:01--  http://robots=off/
+Resolving robots=off (robots=off)... failed: Name or service not known.
+wget: unable to resolve host address ‘robots=off’
+‐‐refer=http://google.com: Scheme missing.
+--2021-01-28 21:20:01--  http://xn--random-wait-kf3fa/
+Resolving xn--random-wait-kf3fa (xn--random-wait-kf3fa)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘xn--random-wait-kf3fa’
+--2021-01-28 21:20:01--  https://www.djangoproject.com/
+Resolving www.djangoproject.com (www.djangoproject.com)... 151.101.18.217, 2a04:4e42:4::729
+Connecting to www.djangoproject.com (www.djangoproject.com)|151.101.18.217|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 16799 (16K) [text/html]
+Saving to: ‘index.html’
+
+     0K .......... ......                                     100% 1.99M=0.008s
+
+2021-01-28 21:20:02 (1.99 MB/s) - ‘index.html’ saved [16799/16799]
+
+Loading robots.txt; please ignore errors.
+--2021-01-28 21:20:02--  https://static.djangoproject.com/robots.txt
+Resolving static.djangoproject.com (static.djangoproject.com)... 151.101.18.217, 2a04:4e42:4::729
+Connecting to static.djangoproject.com (static.djangoproject.com)|151.101.18.217|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 30 [text/plain]
+Saving to: ‘robots.txt’
+
+     0K                                                       100%  578K=0s
+
+2021-01-28 21:20:03 (578 KB/s) - ‘robots.txt’ saved [30/30]
+
+--2021-01-28 21:20:03--  https://static.djangoproject.com/img/favicon.6dbf28c0650e.ico
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2238 (2.2K) [image/x-icon]
+Saving to: ‘img/favicon.6dbf28c0650e.ico’
+
+     0K ..                                                    100% 32.2M=0s
+
+2021-01-28 21:20:03 (32.2 MB/s) - ‘img/favicon.6dbf28c0650e.ico’ saved [2238/2238]
+
+--2021-01-28 21:20:03--  https://static.djangoproject.com/css/output.c6e9e212531e.css
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 92883 (91K) [text/css]
+Saving to: ‘css/output.c6e9e212531e.css’
+
+     0K .......... .......... .......... .......... .......... 55%  357K 0s
+    50K .......... .......... .......... ..........           100% 2.03M=0.2s
+
+2021-01-28 21:20:03 (568 KB/s) - ‘css/output.c6e9e212531e.css’ saved [92883/92883]
+
+Loading robots.txt; please ignore errors.
+--2021-01-28 21:20:03--  https://netdna.bootstrapcdn.com/robots.txt
+Resolving netdna.bootstrapcdn.com (netdna.bootstrapcdn.com)... 209.197.3.15, 2001:4de0:ac19::1:b:3a, 2001:4de0:ac19::1:b:2a, ...
+Connecting to netdna.bootstrapcdn.com (netdna.bootstrapcdn.com)|209.197.3.15|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2021-01-28 21:20:04 ERROR 403: Forbidden.
+
+--2021-01-28 21:20:04--  https://static.djangoproject.com/js/lib/webfontloader/webfontloader.e75218f5f090.js
+Connecting to static.djangoproject.com (static.djangoproject.com)|151.101.18.217|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 17305 (17K) [application/x-javascript]
+Saving to: ‘js/lib/webfontloader/webfontloader.e75218f5f090.js’
+
+     0K .......... ......                                     100% 8.93M=0.002s
+
+2021-01-28 21:20:05 (8.93 MB/s) - ‘js/lib/webfontloader/webfontloader.e75218f5f090.js’ saved [17305/17305]
+
+--2021-01-28 21:20:05--  https://static.djangoproject.com/js/lib/modernizr.3b36762e418a.js
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2383 (2.3K) [application/x-javascript]
+Saving to: ‘js/lib/modernizr.3b36762e418a.js’
+
+     0K ..                                                    100%  392K=0.006s
+
+2021-01-28 21:20:05 (392 KB/s) - ‘js/lib/modernizr.3b36762e418a.js’ saved [2383/2383]
+
+--2021-01-28 21:20:05--  https://static.djangoproject.com/img/fundraising-heart.cd6bb84ffd33.svg
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2204 (2.2K) [image/svg+xml]
+Saving to: ‘img/fundraising-heart.cd6bb84ffd33.svg’
+
+     0K ..                                                    100% 11.6M=0s
+
+2021-01-28 21:20:05 (11.6 MB/s) - ‘img/fundraising-heart.cd6bb84ffd33.svg’ saved [2204/2204]
+
+--2021-01-28 21:20:05--  https://static.djangoproject.com/js/lib/require.177879fbe7dd.js
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 15218 (15K) [application/x-javascript]
+Saving to: ‘js/lib/require.177879fbe7dd.js’
+
+     0K .......... ....                                       100% 7.04M=0.002s
+
+2021-01-28 21:20:05 (7.04 MB/s) - ‘js/lib/require.177879fbe7dd.js’ saved [15218/15218]
+
+--2021-01-28 21:20:05--  https://static.djangoproject.com/fonts/fira-mono/FiraMono-Regular.98f97ed2dbf9.eot
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 58438 (57K) [application/vnd.ms-fontobject]
+Saving to: ‘fonts/fira-mono/FiraMono-Regular.98f97ed2dbf9.eot’
+
+     0K .......... .......... .......... .......... .......... 87%  365K 0s
+    50K .......                                               100% 8.53M=0.1s
+
+2021-01-28 21:20:06 (414 KB/s) - ‘fonts/fira-mono/FiraMono-Regular.98f97ed2dbf9.eot’ saved [58438/58438]
+
+--2021-01-28 21:20:06--  https://static.djangoproject.com/fonts/fira-mono/FiraMono-Regular.690950e8d89c.woff
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 66108 (65K) [application/font-woff]
+Saving to: ‘fonts/fira-mono/FiraMono-Regular.690950e8d89c.woff’
+
+     0K .......... .......... .......... .......... .......... 77% 1.35M 0s
+    50K .......... ....                                       100%  847K=0.05s
+
+2021-01-28 21:20:06 (1.18 MB/s) - ‘fonts/fira-mono/FiraMono-Regular.690950e8d89c.woff’ saved [66108/66108]
+
+--2021-01-28 21:20:06--  https://static.djangoproject.com/fonts/fira-mono/FiraMono-Regular.0b6138c5b386.ttf
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 132388 (129K) [font/truetype]
+Saving to: ‘fonts/fira-mono/FiraMono-Regular.0b6138c5b386.ttf’
+
+     0K .......... .......... .......... .......... .......... 38% 1.36M 0s
+    50K .......... .......... .......... .......... .......... 77% 2.42M 0s
+   100K .......... .......... .........                       100% 2.27M=0.07s
+
+2021-01-28 21:20:07 (1.84 MB/s) - ‘fonts/fira-mono/FiraMono-Regular.0b6138c5b386.ttf’ saved [132388/132388]
+
+--2021-01-28 21:20:07--  https://static.djangoproject.com/fonts/fira-mono/FiraMono-Bold.b4d0ec951f77.eot
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 62622 (61K) [application/vnd.ms-fontobject]
+Saving to: ‘fonts/fira-mono/FiraMono-Bold.b4d0ec951f77.eot’
+
+     0K .......... .......... .......... .......... .......... 81% 2.46M 0s
+    50K .......... .                                          100% 83.6M=0.02s
+
+2021-01-28 21:20:08 (2.99 MB/s) - ‘fonts/fira-mono/FiraMono-Bold.b4d0ec951f77.eot’ saved [62622/62622]
+
+--2021-01-28 21:20:08--  https://static.djangoproject.com/fonts/fira-mono/FiraMono-Bold.b6ef510e2306.woff
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 70832 (69K) [application/font-woff]
+Saving to: ‘fonts/fira-mono/FiraMono-Bold.b6ef510e2306.woff’
+
+     0K .......... .......... .......... .......... .......... 72% 4.50M 0s
+    50K .......... .........                                  100% 4.58M=0.01s
+
+2021-01-28 21:20:08 (4.52 MB/s) - ‘fonts/fira-mono/FiraMono-Bold.b6ef510e2306.woff’ saved [70832/70832]
+
+--2021-01-28 21:20:08--  https://static.djangoproject.com/fonts/fira-mono/FiraMono-Bold.e0fd770c1bdd.ttf
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 151604 (148K) [font/truetype]
+Saving to: ‘fonts/fira-mono/FiraMono-Bold.e0fd770c1bdd.ttf’
+
+     0K .......... .......... .......... .......... .......... 33% 3.01M 0s
+    50K .......... .......... .......... .......... .......... 67% 6.06M 0s
+   100K .......... .......... .......... .......... ........  100% 8.53M=0.03s
+
+2021-01-28 21:20:09 (4.85 MB/s) - ‘fonts/fira-mono/FiraMono-Bold.e0fd770c1bdd.ttf’ saved [151604/151604]
+
+--2021-01-28 21:20:09--  https://netdna.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?v=4.2.0
+Connecting to netdna.bootstrapcdn.com (netdna.bootstrapcdn.com)|209.197.3.15|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 56006 (55K) [application/vnd.ms-fontobject]
+Saving to: ‘font-awesome/4.2.0/fonts/fontawesome-webfont.eot@v=4.2.0’
+
+     0K .......... .......... .......... .......... .......... 91% 7.11M 0s
+    50K ....                                                  100% 8952G=0.007s
+
+2021-01-28 21:20:09 (7.77 MB/s) - ‘font-awesome/4.2.0/fonts/fontawesome-webfont.eot@v=4.2.0’ saved [56006/56006]
+
+--2021-01-28 21:20:09--  https://netdna.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?
+Reusing existing connection to netdna.bootstrapcdn.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 56006 (55K) [application/vnd.ms-fontobject]
+Saving to: ‘font-awesome/4.2.0/fonts/fontawesome-webfont.eot@’
+
+     0K .......... .......... .......... .......... .......... 91% 7.22M 0s
+    50K ....                                                  100% 8952G=0.007s
+
+2021-01-28 21:20:10 (7.90 MB/s) - ‘font-awesome/4.2.0/fonts/fontawesome-webfont.eot@’ saved [56006/56006]
+
+--2021-01-28 21:20:10--  https://netdna.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0
+Reusing existing connection to netdna.bootstrapcdn.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 65452 (64K) [font/woff]
+Saving to: ‘font-awesome/4.2.0/fonts/fontawesome-webfont.woff@v=4.2.0’
+
+     0K .......... .......... .......... .......... .......... 78% 2.71M 0s
+    50K .......... ...                                        100%  165M=0.02s
+
+2021-01-28 21:20:10 (3.45 MB/s) - ‘font-awesome/4.2.0/fonts/fontawesome-webfont.woff@v=4.2.0’ saved [65452/65452]
+
+--2021-01-28 21:20:10--  https://netdna.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf?v=4.2.0
+Reusing existing connection to netdna.bootstrapcdn.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 112160 (110K) [font/ttf]
+Saving to: ‘font-awesome/4.2.0/fonts/fontawesome-webfont.ttf@v=4.2.0’
+
+     0K .......... .......... .......... .......... .......... 45% 3.75M 0s
+    50K .......... .......... .......... .......... .......... 91% 4.01M 0s
+   100K .........                                             100%  134M=0.03s
+
+2021-01-28 21:20:10 (4.24 MB/s) - ‘font-awesome/4.2.0/fonts/fontawesome-webfont.ttf@v=4.2.0’ saved [112160/112160]
+
+--2021-01-28 21:20:10--  https://netdna.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.svg?v=4.2.0
+Reusing existing connection to netdna.bootstrapcdn.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 287007 (280K) [image/svg+xml]
+Saving to: ‘font-awesome/4.2.0/fonts/fontawesome-webfont.svg@v=4.2.0’
+
+     0K .......... .......... .......... .......... .......... 17% 3.70M 0s
+    50K .......... .......... .......... .......... .......... 35% 4.31M 0s
+   100K .......... .......... .......... .......... .......... 53% 6.90M 0s
+   150K .......... .......... .......... .......... .......... 71% 3.16M 0s
+   200K .......... .......... .......... .......... .......... 89%  610K 0s
+   250K .......... .......... ..........                      100% 3.86M=0.1s
+
+2021-01-28 21:20:10 (2.00 MB/s) - ‘font-awesome/4.2.0/fonts/fontawesome-webfont.svg@v=4.2.0’ saved [287007/287007]
+
+--2021-01-28 21:20:10--  https://static.djangoproject.com/img/logo-django.90b49074bac7.png
+Connecting to static.djangoproject.com (static.djangoproject.com)|151.101.18.217|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4595 (4.5K) [image/png]
+Saving to: ‘img/logo-django.90b49074bac7.png’
+
+     0K ....                                                  100%  597K=0.008s
+
+2021-01-28 21:20:11 (597 KB/s) - ‘img/logo-django.90b49074bac7.png’ saved [4595/4595]
+
+--2021-01-28 21:20:11--  https://static.djangoproject.com/img/logo-django.42234b631760.svg
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5290 (5.2K) [image/svg+xml]
+Saving to: ‘img/logo-django.42234b631760.svg’
+
+     0K .....                                                 100% 7.72M=0.001s
+
+2021-01-28 21:20:11 (7.72 MB/s) - ‘img/logo-django.42234b631760.svg’ saved [5290/5290]
+
+--2021-01-28 21:20:11--  https://static.djangoproject.com/img/company-mozilla.6278ad7bf955.png
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3074 (3.0K) [image/png]
+Saving to: ‘img/company-mozilla.6278ad7bf955.png’
+
+     0K ...                                                   100% 12.7M=0s
+
+2021-01-28 21:20:11 (12.7 MB/s) - ‘img/company-mozilla.6278ad7bf955.png’ saved [3074/3074]
+
+--2021-01-28 21:20:11--  https://static.djangoproject.com/img/company-mozilla.23cadb845830.svg
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 9753 (9.5K) [image/svg+xml]
+Saving to: ‘img/company-mozilla.23cadb845830.svg’
+
+     0K .........                                             100% 7.24M=0.001s
+
+2021-01-28 21:20:12 (7.24 MB/s) - ‘img/company-mozilla.23cadb845830.svg’ saved [9753/9753]
+
+--2021-01-28 21:20:12--  https://static.djangoproject.com/img/company-pinterest.a2ff6a5f0ac9.png
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4039 (3.9K) [image/png]
+Saving to: ‘img/company-pinterest.a2ff6a5f0ac9.png’
+
+     0K ...                                                   100% 8.72M=0s
+
+2021-01-28 21:20:12 (8.72 MB/s) - ‘img/company-pinterest.a2ff6a5f0ac9.png’ saved [4039/4039]
+
+--2021-01-28 21:20:12--  https://static.djangoproject.com/img/company-pinterest.1e36e5313944.svg
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 11733 (11K) [image/svg+xml]
+Saving to: ‘img/company-pinterest.1e36e5313944.svg’
+
+     0K .......... .                                          100% 7.01M=0.002s
+
+2021-01-28 21:20:12 (7.01 MB/s) - ‘img/company-pinterest.1e36e5313944.svg’ saved [11733/11733]
+
+--2021-01-28 21:20:12--  https://static.djangoproject.com/img/company-theguardian.3d5d9d4eea5c.png
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3266 (3.2K) [image/png]
+Saving to: ‘img/company-theguardian.3d5d9d4eea5c.png’
+
+     0K ...                                                   100% 13.2M=0s
+
+2021-01-28 21:20:13 (13.2 MB/s) - ‘img/company-theguardian.3d5d9d4eea5c.png’ saved [3266/3266]
+
+--2021-01-28 21:20:13--  https://static.djangoproject.com/img/company-theguardian.0865a1d6bb35.svg
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 9084 (8.9K) [image/svg+xml]
+Saving to: ‘img/company-theguardian.0865a1d6bb35.svg’
+
+     0K ........                                              100% 15.9M=0.001s
+
+2021-01-28 21:20:13 (15.9 MB/s) - ‘img/company-theguardian.0865a1d6bb35.svg’ saved [9084/9084]
+
+--2021-01-28 21:20:13--  https://static.djangoproject.com/img/company-instagram.6e8564d2efc8.png
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3776 (3.7K) [image/png]
+Saving to: ‘img/company-instagram.6e8564d2efc8.png’
+
+     0K ...                                                   100% 2.09M=0.002s
+
+2021-01-28 21:20:13 (2.09 MB/s) - ‘img/company-instagram.6e8564d2efc8.png’ saved [3776/3776]
+
+--2021-01-28 21:20:13--  https://static.djangoproject.com/img/company-instagram.0150a85a33fd.svg
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 12166 (12K) [image/svg+xml]
+Saving to: ‘img/company-instagram.0150a85a33fd.svg’
+
+     0K .......... .                                          100% 6.89M=0.002s
+
+2021-01-28 21:20:14 (6.89 MB/s) - ‘img/company-instagram.0150a85a33fd.svg’ saved [12166/12166]
+
+--2021-01-28 21:20:14--  https://static.djangoproject.com/img/company-rdio.62c6dbd39ec4.png
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1681 (1.6K) [image/png]
+Saving to: ‘img/company-rdio.62c6dbd39ec4.png’
+
+     0K .                                                     100% 11.3M=0s
+
+2021-01-28 21:20:14 (11.3 MB/s) - ‘img/company-rdio.62c6dbd39ec4.png’ saved [1681/1681]
+
+--2021-01-28 21:20:14--  https://static.djangoproject.com/img/company-rdio.305a21b779b8.svg
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3422 (3.3K) [image/svg+xml]
+Saving to: ‘img/company-rdio.305a21b779b8.svg’
+
+     0K ...                                                   100% 2.19M=0.001s
+
+2021-01-28 21:20:15 (2.19 MB/s) - ‘img/company-rdio.305a21b779b8.svg’ saved [3422/3422]
+
+--2021-01-28 21:20:15--  https://static.djangoproject.com/img/logo-rackspace.abf4b5dbeed3.png
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2667 (2.6K) [image/png]
+Saving to: ‘img/logo-rackspace.abf4b5dbeed3.png’
+
+     0K ..                                                    100% 9.19M=0s
+
+2021-01-28 21:20:15 (9.19 MB/s) - ‘img/logo-rackspace.abf4b5dbeed3.png’ saved [2667/2667]
+
+--2021-01-28 21:20:15--  https://static.djangoproject.com/img/logo-rackspace.f445a11160d6.svg
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 14803 (14K) [image/svg+xml]
+Saving to: ‘img/logo-rackspace.f445a11160d6.svg’
+
+     0K .......... ....                                       100% 5.09M=0.003s
+
+2021-01-28 21:20:15 (5.09 MB/s) - ‘img/logo-rackspace.f445a11160d6.svg’ saved [14803/14803]
+
+--2021-01-28 21:20:15--  https://static.djangoproject.com/img/logo-threespot.9dcef46828f6.png
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2059 (2.0K) [image/png]
+Saving to: ‘img/logo-threespot.9dcef46828f6.png’
+
+     0K ..                                                    100% 10.3M=0s
+
+2021-01-28 21:20:15 (10.3 MB/s) - ‘img/logo-threespot.9dcef46828f6.png’ saved [2059/2059]
+
+--2021-01-28 21:20:15--  https://static.djangoproject.com/img/logo-threespot.6f9857ef0bb4.svg
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5590 (5.5K) [image/svg+xml]
+Saving to: ‘img/logo-threespot.6f9857ef0bb4.svg’
+
+     0K .....                                                 100% 6.24M=0.001s
+
+2021-01-28 21:20:16 (6.24 MB/s) - ‘img/logo-threespot.6f9857ef0bb4.svg’ saved [5590/5590]
+
+--2021-01-28 21:20:16--  https://static.djangoproject.com/img/logo-andrevv.e16766da19e5.png
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1140 (1.1K) [image/png]
+Saving to: ‘img/logo-andrevv.e16766da19e5.png’
+
+     0K .                                                     100% 37.9M=0s
+
+2021-01-28 21:20:16 (37.9 MB/s) - ‘img/logo-andrevv.e16766da19e5.png’ saved [1140/1140]
+
+--2021-01-28 21:20:16--  https://static.djangoproject.com/img/logo-andrevv.6c6c6eb2ace8.svg
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 877 [image/svg+xml]
+Saving to: ‘img/logo-andrevv.6c6c6eb2ace8.svg’
+
+     0K                                                       100% 32.7M=0s
+
+2021-01-28 21:20:16 (32.7 MB/s) - ‘img/logo-andrevv.6c6c6eb2ace8.svg’ saved [877/877]
+
+--2021-01-28 21:20:16--  https://static.djangoproject.com/img/logo-knight.d7dac8e273af.png
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 948 [image/png]
+Saving to: ‘img/logo-knight.d7dac8e273af.png’
+
+     0K                                                       100% 19.0M=0s
+
+2021-01-28 21:20:16 (19.0 MB/s) - ‘img/logo-knight.d7dac8e273af.png’ saved [948/948]
+
+--2021-01-28 21:20:16--  https://static.djangoproject.com/img/logo-knight.800c5cfcd461.svg
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 8237 (8.0K) [image/svg+xml]
+Saving to: ‘img/logo-knight.800c5cfcd461.svg’
+
+     0K ........                                              100% 12.8M=0.001s
+
+2021-01-28 21:20:16 (12.8 MB/s) - ‘img/logo-knight.800c5cfcd461.svg’ saved [8237/8237]
+
+--2021-01-28 21:20:16--  https://static.djangoproject.com/img/logo-mozilla.9891ff2c5029.png
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 699 [image/png]
+Saving to: ‘img/logo-mozilla.9891ff2c5029.png’
+
+     0K                                                       100% 9.74M=0s
+
+2021-01-28 21:20:17 (9.74 MB/s) - ‘img/logo-mozilla.9891ff2c5029.png’ saved [699/699]
+
+--2021-01-28 21:20:17--  https://static.djangoproject.com/img/logo-mozilla.bd13fdb112e4.svg
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3484 (3.4K) [image/svg+xml]
+Saving to: ‘img/logo-mozilla.bd13fdb112e4.svg’
+
+     0K ...                                                   100%  566K=0.006s
+
+2021-01-28 21:20:17 (566 KB/s) - ‘img/logo-mozilla.bd13fdb112e4.svg’ saved [3484/3484]
+
+--2021-01-28 21:20:17--  https://static.djangoproject.com/img/logo-disqus.768fe8c2a4b6.png
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 804 [image/png]
+Saving to: ‘img/logo-disqus.768fe8c2a4b6.png’
+
+     0K                                                       100% 26.9M=0s
+
+2021-01-28 21:20:17 (26.9 MB/s) - ‘img/logo-disqus.768fe8c2a4b6.png’ saved [804/804]
+
+--2021-01-28 21:20:17--  https://static.djangoproject.com/img/logo-disqus.2b62256896c6.svg
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2609 (2.5K) [image/svg+xml]
+Saving to: ‘img/logo-disqus.2b62256896c6.svg’
+
+     0K ..                                                    100%  456K=0.006s
+
+2021-01-28 21:20:17 (456 KB/s) - ‘img/logo-disqus.2b62256896c6.svg’ saved [2609/2609]
+
+--2021-01-28 21:20:17--  https://static.djangoproject.com/img/bg-features.a10a0100c8c0.svg
+Reusing existing connection to static.djangoproject.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4874 (4.8K) [image/svg+xml]
+Saving to: ‘img/bg-features.a10a0100c8c0.svg’
+
+     0K ....                                                  100%  769K=0.006s
+
+2021-01-28 21:20:18 (769 KB/s) - ‘img/bg-features.a10a0100c8c0.svg’ saved [4874/4874]
+
+FINISHED --2021-01-28 21:20:18--
+Total wall clock time: 17s
+Downloaded: 44 files, 1.3M in 0.7s (1.80 MB/s)
+Converting links in index.html... 9-6
+Converting links in css/output.c6e9e212531e.css... 40-0
+Converted links in 2 files in 0.005 seconds.

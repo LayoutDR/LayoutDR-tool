@@ -1,0 +1,663 @@
+--2021-01-30 01:36:36--  http://xn--user-agent=mozilla-kl9ja/5.0%20(X11;%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/86.0.4240.198%20Safari/537.36
+Resolving xn--user-agent=mozilla-kl9ja (xn--user-agent=mozilla-kl9ja)... failed: Name or service not known.
+wget: unable to resolve host address ‘xn--user-agent=mozilla-kl9ja’
+--2021-01-30 01:36:36--  http://xn--execute-406ca/
+Resolving xn--execute-406ca (xn--execute-406ca)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘xn--execute-406ca’
+--2021-01-30 01:36:36--  http://robots=off/
+Resolving robots=off (robots=off)... failed: Name or service not known.
+wget: unable to resolve host address ‘robots=off’
+‐‐refer=http://google.com: Scheme missing.
+--2021-01-30 01:36:36--  http://xn--random-wait-kf3fa/
+Resolving xn--random-wait-kf3fa (xn--random-wait-kf3fa)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘xn--random-wait-kf3fa’
+--2021-01-30 01:36:36--  http://www.orchardcore.net/
+Resolving www.orchardcore.net (www.orchardcore.net)... 104.42.190.155
+Connecting to www.orchardcore.net (www.orchardcore.net)|104.42.190.155|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html’
+
+     0K .......... ........                                    72.2K=0.3s
+
+2021-01-30 01:36:37 (72.2 KB/s) - ‘index.html’ saved [19419]
+
+Loading robots.txt; please ignore errors.
+--2021-01-30 01:36:37--  https://fonts.googleapis.com/robots.txt
+Resolving fonts.googleapis.com (fonts.googleapis.com)... 216.58.205.202, 2a00:1450:4006:807::200a
+Connecting to fonts.googleapis.com (fonts.googleapis.com)|216.58.205.202|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/plain]
+Saving to: ‘robots.txt’
+
+     0K                                                        3.26M=0s
+
+2021-01-30 01:36:38 (3.26 MB/s) - ‘robots.txt’ saved [25]
+
+Loading robots.txt; please ignore errors.
+--2021-01-30 01:36:38--  https://www.googletagmanager.com/robots.txt
+Resolving www.googletagmanager.com (www.googletagmanager.com)... 216.58.198.72, 2a00:1450:4006:807::2008
+Connecting to www.googletagmanager.com (www.googletagmanager.com)|216.58.198.72|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-30 01:36:38 ERROR 404: Not Found.
+
+Loading robots.txt; please ignore errors.
+--2021-01-30 01:36:38--  http://www.orchardcore.net/robots.txt
+Connecting to www.orchardcore.net (www.orchardcore.net)|104.42.190.155|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-30 01:36:39 ERROR 404: Not Found.
+
+--2021-01-30 01:36:39--  https://fonts.googleapis.com/css?family=Montserrat:400,700
+Connecting to fonts.googleapis.com (fonts.googleapis.com)|216.58.205.202|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: ‘css@family=Montserrat%3A400,700.css’
+
+     0K                                                        17.1M=0s
+
+2021-01-30 01:36:39 (17.1 MB/s) - ‘css@family=Montserrat%3A400,700.css’ saved [388]
+
+Loading robots.txt; please ignore errors.
+--2021-01-30 01:36:39--  https://fonts.gstatic.com/robots.txt
+Resolving fonts.gstatic.com (fonts.gstatic.com)... 216.58.212.99, 2a00:1450:4006:80b::2003
+Connecting to fonts.gstatic.com (fonts.gstatic.com)|216.58.212.99|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-30 01:36:40 ERROR 404: Not Found.
+
+--2021-01-30 01:36:40--  https://fonts.googleapis.com/css?family=Kaushan+Script
+Connecting to fonts.googleapis.com (fonts.googleapis.com)|216.58.205.202|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: ‘css@family=Kaushan+Script.css’
+
+     0K                                                        10.1M=0s
+
+2021-01-30 01:36:40 (10.1 MB/s) - ‘css@family=Kaushan+Script.css’ saved [203]
+
+--2021-01-30 01:36:40--  https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic
+Reusing existing connection to fonts.googleapis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: ‘css@family=Droid+Serif%3A400,700,400italic,700italic.css’
+
+     0K                                                        5.31M=0s
+
+2021-01-30 01:36:40 (5.31 MB/s) - ‘css@family=Droid+Serif%3A400,700,400italic,700italic.css’ saved [790]
+
+--2021-01-30 01:36:40--  https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700
+Reusing existing connection to fonts.googleapis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: ‘css@family=Roboto+Slab%3A400,100,300,700.css’
+
+     0K                                                        5.05M=0s
+
+2021-01-30 01:36:41 (5.05 MB/s) - ‘css@family=Roboto+Slab%3A400,100,300,700.css’ saved [844]
+
+--2021-01-30 01:36:41--  https://www.googletagmanager.com/gtag/js?id=UA-110055417-2
+Connecting to www.googletagmanager.com (www.googletagmanager.com)|216.58.198.72|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/javascript]
+Saving to: ‘gtag/js@id=UA-110055417-2’
+
+     0K .......... .......... .......... .......... ..........  172K
+    50K .......... .......... .......... .......... ......      385K=0.4s
+
+2021-01-30 01:36:42 (235 KB/s) - ‘gtag/js@id=UA-110055417-2’ saved [98936]
+
+--2021-01-30 01:36:42--  http://www.orchardcore.net/TOPT/vendor/bootstrap/css/bootstrap.css
+Connecting to www.orchardcore.net (www.orchardcore.net)|104.42.190.155|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 202385 (198K) [text/css]
+Saving to: ‘TOPT/vendor/bootstrap/css/bootstrap.css’
+
+     0K .......... .......... .......... .......... .......... 25% 82.1K 2s
+    50K .......... .......... .......... .......... .......... 50%  191K 1s
+   100K .......... .......... .......... .......... .......... 75% 2.69M 0s
+   150K .......... .......... .......... .......... .......   100%  180K=1.2s
+
+2021-01-30 01:36:44 (171 KB/s) - ‘TOPT/vendor/bootstrap/css/bootstrap.css’ saved [202385/202385]
+
+--2021-01-30 01:36:44--  http://www.orchardcore.net/TOPT/vendor/fontawesome-free/css/all.css
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 74513 (73K) [text/css]
+Saving to: ‘TOPT/vendor/fontawesome-free/css/all.css’
+
+     0K .......... .......... .......... .......... .......... 68% 1.53M 0s
+    50K .......... .......... ..                              100% 5.61M=0.04s
+
+2021-01-30 01:36:44 (1.99 MB/s) - ‘TOPT/vendor/fontawesome-free/css/all.css’ saved [74513/74513]
+
+--2021-01-30 01:36:44--  http://www.orchardcore.net/TOPT/css/agency.css
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 16173 (16K) [text/css]
+Saving to: ‘TOPT/css/agency.css’
+
+     0K .......... .....                                      100% 1.47M=0.01s
+
+2021-01-30 01:36:44 (1.47 MB/s) - ‘TOPT/css/agency.css’ saved [16173/16173]
+
+--2021-01-30 01:36:44--  http://www.orchardcore.net/TOPT/bootstrap-grid-ext.css
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 27497 (27K) [text/css]
+Saving to: ‘TOPT/bootstrap-grid-ext.css’
+
+     0K .......... .......... ......                          100% 1.98M=0.01s
+
+2021-01-30 01:36:45 (1.98 MB/s) - ‘TOPT/bootstrap-grid-ext.css’ saved [27497/27497]
+
+--2021-01-30 01:36:45--  http://www.orchardcore.net/TOPT/img/vignette.png
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2023 (2.0K) [image/png]
+Saving to: ‘TOPT/img/vignette.png’
+
+     0K .                                                     100%  106M=0s
+
+2021-01-30 01:36:45 (106 MB/s) - ‘TOPT/img/vignette.png’ saved [2023/2023]
+
+--2021-01-30 01:36:45--  http://www.orchardcore.net/media/portfolio/windbound.jpg?width=480&height=240&rmode=stretch
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 66716 (65K) [image/jpeg]
+Saving to: ‘media/portfolio/windbound.jpg@width=480&height=240&rmode=stretch’
+
+     0K .......... .......... .......... .......... .......... 76% 6.19M 0s
+    50K .......... .....                                      100% 5.28M=0.01s
+
+2021-01-30 01:36:45 (5.95 MB/s) - ‘media/portfolio/windbound.jpg@width=480&height=240&rmode=stretch’ saved [66716/66716]
+
+--2021-01-30 01:36:45--  http://www.orchardcore.net/media/portfolio/kwp.jpg?width=480&height=240&rmode=stretch
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 23818 (23K) [image/jpeg]
+Saving to: ‘media/portfolio/kwp.jpg@width=480&height=240&rmode=stretch’
+
+     0K .......... .......... ...                             100% 2.37M=0.01s
+
+2021-01-30 01:36:45 (2.37 MB/s) - ‘media/portfolio/kwp.jpg@width=480&height=240&rmode=stretch’ saved [23818/23818]
+
+--2021-01-30 01:36:45--  http://www.orchardcore.net/media/portfolio/mended-little-hearts-boston.jpg?width=480&height=240&rmode=stretch
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 40281 (39K) [image/jpeg]
+Saving to: ‘media/portfolio/mended-little-hearts-boston.jpg@width=480&height=240&rmode=stretch’
+
+     0K .......... .......... .......... .........            100% 2.51M=0.02s
+
+2021-01-30 01:36:46 (2.51 MB/s) - ‘media/portfolio/mended-little-hearts-boston.jpg@width=480&height=240&rmode=stretch’ saved [40281/40281]
+
+--2021-01-30 01:36:46--  http://www.orchardcore.net/media/portfolio/california-school-information-services.jpg?width=480&height=240&rmode=stretch
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 42338 (41K) [image/jpeg]
+Saving to: ‘media/portfolio/california-school-information-services.jpg@width=480&height=240&rmode=stretch’
+
+     0K .......... .......... .......... .......... .         100% 3.31M=0.01s
+
+2021-01-30 01:36:46 (3.31 MB/s) - ‘media/portfolio/california-school-information-services.jpg@width=480&height=240&rmode=stretch’ saved [42338/42338]
+
+--2021-01-30 01:36:46--  http://www.orchardcore.net/media/logos/dot_net_foundation_logo-thumb.png
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 13448 (13K) [image/png]
+Saving to: ‘media/logos/dot_net_foundation_logo-thumb.png’
+
+     0K .......... ...                                        100% 4.27M=0.003s
+
+2021-01-30 01:36:46 (4.27 MB/s) - ‘media/logos/dot_net_foundation_logo-thumb.png’ saved [13448/13448]
+
+--2021-01-30 01:36:46--  http://www.orchardcore.net/media/logos/dotnest-thumb.png
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 8782 (8.6K) [image/png]
+Saving to: ‘media/logos/dotnest-thumb.png’
+
+     0K ........                                              100%  156M=0s
+
+2021-01-30 01:36:47 (156 MB/s) - ‘media/logos/dotnest-thumb.png’ saved [8782/8782]
+
+--2021-01-30 01:36:47--  http://www.orchardcore.net/media/logos/dojo-logo-thumb.png
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5116 (5.0K) [image/png]
+Saving to: ‘media/logos/dojo-logo-thumb.png’
+
+     0K ....                                                  100%  699K=0.007s
+
+2021-01-30 01:36:47 (699 KB/s) - ‘media/logos/dojo-logo-thumb.png’ saved [5116/5116]
+
+--2021-01-30 01:36:47--  http://www.orchardcore.net/TOPT/vendor/jquery/jquery.js
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 290962 (284K) [application/javascript]
+Saving to: ‘TOPT/vendor/jquery/jquery.js’
+
+     0K .......... .......... .......... .......... .......... 17% 2.80M 0s
+    50K .......... .......... .......... .......... .......... 35% 3.75M 0s
+   100K .......... .......... .......... .......... .......... 52% 4.68M 0s
+   150K .......... .......... .......... .......... .......... 70% 2.92M 0s
+   200K .......... .......... .......... .......... .......... 87% 4.39M 0s
+   250K .......... .......... .......... ....                 100% 6.07M=0.07s
+
+2021-01-30 01:36:47 (3.74 MB/s) - ‘TOPT/vendor/jquery/jquery.js’ saved [290962/290962]
+
+--2021-01-30 01:36:47--  http://www.orchardcore.net/TOPT/vendor/bootstrap/js/bootstrap.bundle.js
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 229924 (225K) [application/javascript]
+Saving to: ‘TOPT/vendor/bootstrap/js/bootstrap.bundle.js’
+
+     0K .......... .......... .......... .......... .......... 22% 3.01M 0s
+    50K .......... .......... .......... .......... .......... 44% 4.82M 0s
+   100K .......... .......... .......... .......... .......... 66% 3.39M 0s
+   150K .......... .......... .......... .......... .......... 89% 6.94M 0s
+   200K .......... .......... ....                            100% 4.54M=0.05s
+
+2021-01-30 01:36:48 (4.13 MB/s) - ‘TOPT/vendor/bootstrap/js/bootstrap.bundle.js’ saved [229924/229924]
+
+--2021-01-30 01:36:48--  http://www.orchardcore.net/TOPT/vendor/jquery-easing/jquery.easing.js
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4213 (4.1K) [application/javascript]
+Saving to: ‘TOPT/vendor/jquery-easing/jquery.easing.js’
+
+     0K ....                                                  100%  679K=0.006s
+
+2021-01-30 01:36:48 (679 KB/s) - ‘TOPT/vendor/jquery-easing/jquery.easing.js’ saved [4213/4213]
+
+--2021-01-30 01:36:48--  http://www.orchardcore.net/TOPT/js/agency.min.js
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 908 [application/javascript]
+Saving to: ‘TOPT/js/agency.min.js’
+
+     0K                                                       100%  146M=0s
+
+2021-01-30 01:36:48 (146 MB/s) - ‘TOPT/js/agency.min.js’ saved [908/908]
+
+--2021-01-30 01:36:48--  https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf
+Connecting to fonts.gstatic.com (fonts.gstatic.com)|216.58.212.99|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 46392 (45K) [font/ttf]
+Saving to: ‘s/montserrat/v15/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf’
+
+     0K .......... .......... .......... .......... .....     100%  213K=0.2s
+
+2021-01-30 01:36:49 (213 KB/s) - ‘s/montserrat/v15/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf’ saved [46392/46392]
+
+--2021-01-30 01:36:49--  https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD-w.ttf
+Reusing existing connection to fonts.gstatic.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 47088 (46K) [font/ttf]
+Saving to: ‘s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD-w.ttf’
+
+     0K .......... .......... .......... .......... .....     100%  367K=0.1s
+
+2021-01-30 01:36:49 (367 KB/s) - ‘s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD-w.ttf’ saved [47088/47088]
+
+--2021-01-30 01:36:49--  https://fonts.gstatic.com/s/kaushanscript/v9/vm8vdRfvXFLG3OLnsO15WYS5DG74wNc.ttf
+Reusing existing connection to fonts.gstatic.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 103320 (101K) [font/ttf]
+Saving to: ‘s/kaushanscript/v9/vm8vdRfvXFLG3OLnsO15WYS5DG74wNc.ttf’
+
+     0K .......... .......... .......... .......... .......... 49% 1.37M 0s
+    50K .......... .......... .......... .......... .......... 99%  507K 0s
+   100K                                                       100% 19.3M=0.1s
+
+2021-01-30 01:36:50 (751 KB/s) - ‘s/kaushanscript/v9/vm8vdRfvXFLG3OLnsO15WYS5DG74wNc.ttf’ saved [103320/103320]
+
+--2021-01-30 01:36:50--  https://fonts.gstatic.com/s/droidserif/v13/tDbK2oqRg1oM3QBjjcaDkOr4nAfcGw.ttf
+Reusing existing connection to fonts.gstatic.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 37756 (37K) [font/ttf]
+Saving to: ‘s/droidserif/v13/tDbK2oqRg1oM3QBjjcaDkOr4nAfcGw.ttf’
+
+     0K .......... .......... .......... ......               100% 1.37M=0.03s
+
+2021-01-30 01:36:50 (1.37 MB/s) - ‘s/droidserif/v13/tDbK2oqRg1oM3QBjjcaDkOr4nAfcGw.ttf’ saved [37756/37756]
+
+--2021-01-30 01:36:50--  https://fonts.gstatic.com/s/droidserif/v13/tDbX2oqRg1oM3QBjjcaDkOr4lLz5CwOnTQ.ttf
+Reusing existing connection to fonts.gstatic.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 42980 (42K) [font/ttf]
+Saving to: ‘s/droidserif/v13/tDbX2oqRg1oM3QBjjcaDkOr4lLz5CwOnTQ.ttf’
+
+     0K .......... .......... .......... .......... .         100% 7.11M=0.006s
+
+2021-01-30 01:36:50 (7.11 MB/s) - ‘s/droidserif/v13/tDbX2oqRg1oM3QBjjcaDkOr4lLz5CwOnTQ.ttf’ saved [42980/42980]
+
+--2021-01-30 01:36:50--  https://fonts.gstatic.com/s/droidserif/v13/tDbI2oqRg1oM3QBjjcaDkOr9rAA.ttf
+Reusing existing connection to fonts.gstatic.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 41084 (40K) [font/ttf]
+Saving to: ‘s/droidserif/v13/tDbI2oqRg1oM3QBjjcaDkOr9rAA.ttf’
+
+     0K .......... .......... .......... ..........           100% 1.61M=0.02s
+
+2021-01-30 01:36:50 (1.61 MB/s) - ‘s/droidserif/v13/tDbI2oqRg1oM3QBjjcaDkOr9rAA.ttf’ saved [41084/41084]
+
+--2021-01-30 01:36:50--  https://fonts.gstatic.com/s/droidserif/v13/tDbV2oqRg1oM3QBjjcaDkOJGiRD7OwQ.ttf
+Reusing existing connection to fonts.gstatic.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 46216 (45K) [font/ttf]
+Saving to: ‘s/droidserif/v13/tDbV2oqRg1oM3QBjjcaDkOJGiRD7OwQ.ttf’
+
+     0K .......... .......... .......... .......... .....     100% 4.38M=0.01s
+
+2021-01-30 01:36:50 (4.38 MB/s) - ‘s/droidserif/v13/tDbV2oqRg1oM3QBjjcaDkOJGiRD7OwQ.ttf’ saved [46216/46216]
+
+--2021-01-30 01:36:50--  https://fonts.gstatic.com/s/robotoslab/v12/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojIWmb2Rm.ttf
+Reusing existing connection to fonts.gstatic.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 38504 (38K) [font/ttf]
+Saving to: ‘s/robotoslab/v12/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojIWmb2Rm.ttf’
+
+     0K .......... .......... .......... .......              100% 7.79M=0.005s
+
+2021-01-30 01:36:50 (7.79 MB/s) - ‘s/robotoslab/v12/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojIWmb2Rm.ttf’ saved [38504/38504]
+
+--2021-01-30 01:36:50--  https://fonts.gstatic.com/s/robotoslab/v12/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSmb2Rm.ttf
+Reusing existing connection to fonts.gstatic.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 38748 (38K) [font/ttf]
+Saving to: ‘s/robotoslab/v12/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSmb2Rm.ttf’
+
+     0K .......... .......... .......... .......              100% 1.98M=0.02s
+
+2021-01-30 01:36:51 (1.98 MB/s) - ‘s/robotoslab/v12/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSmb2Rm.ttf’ saved [38748/38748]
+
+--2021-01-30 01:36:51--  https://fonts.gstatic.com/s/robotoslab/v12/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rm.ttf
+Reusing existing connection to fonts.gstatic.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 38696 (38K) [font/ttf]
+Saving to: ‘s/robotoslab/v12/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rm.ttf’
+
+     0K .......... .......... .......... .......              100% 1.45M=0.03s
+
+2021-01-30 01:36:51 (1.45 MB/s) - ‘s/robotoslab/v12/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rm.ttf’ saved [38696/38696]
+
+--2021-01-30 01:36:51--  https://fonts.gstatic.com/s/robotoslab/v12/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rm.ttf
+Reusing existing connection to fonts.gstatic.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 38712 (38K) [font/ttf]
+Saving to: ‘s/robotoslab/v12/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rm.ttf’
+
+     0K .......... .......... .......... .......              100% 4.72M=0.008s
+
+2021-01-30 01:36:51 (4.72 MB/s) - ‘s/robotoslab/v12/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rm.ttf’ saved [38712/38712]
+
+--2021-01-30 01:36:51--  http://www.orchardcore.net/TOPT/vendor/fontawesome-free/webfonts/fa-brands-400.eot
+Connecting to www.orchardcore.net (www.orchardcore.net)|104.42.190.155|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 129590 (127K) [application/vnd.ms-fontobject]
+Saving to: ‘TOPT/vendor/fontawesome-free/webfonts/fa-brands-400.eot’
+
+     0K .......... .......... .......... .......... .......... 39% 76.6K 1s
+    50K .......... .......... .......... .......... .......... 79%  148K 0s
+   100K .......... .......... ......                          100%  110M=1.0s
+
+2021-01-30 01:36:52 (128 KB/s) - ‘TOPT/vendor/fontawesome-free/webfonts/fa-brands-400.eot’ saved [129590/129590]
+
+--2021-01-30 01:36:52--  http://www.orchardcore.net/TOPT/vendor/fontawesome-free/webfonts/fa-brands-400.eot?
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 129590 (127K) [application/vnd.ms-fontobject]
+Saving to: ‘TOPT/vendor/fontawesome-free/webfonts/fa-brands-400.eot@’
+
+     0K .......... .......... .......... .......... .......... 39% 9.22M 0s
+    50K .......... .......... .......... .......... .......... 79%  185K 0s
+   100K .......... .......... ......                          100% 5.72M=0.3s
+
+2021-01-30 01:36:53 (451 KB/s) - ‘TOPT/vendor/fontawesome-free/webfonts/fa-brands-400.eot@’ saved [129590/129590]
+
+--2021-01-30 01:36:53--  http://www.orchardcore.net/TOPT/vendor/fontawesome-free/webfonts/fa-brands-400.woff2
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 74524 (73K) [font/woff2]
+Saving to: ‘TOPT/vendor/fontawesome-free/webfonts/fa-brands-400.woff2’
+
+     0K .......... .......... .......... .......... .......... 68% 9.73M 0s
+    50K .......... .......... ..                              100% 5.68M=0.009s
+
+2021-01-30 01:36:53 (7.95 MB/s) - ‘TOPT/vendor/fontawesome-free/webfonts/fa-brands-400.woff2’ saved [74524/74524]
+
+--2021-01-30 01:36:53--  http://www.orchardcore.net/TOPT/vendor/fontawesome-free/webfonts/fa-brands-400.woff
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 87520 (85K) [application/font-woff]
+Saving to: ‘TOPT/vendor/fontawesome-free/webfonts/fa-brands-400.woff’
+
+     0K .......... .......... .......... .......... .......... 58% 8.99M 0s
+    50K .......... .......... .......... .....                100% 5.23M=0.01s
+
+2021-01-30 01:36:54 (6.93 MB/s) - ‘TOPT/vendor/fontawesome-free/webfonts/fa-brands-400.woff’ saved [87520/87520]
+
+--2021-01-30 01:36:54--  http://www.orchardcore.net/TOPT/vendor/fontawesome-free/webfonts/fa-brands-400.ttf
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 129284 (126K) [application/x-font-ttf]
+Saving to: ‘TOPT/vendor/fontawesome-free/webfonts/fa-brands-400.ttf’
+
+     0K .......... .......... .......... .......... .......... 39% 8.63M 0s
+    50K .......... .......... .......... .......... .......... 79% 5.10M 0s
+   100K .......... .......... ......                          100% 4.94M=0.02s
+
+2021-01-30 01:36:54 (6.04 MB/s) - ‘TOPT/vendor/fontawesome-free/webfonts/fa-brands-400.ttf’ saved [129284/129284]
+
+--2021-01-30 01:36:54--  http://www.orchardcore.net/TOPT/vendor/fontawesome-free/webfonts/fa-brands-400.svg
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 694486 (678K) [image/svg+xml]
+Saving to: ‘TOPT/vendor/fontawesome-free/webfonts/fa-brands-400.svg’
+
+     0K .......... .......... .......... .......... ..........  7% 8.41M 0s
+    50K .......... .......... .......... .......... .......... 14% 5.26M 0s
+   100K .......... .......... .......... .......... .......... 22% 4.82M 0s
+   150K .......... .......... .......... .......... .......... 29% 2.39M 0s
+   200K .......... .......... .......... .......... .......... 36% 5.21M 0s
+   250K .......... .......... .......... .......... .......... 44% 4.52M 0s
+   300K .......... .......... .......... .......... .......... 51% 3.27M 0s
+   350K .......... .......... .......... .......... .......... 58% 6.30M 0s
+   400K .......... .......... .......... .......... .......... 66%  217K 0s
+   450K .......... .......... .......... .......... .......... 73% 4.62M 0s
+   500K .......... .......... .......... .......... .......... 81% 1.59M 0s
+   550K .......... .......... .......... .......... .......... 88%  219M 0s
+   600K .......... .......... .......... .......... .......... 95% 3.08M 0s
+   650K .......... .......... ........                        100% 72.9M=0.4s
+
+2021-01-30 01:36:55 (1.76 MB/s) - ‘TOPT/vendor/fontawesome-free/webfonts/fa-brands-400.svg’ saved [694486/694486]
+
+--2021-01-30 01:36:55--  http://www.orchardcore.net/TOPT/vendor/fontawesome-free/webfonts/fa-regular-400.eot
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 34394 (34K) [application/vnd.ms-fontobject]
+Saving to: ‘TOPT/vendor/fontawesome-free/webfonts/fa-regular-400.eot’
+
+     0K .......... .......... .......... ...                  100% 1.99M=0.02s
+
+2021-01-30 01:36:55 (1.99 MB/s) - ‘TOPT/vendor/fontawesome-free/webfonts/fa-regular-400.eot’ saved [34394/34394]
+
+--2021-01-30 01:36:55--  http://www.orchardcore.net/TOPT/vendor/fontawesome-free/webfonts/fa-regular-400.eot?
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 34394 (34K) [application/vnd.ms-fontobject]
+Saving to: ‘TOPT/vendor/fontawesome-free/webfonts/fa-regular-400.eot@’
+
+     0K .......... .......... .......... ...                  100% 8.96M=0.004s
+
+2021-01-30 01:36:55 (8.96 MB/s) - ‘TOPT/vendor/fontawesome-free/webfonts/fa-regular-400.eot@’ saved [34394/34394]
+
+--2021-01-30 01:36:55--  http://www.orchardcore.net/TOPT/vendor/fontawesome-free/webfonts/fa-regular-400.woff2
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 13584 (13K) [font/woff2]
+Saving to: ‘TOPT/vendor/fontawesome-free/webfonts/fa-regular-400.woff2’
+
+     0K .......... ...                                        100%  122M=0s
+
+2021-01-30 01:36:56 (122 MB/s) - ‘TOPT/vendor/fontawesome-free/webfonts/fa-regular-400.woff2’ saved [13584/13584]
+
+--2021-01-30 01:36:56--  http://www.orchardcore.net/TOPT/vendor/fontawesome-free/webfonts/fa-regular-400.woff
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 16804 (16K) [application/font-woff]
+Saving to: ‘TOPT/vendor/fontawesome-free/webfonts/fa-regular-400.woff’
+
+     0K .......... ......                                     100% 1.17M=0.01s
+
+2021-01-30 01:36:56 (1.17 MB/s) - ‘TOPT/vendor/fontawesome-free/webfonts/fa-regular-400.woff’ saved [16804/16804]
+
+--2021-01-30 01:36:56--  http://www.orchardcore.net/TOPT/vendor/fontawesome-free/webfonts/fa-regular-400.ttf
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 34096 (33K) [application/x-font-ttf]
+Saving to: ‘TOPT/vendor/fontawesome-free/webfonts/fa-regular-400.ttf’
+
+     0K .......... .......... .......... ...                  100% 6.19M=0.005s
+
+2021-01-30 01:36:57 (6.19 MB/s) - ‘TOPT/vendor/fontawesome-free/webfonts/fa-regular-400.ttf’ saved [34096/34096]
+
+--2021-01-30 01:36:57--  http://www.orchardcore.net/TOPT/vendor/fontawesome-free/webfonts/fa-regular-400.svg
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 145255 (142K) [image/svg+xml]
+Saving to: ‘TOPT/vendor/fontawesome-free/webfonts/fa-regular-400.svg’
+
+     0K .......... .......... .......... .......... .......... 35% 4.99M 0s
+    50K .......... .......... .......... .......... .......... 70% 2.81M 0s
+   100K .......... .......... .......... .......... .         100% 14.6M=0.03s
+
+2021-01-30 01:36:57 (4.62 MB/s) - ‘TOPT/vendor/fontawesome-free/webfonts/fa-regular-400.svg’ saved [145255/145255]
+
+--2021-01-30 01:36:57--  http://www.orchardcore.net/TOPT/vendor/fontawesome-free/webfonts/fa-solid-900.eot
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 192122 (188K) [application/vnd.ms-fontobject]
+Saving to: ‘TOPT/vendor/fontawesome-free/webfonts/fa-solid-900.eot’
+
+     0K .......... .......... .......... .......... .......... 26% 5.43M 0s
+    50K .......... .......... .......... .......... .......... 53% 3.35M 0s
+   100K .......... .......... .......... .......... .......... 79% 4.87M 0s
+   150K .......... .......... .......... .......              100% 7.39M=0.04s
+
+2021-01-30 01:36:57 (4.75 MB/s) - ‘TOPT/vendor/fontawesome-free/webfonts/fa-solid-900.eot’ saved [192122/192122]
+
+--2021-01-30 01:36:57--  http://www.orchardcore.net/TOPT/vendor/fontawesome-free/webfonts/fa-solid-900.eot?
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 192122 (188K) [application/vnd.ms-fontobject]
+Saving to: ‘TOPT/vendor/fontawesome-free/webfonts/fa-solid-900.eot@’
+
+     0K .......... .......... .......... .......... .......... 26% 2.41M 0s
+    50K .......... .......... .......... .......... .......... 53% 3.09M 0s
+   100K .......... .......... .......... .......... .......... 79% 7.96M 0s
+   150K .......... .......... .......... .......              100% 4.95M=0.05s
+
+2021-01-30 01:36:58 (3.69 MB/s) - ‘TOPT/vendor/fontawesome-free/webfonts/fa-solid-900.eot@’ saved [192122/192122]
+
+--2021-01-30 01:36:58--  http://www.orchardcore.net/TOPT/vendor/fontawesome-free/webfonts/fa-solid-900.woff2
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 75408 (74K) [font/woff2]
+Saving to: ‘TOPT/vendor/fontawesome-free/webfonts/fa-solid-900.woff2’
+
+     0K .......... .......... .......... .......... .......... 67% 3.09M 0s
+    50K .......... .......... ...                             100% 3.90M=0.02s
+
+2021-01-30 01:36:58 (3.31 MB/s) - ‘TOPT/vendor/fontawesome-free/webfonts/fa-solid-900.woff2’ saved [75408/75408]
+
+--2021-01-30 01:36:58--  http://www.orchardcore.net/TOPT/vendor/fontawesome-free/webfonts/fa-solid-900.woff
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 98016 (96K) [application/font-woff]
+Saving to: ‘TOPT/vendor/fontawesome-free/webfonts/fa-solid-900.woff’
+
+     0K .......... .......... .......... .......... .......... 52% 3.31M 0s
+    50K .......... .......... .......... .......... .....     100% 7.39M=0.02s
+
+2021-01-30 01:36:58 (4.49 MB/s) - ‘TOPT/vendor/fontawesome-free/webfonts/fa-solid-900.woff’ saved [98016/98016]
+
+--2021-01-30 01:36:58--  http://www.orchardcore.net/TOPT/vendor/fontawesome-free/webfonts/fa-solid-900.ttf
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 191836 (187K) [application/x-font-ttf]
+Saving to: ‘TOPT/vendor/fontawesome-free/webfonts/fa-solid-900.ttf’
+
+     0K .......... .......... .......... .......... .......... 26% 4.62M 0s
+    50K .......... .......... .......... .......... .......... 53% 2.47M 0s
+   100K .......... .......... .......... .......... .......... 80% 9.91M 0s
+   150K .......... .......... .......... .......              100% 7.34M=0.04s
+
+2021-01-30 01:36:59 (4.55 MB/s) - ‘TOPT/vendor/fontawesome-free/webfonts/fa-solid-900.ttf’ saved [191836/191836]
+
+--2021-01-30 01:36:59--  http://www.orchardcore.net/TOPT/vendor/fontawesome-free/webfonts/fa-solid-900.svg
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 844038 (824K) [image/svg+xml]
+Saving to: ‘TOPT/vendor/fontawesome-free/webfonts/fa-solid-900.svg’
+
+     0K .......... .......... .......... .......... ..........  6% 4.64M 0s
+    50K .......... .......... .......... .......... .......... 12% 4.67M 0s
+   100K .......... .......... .......... .......... .......... 18% 4.08M 0s
+   150K .......... .......... .......... .......... .......... 24% 3.41M 0s
+   200K .......... .......... .......... .......... .......... 30% 5.08M 0s
+   250K .......... .......... .......... .......... .......... 36% 4.74M 0s
+   300K .......... .......... .......... .......... .......... 42% 4.30M 0s
+   350K .......... .......... .......... .......... .......... 48% 2.69M 0s
+   400K .......... .......... .......... .......... .......... 54% 4.76M 0s
+   450K .......... .......... .......... .......... .......... 60% 4.71M 0s
+   500K .......... .......... .......... .......... .......... 66% 7.86M 0s
+   550K .......... .......... .......... .......... .......... 72% 4.89M 0s
+   600K .......... .......... .......... .......... .......... 78% 2.29M 0s
+   650K .......... .......... .......... .......... .......... 84% 4.71M 0s
+   700K .......... .......... .......... .......... .......... 90% 7.80M 0s
+   750K .......... .......... .......... .......... .......... 97% 4.86M 0s
+   800K .......... .......... ....                            100% 4.37M=0.2s
+
+2021-01-30 01:36:59 (4.31 MB/s) - ‘TOPT/vendor/fontawesome-free/webfonts/fa-solid-900.svg’ saved [844038/844038]
+
+--2021-01-30 01:36:59--  http://www.orchardcore.net/TOPT/img/background.jpg
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 8823 (8.6K) [image/jpeg]
+Saving to: ‘TOPT/img/background.jpg’
+
+     0K ........                                              100% 3.43M=0.002s
+
+2021-01-30 01:36:59 (3.43 MB/s) - ‘TOPT/img/background.jpg’ saved [8823/8823]
+
+--2021-01-30 01:36:59--  http://www.orchardcore.net/TOPT/img/map-image.png
+Reusing existing connection to www.orchardcore.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 364038 (356K) [image/png]
+Saving to: ‘TOPT/img/map-image.png’
+
+     0K .......... .......... .......... .......... .......... 14% 1.88M 0s
+    50K .......... .......... .......... .......... .......... 28% 4.64M 0s
+   100K .......... .......... .......... .......... .......... 42% 4.90M 0s
+   150K .......... .......... .......... .......... .......... 56% 4.75M 0s
+   200K .......... .......... .......... .......... .......... 70% 5.86M 0s
+   250K .......... .......... .......... .......... .......... 84% 4.88M 0s
+   300K .......... .......... .......... .......... .......... 98% 4.05M 0s
+   350K .....                                                 100%  120M=0.09s
+
+2021-01-30 01:37:00 (3.98 MB/s) - ‘TOPT/img/map-image.png’ saved [364038/364038]
+
+FINISHED --2021-01-30 01:37:00--
+Total wall clock time: 24s
+Downloaded: 54 files, 4.9M in 4.9s (1.01 MB/s)
+Converting links in index.html... 25-3
+Converting links in TOPT/vendor/bootstrap/css/bootstrap.css... nothing to do.
+Converting links in css@family=Montserrat%3A400,700.css... 2-0
+Converting links in css@family=Droid+Serif%3A400,700,400italic,700italic.css... 4-0
+Converting links in css@family=Roboto+Slab%3A400,100,300,700.css... 4-0
+Converting links in TOPT/css/agency.css... 2-0
+Converting links in TOPT/bootstrap-grid-ext.css... nothing to do.
+Converting links in TOPT/vendor/fontawesome-free/css/all.css... 18-0
+Converting links in css@family=Kaushan+Script.css... 1-0
+Converted links in 9 files in 0.01 seconds.

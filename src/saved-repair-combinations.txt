@@ -1,0 +1,81 @@
+let repairs = [
+    'bodyMaximizeWidthToViewportCSS',
+    'elementMaxWidthMaxHeightCSS',
+    'parentMaxWidthMaxHeightCSS',
+    'ancestorsMaxWidthHeightCSS',
+
+    'bodyMaximizeWidthToViewportCSS-parentMaxWidthMaxHeightCSS',
+    'bodyMaximizeWidthToViewportCSS-elementMaxWidthMaxHeightCSS-parentMaxWidthMaxHeightCSS',
+    'bodyMaximizeWidthToViewportCSS-elementMaxWidthMaxHeightCSS-parentMaxWidthMaxHeightCSS-ancestorsMaxWidthHeightCSS',
+    'parentMinWidthCSS',
+
+
+    'shrinkSiblingsCSS',
+    'expandParentCSS',
+    'pushApart',
+    'negativeMarginsToZeroCSS',
+    'marginsToZeroCSS',
+    'differenceComputedStylesCSS',
+    'setProtrudingElementToParentSize',
+
+    'autoWidthElement',
+    'autoWidthParent',
+
+    'autoWidthElement-autoWidthParent',
+    'autoWidthElement-autoWidthParent-bodyMaximizeWidthToViewportCSS',
+
+    'autoWidthElement-autoWidthParent-negativeMarginsToZeroCSS',
+    'autoWidthElement-autoWidthParent-marginsToZeroCSS',
+
+    'bodyMaximizeWidthToViewportCSS-parentMaxWidthMaxHeightCSS-parentMinWidthCSS',
+    'bodyMaximizeWidthToViewportCSS-elementMaxWidthMaxHeightCSS-parentMaxWidthMaxHeightCSS-ancestorsMaxWidthHeightCSS-parentMinWidthCSS',
+    'bodyMaximizeWidthToViewportCSS-parentMaxWidthMaxHeightCSS-shrinkSiblingsCSS',
+    'bodyMaximizeWidthToViewportCSS-elementMaxWidthMaxHeightCSS-parentMaxWidthMaxHeightCSS-ancestorsMaxWidthHeightCSS-shrinkSiblingsCSS',
+    'parentMinWidthCSS-shrinkSiblingsCSS',
+    'bodyMaximizeWidthToViewportCSS-parentMaxWidthMaxHeightCSS-parentMinWidthCSS-shrinkSiblingsCSS',
+
+    'pushApart-parentMaxWidthMaxHeightCSS',
+    'pushApart-ancestorsMaxWidthHeightCSS',
+    'pushApart-bodyMaximizeWidthToViewportCSS',
+    'pushApart-autoWidthElement',
+    'pushApart-autoWidthParent',
+    'pushApart-autoWidthElement-autoWidthParent',
+
+    'pushApart-bodyMaximizeWidthToViewportCSS-parentMaxWidthMaxHeightCSS',
+    'pushApart-bodyMaximizeWidthToViewportCSS-ancestorsMaxWidthHeightCSS',
+    'pushApart-bodyMaximizeWidthToViewportCSS-parentMaxWidthMaxHeightCSS-ancestorsMaxWidthHeightCSS',
+
+    'setProtrudingElementToParentSize-bodyMaximizeWidthToViewportCSS',
+    'setProtrudingElementToParentSize-parentMaxWidthMaxHeightCSS',
+    'setProtrudingElementToParentSize-ancestorsMaxWidthHeightCSS',
+    'setProtrudingElementToParentSize-bodyMaximizeWidthToViewportCSS-ancestorsMaxWidthHeightCSS',
+    'setProtrudingElementToParentSize-bodyMaximizeWidthToViewportCSS-parentMaxWidthMaxHeightCSS',
+    'setProtrudingElementToParentSize-bodyMaximizeWidthToViewportCSS-parentMaxWidthMaxHeightCSS-ancestorsMaxWidthHeightCSS',
+    'setProtrudingElementToParentSize-autoWidthParent',
+    'setProtrudingElementToParentSize-negativeMarginsToZeroCSS',
+
+    'negativeMarginsToZeroCSS-elementMaxWidthMaxHeightCSS',
+    'negativeMarginsToZeroCSS-parentMaxWidthMaxHeightCSS',
+    'negativeMarginsToZeroCSS-bodyMaximizeWidthToViewportCSS',
+    'negativeMarginsToZeroCSS-ancestorsMaxWidthHeightCSS',
+    'negativeMarginsToZeroCSS-elementMaxWidthMaxHeightCSS-parentMaxWidthMaxHeightCSS-bodyMaximizeWidthToViewportCSS-ancestorsMaxWidthHeightCSS',
+
+    'marginsToZeroCSS-elementMaxWidthMaxHeightCSS',
+    'marginsToZeroCSS-parentMaxWidthMaxHeightCSS',
+    'marginsToZeroCSS-bodyMaximizeWidthToViewportCSS',
+    'marginsToZeroCSS-ancestorsMaxWidthHeightCSS',
+    'marginsToZeroCSS-elementMaxWidthMaxHeightCSS-parentMaxWidthMaxHeightCSS-bodyMaximizeWidthToViewportCSS-ancestorsMaxWidthHeightCSS',
+
+    'differenceComputedStylesCSS-elementMaxWidthMaxHeightCSS',
+    'differenceComputedStylesCSS-parentMaxWidthMaxHeightCSS',
+    'differenceComputedStylesCSS-bodyMaximizeWidthToViewportCSS',
+    'differenceComputedStylesCSS-ancestorsMaxWidthHeightCSS',
+    'differenceComputedStylesCSS-elementMaxWidthMaxHeightCSS-parentMaxWidthMaxHeightCSS-bodyMaximizeWidthToViewportCSS-ancestorsMaxWidthHeightCSS',
+
+    'expandParentCSS-elementMaxWidthMaxHeightCSS',
+    'expandParentCSS-elementMaxWidthMaxHeightCSS-negativeMarginsToZeroCSS',
+    'expandParentCSS-negativeMarginsToZeroCSS',
+    'expandParentCSS-marginsToZeroCSS',
+    'expandParentCSS-shrinkSiblingsCSS',
+    'expandParentCSS-ancestorsMaxWidthHeightCSS'
+]

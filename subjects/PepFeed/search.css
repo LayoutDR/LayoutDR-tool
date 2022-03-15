@@ -1,0 +1,460 @@
+@charset  "utf-8";
+
+@font-face {
+    font-family: pepfeedfont;
+    src: url(fonts/pepfeedfont.eot?#iefix) format("embedded-opentype"),url(fonts/pepfeedfont.woff) format("woff"),url(fonts/pepfeedfont.ttf) format("truetype"),url(fonts/pepfeedfont.svg#pepfeedfont) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(fonts/OpenSans-Regular.eot?) format("eot"),url(fonts/OpenSans-Regular.woff) format("woff"),url(fonts/OpenSans-Regular.ttf) format("truetype"),url(fonts/OpenSans-Regular.svg#OpenSans) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans Light";
+    src: url(fonts/OpenSans-Light.eot?) format("eot"),url(fonts/OpenSans-Light.woff) format("woff"),url(fonts/OpenSans-Light.ttf) format("truetype"),url(fonts/OpenSans-Light.svg#OpenSans-Light) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans Semibold";
+    src: url(fonts/OpenSans-Semibold.eot?) format("eot"),url(fonts/OpenSans-Semibold.woff) format("woff"),url(fonts/OpenSans-Semibold.ttf) format("truetype"),url(fonts/OpenSans-Semibold.svg#OpenSans-Semibold) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+[data-icon]::before {
+    content: attr(data-icon);
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font-family: pepfeedfont !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+}
+
+[class^="icon-"]::before,[class*=" icon-"]::before {
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font-family: pepfeedfont !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+}
+
+.icon-results::before {
+    content: "a";
+}
+
+.icon-favorite::before {
+    content: "b";
+}
+
+.favorite-opt:hover {
+    color: #717171;
+}
+
+.favorite-opt.saved {
+    color: #edd043;
+}
+
+.icon-search::before {
+    content: "g";
+}
+
+.icon-share::before {
+    content: "d";
+}
+
+.icon-share:hover {
+    color: #3a5898;
+}
+
+.icon-check::before {
+    content: "e";
+}
+
+.icon-close::before {
+    content: "f";
+}
+
+.icon-close-prop {
+    font-size: 38px;
+    margin-left: -15px;
+}
+
+.closeLink {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.icon-options::before {
+    content: "g";
+}
+
+.icon-options-prop {
+    font-size: 32px;
+    margin-left: -12px;
+}
+
+.icon-settings::before {
+    content: "h";
+}
+
+.icon-storm::before {
+    content: "i";
+}
+
+.icon-facebook::before {
+    content: "j";
+}
+
+.icon-ratingright::before {
+    content: "k";
+}
+
+.icon-ratingleft::before {
+    content: "l";
+}
+
+.icon-faq::before {
+    content: "m";
+}
+
+.icon-report::before {
+    content: "n";
+}
+
+.icon-pepfeed::before {
+    content: "o";
+}
+
+.icon-thumbs::before {
+    content: "p";
+}
+
+.pf-icon-search {
+    color: #717171;
+    font-size: 22px;
+    float: right;
+    margin-right: 8px;
+    margin-top: -28px;
+    position: relative;
+    z-index: 2;
+}
+
+.search-block,.trending-block {
+    max-width: 760px;
+    display: block;
+    position: relative;
+    z-index: 999;
+}
+
+.product-list-block {
+    max-width: 400px;
+    display: block;
+    position: relative;
+    z-index: 999;
+    text-align: left;
+}
+
+.search-row-sources {
+}
+
+.search-title,.trending-title-block {
+    padding-top: 15px !important;
+}
+
+.search-title-list {
+    margin-bottom: 20px;
+}
+
+.trending-title-block {
+    margin-top: -40px;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.trending-container {
+    margin-top: -130px;
+}
+
+.top-videos,.top-reviews {
+    float: left;
+    font-size: xx-large;
+    font-family: Montserrat,sans-serif;
+    text-transform: uppercase;
+    margin: 30px 0 0;
+}
+
+.row-videos,.row-reviews {
+    margin-top: 20px;
+}
+
+.banner-right {
+    position: fixed;
+    display: block;
+    bottom: 40%;
+    right: 0;
+    opacity: 1;
+    z-index: 99999999;
+    width: 150px;
+    height: 200px;
+    box-shadow: rgba(0,0,0,0.2) 0 1px 6px 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right-style: none;
+    background-color: #0095d3;
+}
+
+.banner-text {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+}
+
+.banner-button {
+    display: block;
+    padding-left: 8px;
+    margin-top: 1px;
+}
+
+.btn-bring-it {
+    color: #fff;
+    font-size: 16px;
+    width: 135px;
+    background-color: #ff8700;
+}
+
+.btn-bring-it:hover {
+    color: #fff !important;
+    background-color: #f28000 !important;
+}
+
+.btn-enable-chrome {
+    color: #fff;
+    background-color: #ff8700;
+}
+
+.btn-enable-chrome:hover {
+    color: #fff;
+    background-color: #f28000;
+}
+
+.banner-anywhere {
+    font-size: 20px;
+    font-family: Montserrat,sans-serif;
+}
+
+.trending-image {
+    width: 350px;
+    height: 125px;
+    float: left;
+    border-radius: 2px;
+    background-size: cover !important;
+}
+
+.trending-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 15px;
+    bottom: -100px;
+    left: 15px;
+    opacity: .33;
+    width: 350px;
+    height: 125px;
+    border-radius: 2px;
+    background-image: linear-gradient(#000,#9c9c9c);
+}
+
+.trending-title {
+    float: left;
+    position: absolute;
+    color: #fff;
+    font-family: "Open sans semibold";
+    font-size: 16px;
+    z-index: 999;
+    padding: 10px;
+    max-width: 350px;
+    text-align: left;
+    text-shadow: rgba(0,0,0,0.498039) 1px 1px;
+}
+
+.trending-price {
+    float: left;
+    font-family: "Open sans semibold";
+    font-size: 22px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.trending-savings {
+    padding: 12px;
+    float: left;
+    font-family: "Open sans semibold";
+    color: #36bc60;
+    font-size: 16px;
+    margin-left: -10px;
+}
+
+.trending-savings-w {
+    padding: 12px;
+    float: left;
+    font-family: "Open sans semibold";
+    color: #fff;
+    font-size: 16px;
+    margin-left: -10px;
+}
+
+.trending-dealby {
+    font-family: "Open Sans light";
+    float: left;
+    margin-right: 190px;
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+.trending-seller,.trending-reviewer {
+    font-family: "Open Sans semibold";
+}
+
+.trending-rating {
+    float: right;
+    margin-top: -45px;
+}
+
+.trending-star {
+    width: 15px;
+}
+
+.trending-ratedby {
+    font-family: "Open Sans light";
+    float: right;
+    margin-top: -17px;
+    margin-bottom: 40px;
+    font-size: 12px;
+}
+
+.trending-right-row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div .trending-card {
+    width: 380px;
+}
+
+.trending-selected:hover .trending-image::before {
+    cursor: pointer;
+    opacity: .43;
+    background-image: linear-gradient(#000,#636363);
+}
+
+.more-container {
+    display: block;
+    position: relative;
+    z-index: 9999;
+}
+
+.more-row-sources {
+    margin-top: -120px;
+}
+
+.row-bottom {
+    margin-bottom: 50px;
+}
+
+.cic-font {
+    font-size: 16px !important;
+}
+
+.chrome-install {
+    font-size: 26px !important;
+}
+
+.trending-brand {
+    font-family: "Open Sans Semibold";
+    font-size: 22px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.trending-model {
+    display: block;
+    font-family: "Open Sans Light";
+    padding: 5px;
+    cursor: pointer;
+}
+
+.trending-column {
+    column-count: 2;
+    margin-left: 10px;
+}
+
+.product-list-row {
+    padding: 0 0 20px;
+}
+
+.pf-icon-search:hover {
+    cursor: pointer;
+}
+
+.no-results-found {
+    font-size: 14px;
+    font-family: "Open Sans Light";
+    padding-top: 40px;
+}
+
+a.back-to-top {
+    display: none;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    position: fixed;
+    z-index: 999999;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 30px;
+    background: url(/static/img/search_website/up-arrow.png) center 43% no-repeat #0095d3;
+}
+
+.search-loading-gif {
+    margin-top: -32px;
+    display: none;
+    width: 24px !important;
+}
+
+.search-loading-trending-gif {
+    width: 40px;
+    margin-top: 80px;
+    float: right;
+    margin-right: 5px;
+    z-index: 1;
+    position: relative;
+    display: none;
+}
+
+.show-loading {
+    display: block;
+}
+
+.anchor-list-alphabet {
+    font-size: 22px;
+    padding: 10px 10px 30px;
+    margin-top: -60px;
+}
+
+.anchor-spacing {
+    padding: 3px;
+}

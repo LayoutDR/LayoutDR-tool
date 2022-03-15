@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>icon-scale-32-color</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon-scale-32-color" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M6,23.3076172 L4,23.3076172 L4,8.90612793 L6,8.90612793 L6,23.3076172 Z M8.71826172,6 L8.71826172,4 L23.2843018,4 L23.2843018,6 L8.71826172,6 Z M26,9.03564453 L28,9.03564453 L28,23.2427979 L26,23.2427979 L26,9.03564453 Z M23.2175293,26 L23.2175293,28 L8.8416748,28 L8.8416748,26 L23.2175293,26 Z" id="Rectangle-8" fill="#00BFB3" fill-rule="nonzero"></path>
+        <path d="M0,0 L10,0 L10,10 L0,10 L0,0 Z M2,2 L2,8 L8,8 L8,2 L2,2 Z" id="Rectangle-8" fill="#545966" fill-rule="nonzero"></path>
+        <path d="M22,0 L32,0 L32,10 L22,10 L22,0 Z M24,2 L24,8 L30,8 L30,2 L24,2 Z" id="Rectangle-8" fill="#545966" fill-rule="nonzero"></path>
+        <path d="M0,22 L10,22 L10,32 L0,32 L0,22 Z M2,24 L2,30 L8,30 L8,24 L2,24 Z" id="Rectangle-8" fill="#545966" fill-rule="nonzero"></path>
+        <path d="M22,22 L32,22 L32,32 L22,32 L22,22 Z M24,24 L24,30 L30,30 L30,24 L24,24 Z" id="Rectangle-8" fill="#545966" fill-rule="nonzero"></path>
+    </g>
+</svg>

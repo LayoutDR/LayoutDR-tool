@@ -1,0 +1,331 @@
+--2021-01-30 01:34:11--  http://xn--user-agent=mozilla-kl9ja/5.0%20(X11;%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/86.0.4240.198%20Safari/537.36
+Resolving xn--user-agent=mozilla-kl9ja (xn--user-agent=mozilla-kl9ja)... failed: Name or service not known.
+wget: unable to resolve host address ‘xn--user-agent=mozilla-kl9ja’
+--2021-01-30 01:34:11--  http://xn--execute-406ca/
+Resolving xn--execute-406ca (xn--execute-406ca)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘xn--execute-406ca’
+--2021-01-30 01:34:11--  http://robots=off/
+Resolving robots=off (robots=off)... failed: Name or service not known.
+wget: unable to resolve host address ‘robots=off’
+‐‐refer=http://google.com: Scheme missing.
+--2021-01-30 01:34:11--  http://xn--random-wait-kf3fa/
+Resolving xn--random-wait-kf3fa (xn--random-wait-kf3fa)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘xn--random-wait-kf3fa’
+--2021-01-30 01:34:11--  https://bottender.js.org/
+Resolving bottender.js.org (bottender.js.org)... 104.26.9.84, 104.26.8.84, 172.67.73.64, ...
+Connecting to bottender.js.org (bottender.js.org)|104.26.9.84|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from bottender.js.org attempted to set domain to js.org
+Length: unspecified [text/html]
+Saving to: ‘index.html’
+
+     0K .......... .....                                       1.84M=0.008s
+
+2021-01-30 01:34:13 (1.84 MB/s) - ‘index.html’ saved [15603]
+
+Loading robots.txt; please ignore errors.
+--2021-01-30 01:34:13--  https://bottender.js.org/robots.txt
+Reusing existing connection to bottender.js.org:443.
+HTTP request sent, awaiting response... 404 Not Found
+Cookie coming from bottender.js.org attempted to set domain to js.org
+2021-01-30 01:34:13 ERROR 404: Not Found.
+
+Loading robots.txt; please ignore errors.
+--2021-01-30 01:34:13--  https://cdn.jsdelivr.net/robots.txt
+Resolving cdn.jsdelivr.net (cdn.jsdelivr.net)... 104.16.88.20, 104.16.87.20, 104.16.89.20, ...
+Connecting to cdn.jsdelivr.net (cdn.jsdelivr.net)|104.16.88.20|:443... connected.
+HTTP request sent, awaiting response... 400 Bad Request
+2021-01-30 01:34:14 ERROR 400: Bad Request.
+
+Loading robots.txt; please ignore errors.
+--2021-01-30 01:34:14--  https://cdnjs.cloudflare.com/robots.txt
+Resolving cdnjs.cloudflare.com (cdnjs.cloudflare.com)... 104.16.19.94, 104.16.18.94, 2606:4700::6810:135e, ...
+Connecting to cdnjs.cloudflare.com (cdnjs.cloudflare.com)|104.16.19.94|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-30 01:34:15 ERROR 404: Not Found.
+
+Loading robots.txt; please ignore errors.
+--2021-01-30 01:34:15--  https://www.googletagmanager.com/robots.txt
+Resolving www.googletagmanager.com (www.googletagmanager.com)... 216.58.198.72, 2a00:1450:4006:807::2008
+Connecting to www.googletagmanager.com (www.googletagmanager.com)|216.58.198.72|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-30 01:34:15 ERROR 404: Not Found.
+
+Loading robots.txt; please ignore errors.
+--2021-01-30 01:34:15--  https://fonts.googleapis.com/robots.txt
+Resolving fonts.googleapis.com (fonts.googleapis.com)... 216.58.205.202, 2a00:1450:4006:807::200a
+Connecting to fonts.googleapis.com (fonts.googleapis.com)|216.58.205.202|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/plain]
+Saving to: ‘robots.txt’
+
+     0K                                                        1.75M=0s
+
+2021-01-30 01:34:16 (1.75 MB/s) - ‘robots.txt’ saved [25]
+
+--2021-01-30 01:34:16--  https://bottender.js.org/img/favicon-192x192.png
+Connecting to bottender.js.org (bottender.js.org)|104.26.9.84|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from bottender.js.org attempted to set domain to js.org
+Length: 6481 (6.3K) [image/png]
+Saving to: ‘img/favicon-192x192.png’
+
+     0K ......                                                100% 48.7M=0s
+
+2021-01-30 01:34:17 (48.7 MB/s) - ‘img/favicon-192x192.png’ saved [6481/6481]
+
+--2021-01-30 01:34:17--  https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css
+Connecting to cdn.jsdelivr.net (cdn.jsdelivr.net)|104.16.88.20|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: ‘docsearch.js/1/docsearch.min.css’
+
+     0K .......... .                                           30.4M=0s
+
+2021-01-30 01:34:17 (30.4 MB/s) - ‘docsearch.js/1/docsearch.min.css’ saved [11487]
+
+--2021-01-30 01:34:17--  https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css
+Connecting to cdnjs.cloudflare.com (cdnjs.cloudflare.com)|104.16.19.94|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: ‘ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css’
+
+     0K                                                        6.92M=0s
+
+2021-01-30 01:34:18 (6.92 MB/s) - ‘ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css’ saved [794]
+
+--2021-01-30 01:34:18--  https://www.googletagmanager.com/gtag/js?id=UA-70309045-11
+Connecting to www.googletagmanager.com (www.googletagmanager.com)|216.58.198.72|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/javascript]
+Saving to: ‘gtag/js@id=UA-70309045-11’
+
+     0K .......... .......... .......... .......... ..........  305K
+    50K .......... .......... .......... .......... ......      577K=0.2s
+
+2021-01-30 01:34:19 (395 KB/s) - ‘gtag/js@id=UA-70309045-11’ saved [98936]
+
+--2021-01-30 01:34:19--  https://fonts.googleapis.com/css?family=Montserrat:700%7CRoboto&display=swap
+Connecting to fonts.googleapis.com (fonts.googleapis.com)|216.58.205.202|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: ‘css@family=Montserrat%3A700%7CRoboto&display=swap.css’
+
+     0K                                                        18.7M=0s
+
+2021-01-30 01:34:20 (18.7 MB/s) - ‘css@family=Montserrat%3A700%7CRoboto&display=swap.css’ saved [418]
+
+Loading robots.txt; please ignore errors.
+--2021-01-30 01:34:20--  https://fonts.gstatic.com/robots.txt
+Resolving fonts.gstatic.com (fonts.gstatic.com)... 216.58.212.99, 2a00:1450:4006:80b::2003
+Connecting to fonts.gstatic.com (fonts.gstatic.com)|216.58.212.99|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-30 01:34:20 ERROR 404: Not Found.
+
+--2021-01-30 01:34:20--  https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js
+Connecting to cdnjs.cloudflare.com (cdnjs.cloudflare.com)|104.16.19.94|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/javascript]
+Saving to: ‘ajax/libs/clipboard.js/2.0.0/clipboard.min.js’
+
+     0K ..........                                             23.9M=0s
+
+2021-01-30 01:34:21 (23.9 MB/s) - ‘ajax/libs/clipboard.js/2.0.0/clipboard.min.js’ saved [10662]
+
+--2021-01-30 01:34:21--  https://bottender.js.org/js/code-blocks-buttons.js
+Connecting to bottender.js.org (bottender.js.org)|104.26.9.84|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from bottender.js.org attempted to set domain to js.org
+Length: unspecified [application/javascript]
+Saving to: ‘js/code-blocks-buttons.js’
+
+     0K ..                                                      421K=0.005s
+
+2021-01-30 01:34:22 (421 KB/s) - ‘js/code-blocks-buttons.js’ saved [2328]
+
+--2021-01-30 01:34:22--  https://bottender.js.org/js/sw.js
+Reusing existing connection to bottender.js.org:443.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from bottender.js.org attempted to set domain to js.org
+Length: unspecified [application/javascript]
+Saving to: ‘js/sw.js’
+
+     0K                                                        2.50M=0s
+
+2021-01-30 01:34:22 (2.50 MB/s) - ‘js/sw.js’ saved [183]
+
+--2021-01-30 01:34:22--  https://bottender.js.org/js/scrollSpy.js
+Reusing existing connection to bottender.js.org:443.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from bottender.js.org attempted to set domain to js.org
+Length: unspecified [application/javascript]
+Saving to: ‘js/scrollSpy.js’
+
+     0K ..                                                      429K=0.006s
+
+2021-01-30 01:34:23 (429 KB/s) - ‘js/scrollSpy.js’ saved [2656]
+
+--2021-01-30 01:34:23--  https://bottender.js.org/css/main.css
+Reusing existing connection to bottender.js.org:443.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from bottender.js.org attempted to set domain to js.org
+Length: unspecified [text/css]
+Saving to: ‘css/main.css’
+
+     0K .......... .......... .......... ......                2.71M=0.01s
+
+2021-01-30 01:34:23 (2.71 MB/s) - ‘css/main.css’ saved [36941]
+
+--2021-01-30 01:34:23--  https://bottender.js.org/js/codetabs.js
+Reusing existing connection to bottender.js.org:443.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from bottender.js.org attempted to set domain to js.org
+Length: unspecified [application/javascript]
+Saving to: ‘js/codetabs.js’
+
+     0K .                                                      76.3M=0s
+
+2021-01-30 01:34:23 (76.3 MB/s) - ‘js/codetabs.js’ saved [1047]
+
+--2021-01-30 01:34:23--  https://bottender.js.org/img/bottender.svg
+Reusing existing connection to bottender.js.org:443.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from bottender.js.org attempted to set domain to js.org
+Length: unspecified [image/svg+xml]
+Saving to: ‘img/bottender.svg’
+
+     0K .                                                      54.5M=0s
+
+2021-01-30 01:34:24 (54.5 MB/s) - ‘img/bottender.svg’ saved [1195]
+
+--2021-01-30 01:34:24--  https://bottender.js.org/img/language.svg
+Reusing existing connection to bottender.js.org:443.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from bottender.js.org attempted to set domain to js.org
+Length: unspecified [image/svg+xml]
+Saving to: ‘img/language.svg’
+
+     0K .                                                      89.1M=0s
+
+2021-01-30 01:34:24 (89.1 MB/s) - ‘img/language.svg’ saved [1359]
+
+--2021-01-30 01:34:24--  https://bottender.js.org/img/element_flexible.svg
+Reusing existing connection to bottender.js.org:443.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from bottender.js.org attempted to set domain to js.org
+Length: unspecified [image/svg+xml]
+Saving to: ‘img/element_flexible.svg’
+
+     0K                                                        46.1M=0s
+
+2021-01-30 01:34:24 (46.1 MB/s) - ‘img/element_flexible.svg’ saved [646]
+
+--2021-01-30 01:34:24--  https://bottender.js.org/img/element_morden.svg
+Reusing existing connection to bottender.js.org:443.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from bottender.js.org attempted to set domain to js.org
+Length: unspecified [image/svg+xml]
+Saving to: ‘img/element_morden.svg’
+
+     0K                                                        18.3M=0s
+
+2021-01-30 01:34:24 (18.3 MB/s) - ‘img/element_morden.svg’ saved [550]
+
+--2021-01-30 01:34:24--  https://bottender.js.org/img/element_modular.svg
+Reusing existing connection to bottender.js.org:443.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from bottender.js.org attempted to set domain to js.org
+Length: unspecified [image/svg+xml]
+Saving to: ‘img/element_modular.svg’
+
+     0K                                                        18.1M=0s
+
+2021-01-30 01:34:25 (18.1 MB/s) - ‘img/element_modular.svg’ saved [509]
+
+--2021-01-30 01:34:25--  https://bottender.js.org/img/element_anywhere.svg
+Reusing existing connection to bottender.js.org:443.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from bottender.js.org attempted to set domain to js.org
+Length: unspecified [image/svg+xml]
+Saving to: ‘img/element_anywhere.svg’
+
+     0K                                                        26.1M=0s
+
+2021-01-30 01:34:25 (26.1 MB/s) - ‘img/element_anywhere.svg’ saved [788]
+
+--2021-01-30 01:34:25--  https://bottender.js.org/img/element_build_your_bot_logo.svg
+Reusing existing connection to bottender.js.org:443.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from bottender.js.org attempted to set domain to js.org
+Length: unspecified [image/svg+xml]
+Saving to: ‘img/element_build_your_bot_logo.svg’
+
+     0K .                                                      57.1M=0s
+
+2021-01-30 01:34:25 (57.1 MB/s) - ‘img/element_build_your_bot_logo.svg’ saved [1408]
+
+--2021-01-30 01:34:25--  https://bottender.js.org/img/element_YOCTOL.AI_horizontal_S.svg
+Reusing existing connection to bottender.js.org:443.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from bottender.js.org attempted to set domain to js.org
+Length: unspecified [image/svg+xml]
+Saving to: ‘img/element_YOCTOL.AI_horizontal_S.svg’
+
+     0K .....                                                  32.4M=0s
+
+2021-01-30 01:34:26 (32.4 MB/s) - ‘img/element_YOCTOL.AI_horizontal_S.svg’ saved [5133]
+
+--2021-01-30 01:34:26--  https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js
+Connecting to cdn.jsdelivr.net (cdn.jsdelivr.net)|104.16.88.20|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/javascript]
+Saving to: ‘docsearch.js/1/docsearch.min.js’
+
+     0K .......... .......... .......... .......... ..........  241K
+    50K .......... .......... .......... .......... ..........  250K
+   100K .......... .......... .......... .......... ....       7.67M=0.4s
+
+2021-01-30 01:34:27 (350 KB/s) - ‘docsearch.js/1/docsearch.min.js’ saved [147691]
+
+--2021-01-30 01:34:27--  https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD-w.ttf
+Connecting to fonts.gstatic.com (fonts.gstatic.com)|216.58.212.99|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 47088 (46K) [font/ttf]
+Saving to: ‘s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD-w.ttf’
+
+     0K .......... .......... .......... .......... .....     100%  291K=0.2s
+
+2021-01-30 01:34:27 (291 KB/s) - ‘s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD-w.ttf’ saved [47088/47088]
+
+--2021-01-30 01:34:27--  https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf
+Reusing existing connection to fonts.gstatic.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 36176 (35K) [font/ttf]
+Saving to: ‘s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf’
+
+     0K .......... .......... .......... .....                100% 9.08M=0.004s
+
+2021-01-30 01:34:27 (9.08 MB/s) - ‘s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf’ saved [36176/36176]
+
+--2021-01-30 01:34:27--  https://bottender.js.org/img/element_hero_illustration.svg
+Connecting to bottender.js.org (bottender.js.org)|104.26.9.84|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from bottender.js.org attempted to set domain to js.org
+Length: unspecified [image/svg+xml]
+Saving to: ‘img/element_hero_illustration.svg’
+
+     0K .......... .......... .......... .......... .......... 6.28M
+    50K .......... .......... .......... .......... ..........  144K
+   100K .......... .......... .......... ....                  5.57M=0.4s
+
+2021-01-30 01:34:29 (373 KB/s) - ‘img/element_hero_illustration.svg’ saved [138204]
+
+FINISHED --2021-01-30 01:34:29--
+Total wall clock time: 17s
+Downloaded: 25 files, 555K in 1.2s (457 KB/s)
+Converting links in index.html... 22-9
+Converting links in css@family=Montserrat%3A700%7CRoboto&display=swap.css... 2-0
+Converting links in ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css... nothing to do.
+Converting links in css/main.css... 1-0
+Converting links in docsearch.js/1/docsearch.min.css... nothing to do.
+Converted links in 5 files in 0.004 seconds.

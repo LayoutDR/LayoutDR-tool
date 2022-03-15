@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>icon / system / 16x16px / download / white</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon-/-system-/-16x16px-/-download-/-white" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-download-16x16-white" transform="translate(0.000000, 1.000000)">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="13" width="16" height="2"></rect>
+            <polyline id="Path-6" stroke="#FFFFFF" stroke-width="2" transform="translate(8.000000, 5.500000) rotate(-180.000000) translate(-8.000000, -5.500000) " points="3 8 8 3 13 8"></polyline>
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="10" width="2" height="5"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="14" y="10" width="2" height="5"></rect>
+            <path d="M8,6 L8,0" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

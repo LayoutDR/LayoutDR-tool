@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>logo-security-24-color</title>
+    <desc>Created with Sketch.</desc>
+    <g id="logo-security-24-color" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8,5 L8,-1.77635684e-15 L22,-1.77635684e-15 L22,12.7553711 C22,15.5203857 17.0684967,17.4157884 15,18 L15,5 L8,5 Z" id="Shape" fill="#FA744E"></path>
+        <path d="M2,15.3256418 L2,8 L12,8 L12,24 C5.33333333,21.0763974 2,18.1849446 2,15.3256418 Z" id="Path" fill="#1DBAB0"></path>
+        <path d="M6,8 L12,8 L12,18 C9.7624049,17.1850416 6,15.3168116 6,12.9689728 L6,8 Z" id="Path" fill="#343741"></path>
+    </g>
+</svg>

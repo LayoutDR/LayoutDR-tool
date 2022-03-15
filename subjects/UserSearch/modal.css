@@ -1,0 +1,58 @@
+@charset  "utf-8";
+
+.mc-modal-bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1001;
+    height: 100%;
+    width: 100%;
+    display: none;
+    opacity: 0;
+    background: #000;
+}
+
+.mc-layout__modalContent {
+    display: block;
+    height: 100%;
+    overflow-y: auto;
+    position: relative;
+}
+
+.mc-closeModal {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    width: auto;
+    height: 50px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    background-size: 26px;
+}
+
+.mc-modal * {
+    box-sizing: border-box;
+}
+
+.mc-modal {
+    display: none;
+    z-index: 1002;
+    position: fixed;
+    top: 15%;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    opacity: 0;
+    background: transparent;
+}
+
+@media only screen and (max-width: 980px) {
+    .mc-modal {
+        top: 45px;
+        width: 80%;
+    }
+}

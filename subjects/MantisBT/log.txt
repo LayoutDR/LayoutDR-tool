@@ -1,0 +1,813 @@
+--2021-01-30 01:36:04--  http://xn--user-agent=mozilla-kl9ja/5.0%20(X11;%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/86.0.4240.198%20Safari/537.36
+Resolving xn--user-agent=mozilla-kl9ja (xn--user-agent=mozilla-kl9ja)... failed: Name or service not known.
+wget: unable to resolve host address ‘xn--user-agent=mozilla-kl9ja’
+--2021-01-30 01:36:04--  http://xn--execute-406ca/
+Resolving xn--execute-406ca (xn--execute-406ca)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘xn--execute-406ca’
+--2021-01-30 01:36:04--  http://robots=off/
+Resolving robots=off (robots=off)... failed: Name or service not known.
+wget: unable to resolve host address ‘robots=off’
+‐‐refer=http://google.com: Scheme missing.
+--2021-01-30 01:36:04--  http://xn--random-wait-kf3fa/
+Resolving xn--random-wait-kf3fa (xn--random-wait-kf3fa)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘xn--random-wait-kf3fa’
+--2021-01-30 01:36:04--  https://www.mantisbt.org/
+Resolving www.mantisbt.org (www.mantisbt.org)... 96.126.114.56
+Connecting to www.mantisbt.org (www.mantisbt.org)|96.126.114.56|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html’
+
+     0K .......... .....                                       60.0K=0.3s
+
+2021-01-30 01:36:05 (60.0 KB/s) - ‘index.html’ saved [16088]
+
+Loading robots.txt; please ignore errors.
+--2021-01-30 01:36:05--  https://www.mantisbt.org/robots.txt
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 384 [text/plain]
+Saving to: ‘robots.txt’
+
+     0K                                                       100% 7.95M=0s
+
+2021-01-30 01:36:06 (7.95 MB/s) - ‘robots.txt’ saved [384/384]
+
+Loading robots.txt; please ignore errors.
+--2021-01-30 01:36:06--  https://ajax.googleapis.com/robots.txt
+Resolving ajax.googleapis.com (ajax.googleapis.com)... 172.217.21.10, 2a00:1450:4006:803::200a
+Connecting to ajax.googleapis.com (ajax.googleapis.com)|172.217.21.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 46 [text/plain]
+Saving to: ‘robots.txt’
+
+     0K                                                       100% 2.86M=0s
+
+2021-01-30 01:36:06 (2.86 MB/s) - ‘robots.txt’ saved [46/46]
+
+Loading robots.txt; please ignore errors.
+--2021-01-30 01:36:06--  https://fonts.googleapis.com/robots.txt
+Resolving fonts.googleapis.com (fonts.googleapis.com)... 216.58.205.202, 2a00:1450:4006:807::200a
+Connecting to fonts.googleapis.com (fonts.googleapis.com)|216.58.205.202|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/plain]
+Saving to: ‘robots.txt’
+
+     0K                                                        1.29M=0s
+
+2021-01-30 01:36:07 (1.29 MB/s) - ‘robots.txt’ saved [25]
+
+Loading robots.txt; please ignore errors.
+--2021-01-30 01:36:07--  https://s7.addthis.com/robots.txt
+Resolving s7.addthis.com (s7.addthis.com)... 23.204.82.208
+Connecting to s7.addthis.com (s7.addthis.com)|23.204.82.208|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 63 [text/plain]
+Saving to: ‘robots.txt’
+
+     0K                                                       100% 10.1M=0s
+
+2021-01-30 01:36:07 (10.1 MB/s) - ‘robots.txt’ saved [63/63]
+
+--2021-01-30 01:36:07--  https://www.mantisbt.org/favicon.ico
+Connecting to www.mantisbt.org (www.mantisbt.org)|96.126.114.56|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1150 (1.1K) [image/vnd.microsoft.icon]
+Saving to: ‘favicon.ico’
+
+     0K .                                                     100% 14.8M=0s
+
+2021-01-30 01:36:08 (14.8 MB/s) - ‘favicon.ico’ saved [1150/1150]
+
+--2021-01-30 01:36:08--  https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js
+Connecting to ajax.googleapis.com (ajax.googleapis.com)|172.217.21.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 85578 (84K) [text/javascript]
+Saving to: ‘ajax/libs/jquery/2.2.4/jquery.min.js’
+
+     0K .......... .......... .......... .......... .......... 59%  245K 0s
+    50K .......... .......... .......... ...                  100%  440K=0.3s
+
+2021-01-30 01:36:09 (298 KB/s) - ‘ajax/libs/jquery/2.2.4/jquery.min.js’ saved [85578/85578]
+
+--2021-01-30 01:36:09--  https://www.mantisbt.org/css/mantisbt.css
+Connecting to www.mantisbt.org (www.mantisbt.org)|96.126.114.56|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 178 [text/css]
+Saving to: ‘css/mantisbt.css’
+
+     0K                                                       100% 5.95M=0s
+
+2021-01-30 01:36:10 (5.95 MB/s) - ‘css/mantisbt.css’ saved [178/178]
+
+--2021-01-30 01:36:10--  https://www.mantisbt.org/css/bootstrap.min.css
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 100988 (99K) [text/css]
+Saving to: ‘css/bootstrap.min.css’
+
+     0K .......... .......... .......... .......... .......... 50%  101K 0s
+    50K .......... .......... .......... .......... ........  100%  218K=0.7s
+
+2021-01-30 01:36:11 (137 KB/s) - ‘css/bootstrap.min.css’ saved [100988/100988]
+
+--2021-01-30 01:36:11--  https://www.mantisbt.org/css/custom.css
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 73285 (72K) [text/css]
+Saving to: ‘css/custom.css’
+
+     0K .......... .......... .......... .......... .......... 69% 3.40M 0s
+    50K .......... .......... .                               100% 11.4M=0.02s
+
+2021-01-30 01:36:11 (4.32 MB/s) - ‘css/custom.css’ saved [73285/73285]
+
+--2021-01-30 01:36:11--  https://www.mantisbt.org/css/color_scheme.css
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 12699 (12K) [text/css]
+Saving to: ‘css/color_scheme.css’
+
+     0K .......... ..                                         100% 4.56M=0.003s
+
+2021-01-30 01:36:12 (4.56 MB/s) - ‘css/color_scheme.css’ saved [12699/12699]
+
+--2021-01-30 01:36:12--  https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic
+Connecting to fonts.googleapis.com (fonts.googleapis.com)|216.58.205.202|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: ‘css@family=Open+Sans%3A400,400italic,600,600italic,700,700italic.css’
+
+     0K .                                                      20.7M=0s
+
+2021-01-30 01:36:12 (20.7 MB/s) - ‘css@family=Open+Sans%3A400,400italic,600,600italic,700,700italic.css’ saved [1147]
+
+Loading robots.txt; please ignore errors.
+--2021-01-30 01:36:12--  https://fonts.gstatic.com/robots.txt
+Resolving fonts.gstatic.com (fonts.gstatic.com)... 216.58.212.99, 2a00:1450:4006:80b::2003
+Connecting to fonts.gstatic.com (fonts.gstatic.com)|216.58.212.99|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-30 01:36:13 ERROR 404: Not Found.
+
+--2021-01-30 01:36:13--  https://www.mantisbt.org/css/font-awesome.css
+Connecting to www.mantisbt.org (www.mantisbt.org)|96.126.114.56|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 14599 (14K) [text/css]
+Saving to: ‘css/font-awesome.css’
+
+     0K .......... ....                                       100% 59.6K=0.2s
+
+2021-01-30 01:36:14 (59.6 KB/s) - ‘css/font-awesome.css’ saved [14599/14599]
+
+--2021-01-30 01:36:14--  https://www.mantisbt.org/css/flexslider.css
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3850 (3.8K) [text/css]
+Saving to: ‘css/flexslider.css’
+
+     0K ...                                                   100%  122M=0s
+
+2021-01-30 01:36:14 (122 MB/s) - ‘css/flexslider.css’ saved [3850/3850]
+
+--2021-01-30 01:36:14--  https://www.mantisbt.org/images/mantis_logo_262x90.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 41793 (41K) [image/png]
+Saving to: ‘images/mantis_logo_262x90.png’
+
+     0K .......... .......... .......... ..........           100%  132K=0.3s
+
+2021-01-30 01:36:15 (132 KB/s) - ‘images/mantis_logo_262x90.png’ saved [41793/41793]
+
+--2021-01-30 01:36:15--  https://www.mantisbt.org/img/release_icon.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 91302 (89K) [image/png]
+Saving to: ‘img/release_icon.png’
+
+     0K .......... .......... .......... .......... .......... 56%  145K 0s
+    50K .......... .......... .......... .........            100% 7.60M=0.3s
+
+2021-01-30 01:36:16 (255 KB/s) - ‘img/release_icon.png’ saved [91302/91302]
+
+--2021-01-30 01:36:16--  https://www.mantisbt.org/img/direction.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 464 [image/png]
+Saving to: ‘img/direction.png’
+
+     0K                                                       100% 45.9M=0s
+
+2021-01-30 01:36:16 (45.9 MB/s) - ‘img/direction.png’ saved [464/464]
+
+--2021-01-30 01:36:16--  https://www.mantisbt.org/img/equaliser.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 266 [image/png]
+Saving to: ‘img/equaliser.png’
+
+     0K                                                       100% 7.20M=0s
+
+2021-01-30 01:36:16 (7.20 MB/s) - ‘img/equaliser.png’ saved [266/266]
+
+--2021-01-30 01:36:16--  https://www.mantisbt.org/img/ruler.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 227 [image/png]
+Saving to: ‘img/ruler.png’
+
+     0K                                                       100% 6.91M=0s
+
+2021-01-30 01:36:16 (6.91 MB/s) - ‘img/ruler.png’ saved [227/227]
+
+--2021-01-30 01:36:16--  https://www.mantisbt.org/img/follow.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2219 (2.2K) [image/png]
+Saving to: ‘img/follow.png’
+
+     0K ..                                                    100%  135M=0s
+
+2021-01-30 01:36:17 (135 MB/s) - ‘img/follow.png’ saved [2219/2219]
+
+--2021-01-30 01:36:17--  https://www.mantisbt.org/images/mantis_footer_logo.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 13703 (13K) [image/png]
+Saving to: ‘images/mantis_footer_logo.png’
+
+     0K .......... ...                                        100%  730K=0.02s
+
+2021-01-30 01:36:17 (730 KB/s) - ‘images/mantis_footer_logo.png’ saved [13703/13703]
+
+--2021-01-30 01:36:17--  https://www.mantisbt.org/js/bootstrap.min.js
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 27913 (27K) [application/javascript]
+Saving to: ‘js/bootstrap.min.js’
+
+     0K .......... .......... .......                         100% 2.86M=0.009s
+
+2021-01-30 01:36:17 (2.86 MB/s) - ‘js/bootstrap.min.js’ saved [27913/27913]
+
+--2021-01-30 01:36:17--  https://www.mantisbt.org/js/custom.js
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5173 (5.1K) [application/javascript]
+Saving to: ‘js/custom.js’
+
+     0K .....                                                 100%  269M=0s
+
+2021-01-30 01:36:18 (269 MB/s) - ‘js/custom.js’ saved [5173/5173]
+
+--2021-01-30 01:36:18--  https://www.mantisbt.org/js/jquery.flexslider-min.js
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 16377 (16K) [application/javascript]
+Saving to: ‘js/jquery.flexslider-min.js’
+
+     0K .......... .....                                      100% 2.03M=0.008s
+
+2021-01-30 01:36:18 (2.03 MB/s) - ‘js/jquery.flexslider-min.js’ saved [16377/16377]
+
+--2021-01-30 01:36:18--  https://s7.addthis.com/js/300/addthis_widget.js
+Connecting to s7.addthis.com (s7.addthis.com)|23.204.82.208|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/javascript]
+Saving to: ‘js/300/addthis_widget.js’
+
+     0K .......... .......... .......... .......... ..........  584K
+    50K .......... .......... .......... .......... ..........  709K
+   100K .......... .......... .......... .......... .......... 1.52M
+   150K .......... .......... .......... .......... .......... 1.69M
+   200K .......... .......... .......... .......... .......... 3.37M
+   250K .......... .......... .......... .......... .......... 3.09M
+   300K .......... .......... .......... .......... .......... 3.08M
+   350K ..                                                     34.1M=0.3s
+
+2021-01-30 01:36:18 (1.31 MB/s) - ‘js/300/addthis_widget.js’ saved [361292]
+
+--2021-01-30 01:36:18--  https://www.mantisbt.org/fonts/glyphicons-halflings-regular.eot
+Connecting to www.mantisbt.org (www.mantisbt.org)|96.126.114.56|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-30 01:36:20 ERROR 404: Not Found.
+
+--2021-01-30 01:36:20--  https://www.mantisbt.org/fonts/glyphicons-halflings-regular.eot?
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-30 01:36:20 ERROR 404: Not Found.
+
+--2021-01-30 01:36:20--  https://www.mantisbt.org/fonts/glyphicons-halflings-regular.woff
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-30 01:36:20 ERROR 404: Not Found.
+
+--2021-01-30 01:36:20--  https://www.mantisbt.org/fonts/glyphicons-halflings-regular.ttf
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-30 01:36:20 ERROR 404: Not Found.
+
+--2021-01-30 01:36:20--  https://www.mantisbt.org/fonts/glyphicons-halflings-regular.svg
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-30 01:36:21 ERROR 404: Not Found.
+
+--2021-01-30 01:36:21--  https://www.mantisbt.org/img/299.GIF
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-30 01:36:21 ERROR 404: Not Found.
+
+--2021-01-30 01:36:21--  https://www.mantisbt.org/img/sticker_sidebar_yellow.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 52247 (51K) [image/png]
+Saving to: ‘img/sticker_sidebar_yellow.png’
+
+     0K .......... .......... .......... .......... .......... 97%  111K 0s
+    50K .                                                     100% 1950G=0.5s
+
+2021-01-30 01:36:22 (113 KB/s) - ‘img/sticker_sidebar_yellow.png’ saved [52247/52247]
+
+--2021-01-30 01:36:22--  https://www.mantisbt.org/img/sticker_sidebar_white.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 45943 (45K) [image/png]
+Saving to: ‘img/sticker_sidebar_white.png’
+
+     0K .......... .......... .......... .......... ....      100% 7.62M=0.006s
+
+2021-01-30 01:36:22 (7.62 MB/s) - ‘img/sticker_sidebar_white.png’ saved [45943/45943]
+
+--2021-01-30 01:36:22--  https://www.mantisbt.org/img/sticker_sidebar_red.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 52095 (51K) [image/png]
+Saving to: ‘img/sticker_sidebar_red.png’
+
+     0K .......... .......... .......... .......... .......... 98% 3.10M 0s
+    50K                                                       100% 1667G=0.02s
+
+2021-01-30 01:36:22 (3.15 MB/s) - ‘img/sticker_sidebar_red.png’ saved [52095/52095]
+
+--2021-01-30 01:36:22--  https://www.mantisbt.org/img/sticker_sidebar_green.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 63336 (62K) [image/png]
+Saving to: ‘img/sticker_sidebar_green.png’
+
+     0K .......... .......... .......... .......... .......... 80% 2.04M 0s
+    50K .......... .                                          100%  467M=0.02s
+
+2021-01-30 01:36:23 (2.53 MB/s) - ‘img/sticker_sidebar_green.png’ saved [63336/63336]
+
+--2021-01-30 01:36:23--  https://www.mantisbt.org/img/sticker_sidebar_blue.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 64456 (63K) [image/png]
+Saving to: ‘img/sticker_sidebar_blue.png’
+
+     0K .......... .......... .......... .......... .......... 79% 1.39M 0s
+    50K .......... ..                                         100%  368M=0.04s
+
+2021-01-30 01:36:23 (1.74 MB/s) - ‘img/sticker_sidebar_blue.png’ saved [64456/64456]
+
+--2021-01-30 01:36:23--  https://www.mantisbt.org/img/selectnav.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 17442 (17K) [image/png]
+Saving to: ‘img/selectnav.png’
+
+     0K .......... .......                                    100% 3.51M=0.005s
+
+2021-01-30 01:36:23 (3.51 MB/s) - ‘img/selectnav.png’ saved [17442/17442]
+
+--2021-01-30 01:36:23--  https://www.mantisbt.org/img/sticker_small_yellow.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 27157 (27K) [image/png]
+Saving to: ‘img/sticker_small_yellow.png’
+
+     0K .......... .......... ......                          100% 2.72M=0.01s
+
+2021-01-30 01:36:23 (2.72 MB/s) - ‘img/sticker_small_yellow.png’ saved [27157/27157]
+
+--2021-01-30 01:36:23--  https://www.mantisbt.org/img/sticker_small_white.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 22640 (22K) [image/png]
+Saving to: ‘img/sticker_small_white.png’
+
+     0K .......... .......... ..                              100% 67.7M=0s
+
+2021-01-30 01:36:24 (67.7 MB/s) - ‘img/sticker_small_white.png’ saved [22640/22640]
+
+--2021-01-30 01:36:24--  https://www.mantisbt.org/img/sticker_small_red.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 26074 (25K) [image/png]
+Saving to: ‘img/sticker_small_red.png’
+
+     0K .......... .......... .....                           100% 5.31M=0.005s
+
+2021-01-30 01:36:24 (5.31 MB/s) - ‘img/sticker_small_red.png’ saved [26074/26074]
+
+--2021-01-30 01:36:24--  https://www.mantisbt.org/img/sticker_small_green.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 32293 (32K) [image/png]
+Saving to: ‘img/sticker_small_green.png’
+
+     0K .......... .......... .......... .                    100% 3.22M=0.01s
+
+2021-01-30 01:36:24 (3.22 MB/s) - ‘img/sticker_small_green.png’ saved [32293/32293]
+
+--2021-01-30 01:36:24--  https://www.mantisbt.org/img/sticker_small_blue.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 32610 (32K) [image/png]
+Saving to: ‘img/sticker_small_blue.png’
+
+     0K .......... .......... .......... .                    100% 7.88M=0.004s
+
+2021-01-30 01:36:24 (7.88 MB/s) - ‘img/sticker_small_blue.png’ saved [32610/32610]
+
+--2021-01-30 01:36:24--  https://www.mantisbt.org/img/quotes.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1840 (1.8K) [image/png]
+Saving to: ‘img/quotes.png’
+
+     0K .                                                     100%  432K=0.004s
+
+2021-01-30 01:36:25 (432 KB/s) - ‘img/quotes.png’ saved [1840/1840]
+
+--2021-01-30 01:36:25--  https://www.mantisbt.org/img/testimonials_block_bg.gif
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1098 (1.1K) [image/gif]
+Saving to: ‘img/testimonials_block_bg.gif’
+
+     0K .                                                     100% 20.0M=0s
+
+2021-01-30 01:36:25 (20.0 MB/s) - ‘img/testimonials_block_bg.gif’ saved [1098/1098]
+
+--2021-01-30 01:36:25--  https://www.mantisbt.org/img/figures.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2953 (2.9K) [image/png]
+Saving to: ‘img/figures.png’
+
+     0K ..                                                    100% 77.3M=0s
+
+2021-01-30 01:36:25 (77.3 MB/s) - ‘img/figures.png’ saved [2953/2953]
+
+--2021-01-30 01:36:25--  https://www.mantisbt.org/img/socials_icons.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3193 (3.1K) [image/png]
+Saving to: ‘img/socials_icons.png’
+
+     0K ...                                                   100% 59.6M=0s
+
+2021-01-30 01:36:25 (59.6 MB/s) - ‘img/socials_icons.png’ saved [3193/3193]
+
+--2021-01-30 01:36:25--  https://www.mantisbt.org/img/menu_icons.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 945 [image/png]
+Saving to: ‘img/menu_icons.png’
+
+     0K                                                       100% 32.9M=0s
+
+2021-01-30 01:36:26 (32.9 MB/s) - ‘img/menu_icons.png’ saved [945/945]
+
+--2021-01-30 01:36:26--  https://www.mantisbt.org/img/slide_info_bg.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-30 01:36:26 ERROR 404: Not Found.
+
+--2021-01-30 01:36:26--  https://www.mantisbt.org/img/bottom_block_bg.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 922 [image/png]
+Saving to: ‘img/bottom_block_bg.png’
+
+     0K                                                       100% 26.1M=0s
+
+2021-01-30 01:36:26 (26.1 MB/s) - ‘img/bottom_block_bg.png’ saved [922/922]
+
+--2021-01-30 01:36:26--  https://www.mantisbt.org/img/quote.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2386 (2.3K) [image/png]
+Saving to: ‘img/quote.png’
+
+     0K ..                                                    100% 57.5M=0s
+
+2021-01-30 01:36:27 (57.5 MB/s) - ‘img/quote.png’ saved [2386/2386]
+
+--2021-01-30 01:36:27--  https://www.mantisbt.org/img/breadcrumb_icon.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-30 01:36:27 ERROR 404: Not Found.
+
+--2021-01-30 01:36:27--  https://www.mantisbt.org/img/left_nav_bullets.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 949 [image/png]
+Saving to: ‘img/left_nav_bullets.png’
+
+     0K                                                       100% 20.6M=0s
+
+2021-01-30 01:36:27 (20.6 MB/s) - ‘img/left_nav_bullets.png’ saved [949/949]
+
+--2021-01-30 01:36:27--  https://www.mantisbt.org/img/baloon.gif
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-30 01:36:27 ERROR 404: Not Found.
+
+--2021-01-30 01:36:27--  https://www.mantisbt.org/img/warning-icons.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3506 (3.4K) [image/png]
+Saving to: ‘img/warning-icons.png’
+
+     0K ...                                                   100%  192M=0s
+
+2021-01-30 01:36:28 (192 MB/s) - ‘img/warning-icons.png’ saved [3506/3506]
+
+--2021-01-30 01:36:28--  https://www.mantisbt.org/img/note_stick_bg.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 56808 (55K) [image/png]
+Saving to: ‘img/note_stick_bg.png’
+
+     0K .......... .......... .......... .......... .......... 90% 2.04M 0s
+    50K .....                                                 100% 10446G=0.02s
+
+2021-01-30 01:36:28 (2.26 MB/s) - ‘img/note_stick_bg.png’ saved [56808/56808]
+
+--2021-01-30 01:36:28--  https://www.mantisbt.org/img/alert_stick_bg.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 66511 (65K) [image/png]
+Saving to: ‘img/alert_stick_bg.png’
+
+     0K .......... .......... .......... .......... .......... 76% 2.45M 0s
+    50K .......... ....                                       100%  107M=0.02s
+
+2021-01-30 01:36:28 (3.16 MB/s) - ‘img/alert_stick_bg.png’ saved [66511/66511]
+
+--2021-01-30 01:36:28--  https://www.mantisbt.org/img/success_stick_bg.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 79645 (78K) [image/png]
+Saving to: ‘img/success_stick_bg.png’
+
+     0K .......... .......... .......... .......... .......... 64% 2.99M 0s
+    50K .......... .......... .......                         100% 4.89M=0.02s
+
+2021-01-30 01:36:28 (3.47 MB/s) - ‘img/success_stick_bg.png’ saved [79645/79645]
+
+--2021-01-30 01:36:28--  https://www.mantisbt.org/img/info_stick_bg.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 80843 (79K) [image/png]
+Saving to: ‘img/info_stick_bg.png’
+
+     0K .......... .......... .......... .......... .......... 63% 3.45M 0s
+    50K .......... .......... ........                        100% 81.9M=0.01s
+
+2021-01-30 01:36:29 (5.32 MB/s) - ‘img/info_stick_bg.png’ saved [80843/80843]
+
+--2021-01-30 01:36:29--  https://www.mantisbt.org/img/attention_stick_bg.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 64939 (63K) [image/png]
+Saving to: ‘img/attention_stick_bg.png’
+
+     0K .......... .......... .......... .......... .......... 78% 2.54M 0s
+    50K .......... ...                                        100%  178M=0.02s
+
+2021-01-30 01:36:29 (3.21 MB/s) - ‘img/attention_stick_bg.png’ saved [64939/64939]
+
+--2021-01-30 01:36:29--  https://www.mantisbt.org/img/collapse_btn.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1727 (1.7K) [image/png]
+Saving to: ‘img/collapse_btn.png’
+
+     0K .                                                     100% 50.3M=0s
+
+2021-01-30 01:36:29 (50.3 MB/s) - ‘img/collapse_btn.png’ saved [1727/1727]
+
+--2021-01-30 01:36:29--  https://www.mantisbt.org/img/slide4_info_bg.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-30 01:36:29 ERROR 404: Not Found.
+
+--2021-01-30 01:36:29--  https://www.mantisbt.org/img/arrow_left.gif
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-30 01:36:30 ERROR 404: Not Found.
+
+--2021-01-30 01:36:30--  https://www.mantisbt.org/img/tw_arrow_up.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 979 [image/png]
+Saving to: ‘img/tw_arrow_up.png’
+
+     0K                                                       100% 33.7M=0s
+
+2021-01-30 01:36:30 (33.7 MB/s) - ‘img/tw_arrow_up.png’ saved [979/979]
+
+--2021-01-30 01:36:30--  https://www.mantisbt.org/img/tw_arrow_down.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 985 [image/png]
+Saving to: ‘img/tw_arrow_down.png’
+
+     0K                                                       100% 90.6M=0s
+
+2021-01-30 01:36:30 (90.6 MB/s) - ‘img/tw_arrow_down.png’ saved [985/985]
+
+--2021-01-30 01:36:30--  https://www.mantisbt.org/img/date_img_mask.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2510 (2.5K) [image/png]
+Saving to: ‘img/date_img_mask.png’
+
+     0K ..                                                    100%  415K=0.006s
+
+2021-01-30 01:36:30 (415 KB/s) - ‘img/date_img_mask.png’ saved [2510/2510]
+
+--2021-01-30 01:36:30--  https://www.mantisbt.org/img/line_title_bg.gif
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1093 (1.1K) [image/gif]
+Saving to: ‘img/line_title_bg.gif’
+
+     0K .                                                     100% 31.8M=0s
+
+2021-01-30 01:36:31 (31.8 MB/s) - ‘img/line_title_bg.gif’ saved [1093/1093]
+
+--2021-01-30 01:36:31--  https://www.mantisbt.org/img/socials.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3767 (3.7K) [image/png]
+Saving to: ‘img/socials.png’
+
+     0K ...                                                   100%  654K=0.006s
+
+2021-01-30 01:36:31 (654 KB/s) - ‘img/socials.png’ saved [3767/3767]
+
+--2021-01-30 01:36:31--  https://www.mantisbt.org/img/portfolio_toggles.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-30 01:36:31 ERROR 404: Not Found.
+
+--2021-01-30 01:36:31--  https://www.mantisbt.org/img/logo.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-30 01:36:32 ERROR 404: Not Found.
+
+--2021-01-30 01:36:32--  https://www.mantisbt.org/img/dark_tissue.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-30 01:36:32 ERROR 404: Not Found.
+
+--2021-01-30 01:36:32--  https://fonts.gstatic.com/s/opensans/v18/mem6YaGs126MiZpBA-UFUK0Zdcg.ttf
+Connecting to fonts.gstatic.com (fonts.gstatic.com)|216.58.212.99|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 25664 (25K) [font/ttf]
+Saving to: ‘s/opensans/v18/mem6YaGs126MiZpBA-UFUK0Zdcg.ttf’
+
+     0K .......... .......... .....                           100%  123K=0.2s
+
+2021-01-30 01:36:33 (123 KB/s) - ‘s/opensans/v18/mem6YaGs126MiZpBA-UFUK0Zdcg.ttf’ saved [25664/25664]
+
+--2021-01-30 01:36:33--  https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKXGUdhrIqY.ttf
+Reusing existing connection to fonts.gstatic.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 25668 (25K) [font/ttf]
+Saving to: ‘s/opensans/v18/memnYaGs126MiZpBA-UFUKXGUdhrIqY.ttf’
+
+     0K .......... .......... .....                           100%  521K=0.05s
+
+2021-01-30 01:36:33 (521 KB/s) - ‘s/opensans/v18/memnYaGs126MiZpBA-UFUKXGUdhrIqY.ttf’ saved [25668/25668]
+
+--2021-01-30 01:36:33--  https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKWiUNhrIqY.ttf
+Reusing existing connection to fonts.gstatic.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 25940 (25K) [font/ttf]
+Saving to: ‘s/opensans/v18/memnYaGs126MiZpBA-UFUKWiUNhrIqY.ttf’
+
+     0K .......... .......... .....                           100%  423K=0.06s
+
+2021-01-30 01:36:33 (423 KB/s) - ‘s/opensans/v18/memnYaGs126MiZpBA-UFUKWiUNhrIqY.ttf’ saved [25940/25940]
+
+--2021-01-30 01:36:33--  https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0e.ttf
+Reusing existing connection to fonts.gstatic.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 27088 (26K) [font/ttf]
+Saving to: ‘s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0e.ttf’
+
+     0K .......... .......... ......                          100%  560K=0.05s
+
+2021-01-30 01:36:33 (560 KB/s) - ‘s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0e.ttf’ saved [27088/27088]
+
+--2021-01-30 01:36:33--  https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UNirkOUuhs.ttf
+Reusing existing connection to fonts.gstatic.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 28100 (27K) [font/ttf]
+Saving to: ‘s/opensans/v18/mem5YaGs126MiZpBA-UNirkOUuhs.ttf’
+
+     0K .......... .......... .......                         100%  700K=0.04s
+
+2021-01-30 01:36:33 (700 KB/s) - ‘s/opensans/v18/mem5YaGs126MiZpBA-UNirkOUuhs.ttf’ saved [28100/28100]
+
+--2021-01-30 01:36:33--  https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN7rgOUuhs.ttf
+Reusing existing connection to fonts.gstatic.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 28848 (28K) [font/ttf]
+Saving to: ‘s/opensans/v18/mem5YaGs126MiZpBA-UN7rgOUuhs.ttf’
+
+     0K .......... .......... ........                        100%  536K=0.05s
+
+2021-01-30 01:36:33 (536 KB/s) - ‘s/opensans/v18/mem5YaGs126MiZpBA-UN7rgOUuhs.ttf’ saved [28848/28848]
+
+--2021-01-30 01:36:33--  https://www.mantisbt.org/font/fontawesome-webfont.eot
+Connecting to www.mantisbt.org (www.mantisbt.org)|96.126.114.56|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 38708 (38K) [application/vnd.ms-fontobject]
+Saving to: ‘font/fontawesome-webfont.eot’
+
+     0K .......... .......... .......... .......              100%  157K=0.2s
+
+2021-01-30 01:36:35 (157 KB/s) - ‘font/fontawesome-webfont.eot’ saved [38708/38708]
+
+--2021-01-30 01:36:35--  https://www.mantisbt.org/font/fontawesome-webfont.eot?
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 38708 (38K) [application/vnd.ms-fontobject]
+Saving to: ‘font/fontawesome-webfont.eot@’
+
+     0K .......... .......... .......... .......              100%  499K=0.08s
+
+2021-01-30 01:36:35 (499 KB/s) - ‘font/fontawesome-webfont.eot@’ saved [38708/38708]
+
+--2021-01-30 01:36:35--  https://www.mantisbt.org/font/fontawesome-webfont.woff
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 41752 (41K) [application/font-woff]
+Saving to: ‘font/fontawesome-webfont.woff’
+
+     0K .......... .......... .......... ..........           100% 8.49M=0.005s
+
+2021-01-30 01:36:35 (8.49 MB/s) - ‘font/fontawesome-webfont.woff’ saved [41752/41752]
+
+--2021-01-30 01:36:35--  https://www.mantisbt.org/font/fontawesome-webfont.ttf
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 68476 (67K) [application/font-sfnt]
+Saving to: ‘font/fontawesome-webfont.ttf’
+
+     0K .......... .......... .......... .......... .......... 74% 2.71M 0s
+    50K .......... ......                                     100%  182M=0.02s
+
+2021-01-30 01:36:36 (3.60 MB/s) - ‘font/fontawesome-webfont.ttf’ saved [68476/68476]
+
+--2021-01-30 01:36:36--  https://www.mantisbt.org/font/fontawesome-webfont.svg
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 130151 (127K) [image/svg+xml]
+Saving to: ‘font/fontawesome-webfont.svg’
+
+     0K .......... .......... .......... .......... .......... 39%  927K 0s
+    50K .......... .......... .......... .......... .......... 78% 3.89M 0s
+   100K .......... .......... .......                         100%  120M=0.07s
+
+2021-01-30 01:36:36 (1.86 MB/s) - ‘font/fontawesome-webfont.svg’ saved [130151/130151]
+
+--2021-01-30 01:36:36--  https://www.mantisbt.org/img/slider_arrows.png
+Reusing existing connection to www.mantisbt.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3014 (2.9K) [image/png]
+Saving to: ‘img/slider_arrows.png’
+
+     0K ..                                                    100%  199K=0.01s
+
+2021-01-30 01:36:36 (199 KB/s) - ‘img/slider_arrows.png’ saved [3014/3014]
+
+FINISHED --2021-01-30 01:36:36--
+Total wall clock time: 32s
+Downloaded: 68 files, 2.1M in 4.0s (525 KB/s)
+Converting links in index.html... 20-21
+Converting links in css@family=Open+Sans%3A400,400italic,600,600italic,700,700italic.css... 6-0
+Converting links in css/font-awesome.css... 5-0
+Converting links in css/flexslider.css... 1-1
+Converting links in css/bootstrap.min.css... 0-5
+Converting links in css/mantisbt.css... nothing to do.
+Converting links in css/custom.css... 66-6
+Converting links in css/color_scheme.css... 0-3
+Converted links in 8 files in 0.004 seconds.

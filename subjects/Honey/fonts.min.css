@@ -1,0 +1,23 @@
+@charset  "utf-8";
+
+@font-face {
+    font-family: AvenirNextLT;
+    src: url(https://storage.googleapis.com/honey-quest/assets/fonts/AvenirNextLTPro-DemiIt.otf) format("truetype"),url(https://storage.googleapis.com/honey-quest/assets/fonts/AvenirNextLTPro-DemiIt.woff) format("woff");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: AvenirNextLT;
+    src: url(https://storage.googleapis.com/honey-quest/assets/fonts/AvenirNextLTPro-It.otf) format("truetype"),url(https://storage.googleapis.com/honey-quest/assets/fonts/AvenirNextLTPro-It.woff) format("woff");
+}
+
+@font-face {
+    font-family: AvenirNextLT;
+    src: url(https://storage.googleapis.com/honey-quest/assets/fonts/AvenirNextLTPro-Demi.otf) format("truetype"),url(https://storage.googleapis.com/honey-quest/assets/fonts/AvenirNextLTPro-Demi.woff) format("woff");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: AvenirNextLT;
+    src: url(https://storage.googleapis.com/honey-quest/assets/fonts/AvenirNextLTPro-Regular.otf) format("truetype"),url(https://storage.googleapis.com/honey-quest/assets/fonts/AvenirNextLTPro-Regular.woff) format("woff");
+}

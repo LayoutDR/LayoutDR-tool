@@ -1,0 +1,570 @@
+
+body {
+  padding-top: 61px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+header {
+  padding-top: 30px;
+  /* background-color: #0a4586; */
+  background-color: #334149;
+}
+
+header#homepage {
+ color: #ffffff; 
+}
+
+header#homepage .muted {
+    /*color: #7EB9EA;  */
+    color: #acb6bc;
+}
+
+header#homepage h1 {
+  border: none;
+  margin: 0;
+  font-size: 56px;
+  line-height: 68px;
+  font-weight: normal;
+}
+
+div.nav-collapse {
+	position:relative; z-index:1;
+}
+
+#carouselimg {
+	/* override bootstrap-2.2.2's liqid carousel
+	 * images won't be scaled up, but 'next' button
+	 * would move to the right */
+	width:640px !important;
+}
+
+#carouseltext {
+	/* fix text alignment next to carousel */
+	width:280px !important;
+}
+
+.nav-collapse {
+    background-color: #222;
+}
+
+.navbar-inverse {
+    box-shadow: 0px 0px 40px 0px #acb6bc;
+}
+
+.navbar-inverse .nav > li > a:hover {
+    background-color: #222;
+}
+
+.navbar-inner {
+    height: 61px; 
+}
+
+.navbar .nav > li > a {
+    background-color: #212a30;
+    color: #acb6bc;
+    padding: 20px 15px; 
+}
+
+.navbar li.main a {
+    color: #acb6bc;
+    font-size: 20px;
+}
+
+.navbar > .navbar-inner > .container  a.brand {
+    margin-left: 15px;
+}
+
+/* override BT's -moz linear-gradient */
+.navbar-inverse, .navbar-inner {
+    background: #212a30 !important;
+}
+
+section#users,
+section#features,
+section#activities,
+section#open-source {
+  padding: 30px 0; 
+  /* border-bottom: 10px solid #ddd; */
+}
+
+section#users p,
+section#features p,
+section#activities p,
+section#open-source .description p {
+    font-size: 24px; 
+    line-height: 36px;
+}
+
+i {
+  font-size: 200px;
+}
+
+section#features .row {
+  border-bottom: 15px;
+  padding-top: 25px;
+}
+
+section#features .row:last-child {
+  border-bottom: none;
+}
+
+section#activities .record,
+section#activities .edit,
+section#activities .mix {
+ text-align: left;
+ padding-top: 20px; 
+ background-position: center top;
+ background-repeat: no-repeat;
+}
+
+section#activities .session-done {
+ padding-top: 10px;
+ text-align: center;
+}
+
+section#activities h2 {
+  padding-bottom: 20px;
+}
+
+section#activities .exclamation,
+section#activities .call-to-action {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+section .activity-icon {
+    padding: 0 20px 0 10px;
+    margin-top:-7px;
+}
+
+section#users .musician-icon,
+section#users .engineer-icon,
+section#users .film-icon,
+section#users .composer-icon {
+    /*box-shadow: 0px 0px 20px 4px #888; */
+}
+
+section#users .engineer-icon {
+    margin-top: 60px;
+}
+
+#scroll-menu {
+ top: 61px; 
+ background-color: #fff;
+ padding: 20px 0 0 0;
+ width: 100%;
+ z-index: 999;
+}
+
+#scroll-menu.affix {
+ background-color: #f0f0f0; 
+}
+
+#scroll-menu-separator {
+  margin-top:120px;
+}
+
+section.with-line {
+  padding-top: 20px;
+  border-top: 1px solid #bbbbbb;
+  margin-top: 40px;
+}
+
+section h2.section-header {
+  background-color: #fff;
+  position: relative;
+  display: inline;
+  top: -42px;
+  left: -20px;
+  padding: 0 20px;
+}
+
+.nav-tabs {
+ margin-top: 10px; 
+}
+.nav-tabs > li > a {
+  font-size: 22px; 
+  padding: 15px 20px;
+
+}
+#content,
+#content p {
+ font-size: 18px;
+}
+
+#content,
+#content p,
+#content dt,
+#content dd,
+#content th,
+#content td {
+ line-height: 28px; 
+}
+
+#content dd {
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+  font-family: Oswald;
+  font-weight: normal;
+}
+
+#content h1 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+}
+
+#content h2 {
+
+}
+
+#content h3 {
+  margin-top: 20px;
+}
+
+#content h4 {
+ margin-top: 20px; 
+ margin-bottom: 15px;
+}
+
+#content li {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  line-height: normal;
+}
+
+#content .nav-tabs > li {
+  margin-bottom: -1px;
+}
+
+#content .scroll-menu-fixed {
+ top: 61px; 
+ background-color: #eee;
+ padding: 20px 0 0 0;
+ width: 100%;
+ z-index: 999;
+ position: fixed;
+}
+
+#content .scroll-menu-fixed li {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#content table tr:first-child > th,
+#content table tr:first-child > td {
+  border-top: none;
+}
+
+#content table {
+ margin-top: 15px; 
+}
+
+footer {
+  margin: 0;
+  padding: 60px 0 40px 0;
+  background-color: #000; 
+  color: #acb6bc;
+  line-height: 22px;
+}
+
+
+footer a {
+  color: #acb6bc;
+  font-size: 14px;
+}
+
+footer a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer li {
+  margin: 5px 0; 
+}
+
+code {
+    color: inherit;
+    font-size: inherit;
+    font-weight: bold;
+}
+
+footer code {
+  background-color: #333333; 
+  border-color: #333333;
+  color: #aaa;
+}
+
+footer a:hover code {
+  color: inherit;
+}
+
+.recording .row img {
+  border: 4px solid #888;
+  border:0px;
+}
+
+#recording img {
+  margin: 20px;
+}
+
+#recording-punch img {
+  margin: 50px 0 25px 20px;
+}
+
+#recording-destructive img {
+  margin: 45px 0px 0px 5px;
+}
+
+.mixing .row img {
+  margin: 20px;
+  border: 4px solid #888;
+  /*box-shadow: 0px 0px 20px 4px #888;*/
+}
+
+
+section.mixing {
+  padding-top: 20px;
+}
+
+section#mixing-routing {
+ margin-top: 40px; 
+}
+
+
+#mixing-routing img {  
+  margin-top: -15px;
+}
+
+#mixing-monitor {
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+#mixing-monitor img {
+ margin-top: -10px; 
+}
+
+#mixing-solo img {
+  margin-top: 20px;
+}
+
+#mixing-plugin-control .row {
+  margin-top: 0px;
+  margin-bottom: 0; 
+}
+
+#mixing-plugin-control img {
+  margin-top: -70px;
+  margin-left: 80px;
+}
+
+#mixing-panning {
+ margin-top: 0px; 
+}
+
+#mixing-panning img {
+}
+
+#mixing-automation .row {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#mixing-automation img {
+    margin-top: -10px;
+    margin-left: 40px;
+}
+
+#mixing-mix-groups .row {
+    margin-top: 0px;
+    margin-bottom: 65px;
+}
+
+#mixing-mix-groups img {
+    margin-top: -30px;
+}
+
+section.darkshaded {
+    background-color: #334149;
+    color: #acb6bc;
+}
+
+section.shaded, section.unshaded {
+    background-color: #CED6DC;
+}
+
+section.unshaded {
+    color: #334149;
+}
+
+.modal.large {
+  width: 960px;
+  margin-left: -480px;
+}
+
+#mixing img {
+   width:100%;
+}
+
+#mixing .crop {
+ display: block;
+  overflow: hidden;
+    height: 469px;
+  margin-bottom: -10px;
+}
+
+#mixing .tab-content {
+   box-shadow: 0px 0px 20px 4px #888;
+}
+
+#download-options table td {
+  padding-top: 22px;
+}
+
+#download-options tr.cost td {
+  padding-top: 8px;
+}
+
+#download-options tr.actions td {
+ padding-top: 20px; 
+}
+
+#download-options tr.actions td.primary-action {
+ padding-top: 15px; 
+  padding-bottom: 15px;
+}
+
+#download-options th .description {
+ font-weight: normal;
+  font-size: 12px;
+  color: #666;
+}
+
+#download-options a.btn-success {
+  padding-bottom: 10px;
+}
+
+dl.faq dt {
+  margin-top: 10px;
+  margin-bottom : 10px;
+}
+
+dl.faq.active dt {
+  color: #08c;
+  cursor: pointer;
+
+}
+
+dl.faq.active dd {
+ padding-left: 15px; 
+}
+
+dl.faq.active dt:before {
+   content: "";
+   float: left;
+   width: 14px;
+   height: 20px;
+   margin: 0 10px 0 0;
+  background-image: url("../bootstrap-2.2.2/img/glyphicons-halflings.png");
+  background-position: -456px -65px;
+
+}
+
+dl.faq.active dt.active:before {   
+  background-position: -313px -112px;
+}
+
+.btn {
+    font-family: "Oswald";
+}
+
+.btn-large {
+  font-size: 17px;
+}
+
+table.table.table-xoxo th,
+table.table.table-xoxo td {
+  border-left: 1px solid #dddddd;
+  border-top: 1px solid #dddddd;
+  text-align: center;
+}
+
+table.table.table-xoxo tbody tr:first-child th,
+table.table.table-xoxo tbody tr:first-child td {
+ border-top: none; 
+}
+
+table.table.table-xoxo tr th:first-child,
+table.table.table-xoxo tr td:first-child{
+ border-left: none; 
+}
+
+table.table.table-with-headers-on-left th {
+  text-align: right;
+  vertical-align: middle;
+}
+
+table.table.table-with-headers-on-left th .top-feature {
+  text-align: center;
+}
+
+table.table.table-with-headers-on-left th .top-feature-description {
+  text-align: center;
+}
+
+.navbar-inverse .nav .active > a,
+.navbar-inverse .nav .active > a:hover {
+  background: #eee;
+  color: #222;
+  padding-bottom: 22px;
+}
+
+.tooltip * {
+    background-color: #ced6dc;
+    color: #212a30;
+    font-size: 18px;
+    border: 1px dotted #aaa;
+}
+
+/* override some bootstrap.css to match non BT font */
+
+a.carousel-control {
+    top: 50%;
+    margin-top: -25px;
+    line-height: 26px;
+}
+
+.alert-info {
+    color:#03324c;
+}
+/* stuff dropped from word press */
+
+.wp-caption .aligncenter {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+right-float {
+    float: right;
+}
+
+li img {
+    margin-top: 20px;
+}
+
+[class^="span"].no-span-indent {
+    margin-left: 0px;
+    margin-right: 0px;
+}

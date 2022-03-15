@@ -1,0 +1,341 @@
+--2021-01-29 22:01:45--  http://xn--user-agent=mozilla-kl9ja/5.0%20(X11;%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/86.0.4240.198%20Safari/537.36
+Resolving xn--user-agent=mozilla-kl9ja (xn--user-agent=mozilla-kl9ja)... failed: Name or service not known.
+wget: unable to resolve host address ‘xn--user-agent=mozilla-kl9ja’
+--2021-01-29 22:01:45--  http://xn--execute-406ca/
+Resolving xn--execute-406ca (xn--execute-406ca)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘xn--execute-406ca’
+--2021-01-29 22:01:45--  http://robots=off/
+Resolving robots=off (robots=off)... failed: Name or service not known.
+wget: unable to resolve host address ‘robots=off’
+‐‐refer=http://google.com: Scheme missing.
+--2021-01-29 22:01:45--  http://xn--random-wait-kf3fa/
+Resolving xn--random-wait-kf3fa (xn--random-wait-kf3fa)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘xn--random-wait-kf3fa’
+--2021-01-29 22:01:45--  https://www.django-rest-framework.org/
+Resolving www.django-rest-framework.org (www.django-rest-framework.org)... 185.199.110.153, 185.199.108.153, 185.199.111.153, ...
+Connecting to www.django-rest-framework.org (www.django-rest-framework.org)|185.199.110.153|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 31265 (31K) [text/html]
+Saving to: ‘index.html’
+
+     0K .......... .......... ..........                      100%  738K=0.04s
+
+2021-01-29 22:01:47 (738 KB/s) - ‘index.html’ saved [31265/31265]
+
+Loading robots.txt; please ignore errors.
+--2021-01-29 22:01:47--  https://www.django-rest-framework.org/robots.txt
+Reusing existing connection to www.django-rest-framework.org:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-29 22:01:47 ERROR 404: Not Found.
+
+Loading robots.txt; please ignore errors.
+--2021-01-29 22:01:47--  https://ghbtns.com/robots.txt
+Resolving ghbtns.com (ghbtns.com)... 172.67.166.11, 104.21.16.28, 2606:4700:3032::6815:101c, ...
+Connecting to ghbtns.com (ghbtns.com)|172.67.166.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/plain]
+Saving to: ‘robots.txt’
+
+     0K                                                        10.1M=0s
+
+2021-01-29 22:01:48 (10.1 MB/s) - ‘robots.txt’ saved [123]
+
+Loading robots.txt; please ignore errors.
+--2021-01-29 22:01:48--  https://secure.travis-ci.org/robots.txt
+Resolving secure.travis-ci.org (secure.travis-ci.org)... 34.74.152.26
+Connecting to secure.travis-ci.org (secure.travis-ci.org)|34.74.152.26|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://travis-ci.org/robots.txt [following]
+--2021-01-29 22:01:49--  https://travis-ci.org/robots.txt
+Resolving travis-ci.org (travis-ci.org)... 34.74.152.26
+Connecting to travis-ci.org (travis-ci.org)|34.74.152.26|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 51 [text/plain]
+Saving to: ‘robots.txt’
+
+     0K                                                       100% 3.73M=0s
+
+2021-01-29 22:01:50 (3.73 MB/s) - ‘robots.txt’ saved [51/51]
+
+Loading robots.txt; please ignore errors.
+--2021-01-29 22:01:50--  https://img.shields.io/robots.txt
+Resolving img.shields.io (img.shields.io)... 172.67.129.60, 104.21.2.130, 2606:4700:3037::6815:282, ...
+Connecting to img.shields.io (img.shields.io)|172.67.129.60|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-29 22:01:52 ERROR 404: Not Found.
+
+Loading robots.txt; please ignore errors.
+--2021-01-29 22:01:52--  https://fund-rest-framework.s3.amazonaws.com/robots.txt
+Resolving fund-rest-framework.s3.amazonaws.com (fund-rest-framework.s3.amazonaws.com)... 52.218.41.74
+Connecting to fund-rest-framework.s3.amazonaws.com (fund-rest-framework.s3.amazonaws.com)|52.218.41.74|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2021-01-29 22:01:53 ERROR 403: Forbidden.
+
+Loading robots.txt; please ignore errors.
+--2021-01-29 22:01:53--  https://fund.django-rest-framework.org/robots.txt
+Resolving fund.django-rest-framework.org (fund.django-rest-framework.org)... 176.34.101.201, 176.34.189.180, 176.34.125.219
+Connecting to fund.django-rest-framework.org (fund.django-rest-framework.org)|176.34.101.201|:443... connected.
+HTTP request sent, awaiting response... 302 FOUND
+Location: http://django-rest-framework.org/robots.txt [following]
+--2021-01-29 22:01:54--  http://django-rest-framework.org/robots.txt
+Resolving django-rest-framework.org (django-rest-framework.org)... 192.30.252.153, 192.30.252.154
+Connecting to django-rest-framework.org (django-rest-framework.org)|192.30.252.153|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.django-rest-framework.org/robots.txt [following]
+--2021-01-29 22:01:55--  https://www.django-rest-framework.org/robots.txt
+Connecting to www.django-rest-framework.org (www.django-rest-framework.org)|185.199.110.153|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-29 22:01:56 ERROR 404: Not Found.
+
+--2021-01-29 22:01:56--  https://www.django-rest-framework.org/css/prettify.css
+Connecting to www.django-rest-framework.org (www.django-rest-framework.org)|185.199.110.153|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 817 [text/css]
+Saving to: ‘css/prettify.css’
+
+     0K                                                       100% 29.7M=0s
+
+2021-01-29 22:01:57 (29.7 MB/s) - ‘css/prettify.css’ saved [817/817]
+
+--2021-01-29 22:01:57--  https://www.django-rest-framework.org/css/bootstrap.css
+Reusing existing connection to www.django-rest-framework.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 118128 (115K) [text/css]
+Saving to: ‘css/bootstrap.css’
+
+     0K .......... .......... .......... .......... .......... 43%  350K 0s
+    50K .......... .......... .......... .......... .......... 86%  334K 0s
+   100K .......... .....                                      100% 6.27M=0.3s
+
+2021-01-29 22:01:57 (391 KB/s) - ‘css/bootstrap.css’ saved [118128/118128]
+
+--2021-01-29 22:01:57--  https://www.django-rest-framework.org/css/bootstrap-responsive.css
+Reusing existing connection to www.django-rest-framework.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 20999 (21K) [text/css]
+Saving to: ‘css/bootstrap-responsive.css’
+
+     0K .......... ..........                                 100% 6.47M=0.003s
+
+2021-01-29 22:01:57 (6.47 MB/s) - ‘css/bootstrap-responsive.css’ saved [20999/20999]
+
+--2021-01-29 22:01:57--  https://www.django-rest-framework.org/css/default.css
+Reusing existing connection to www.django-rest-framework.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 7803 (7.6K) [text/css]
+Saving to: ‘css/default.css’
+
+     0K .......                                               100% 1.01M=0.007s
+
+2021-01-29 22:01:58 (1.01 MB/s) - ‘css/default.css’ saved [7803/7803]
+
+--2021-01-29 22:01:58--  https://ghbtns.com/github-btn.html?user=encode&repo=django-rest-framework&type=watch&count=true
+Connecting to ghbtns.com (ghbtns.com)|172.67.166.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github-btn.html@user=encode&repo=django-rest-framework&type=watch&count=true.html’
+
+     0K .....                                                  35.1M=0s
+
+2021-01-29 22:01:58 (35.1 MB/s) - ‘github-btn.html@user=encode&repo=django-rest-framework&type=watch&count=true.html’ saved [5406]
+
+--2021-01-29 22:01:58--  https://secure.travis-ci.org/encode/django-rest-framework.svg?branch=master
+Connecting to secure.travis-ci.org (secure.travis-ci.org)|34.74.152.26|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://travis-ci.org/encode/django-rest-framework.svg?branch=master [following]
+--2021-01-29 22:01:59--  https://travis-ci.org/encode/django-rest-framework.svg?branch=master
+Connecting to travis-ci.org (travis-ci.org)|34.74.152.26|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://api.travis-ci.org/encode/django-rest-framework.svg?branch=master [following]
+--2021-01-29 22:02:00--  https://api.travis-ci.org/encode/django-rest-framework.svg?branch=master
+Resolving api.travis-ci.org (api.travis-ci.org)... 35.237.114.195
+Connecting to api.travis-ci.org (api.travis-ci.org)|35.237.114.195|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 726 [image/svg+xml]
+Saving to: ‘encode/django-rest-framework.svg@branch=master’
+
+     0K                                                       100% 74.5M=0s
+
+2021-01-29 22:02:02 (74.5 MB/s) - ‘encode/django-rest-framework.svg@branch=master’ saved [726/726]
+
+--2021-01-29 22:02:02--  https://img.shields.io/pypi/v/djangorestframework.svg
+Connecting to img.shields.io (img.shields.io)|172.67.129.60|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [image/svg+xml]
+Saving to: ‘pypi/v/djangorestframework.svg’
+
+     0K .                                                      22.8M=0s
+
+2021-01-29 22:02:03 (22.8 MB/s) - ‘pypi/v/djangorestframework.svg’ saved [1134]
+
+--2021-01-29 22:02:03--  https://www.django-rest-framework.org/img/logo.png
+Connecting to www.django-rest-framework.org (www.django-rest-framework.org)|185.199.110.153|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 41532 (41K) [image/png]
+Saving to: ‘img/logo.png’
+
+     0K .......... .......... .......... ..........           100%  290K=0.1s
+
+2021-01-29 22:02:04 (290 KB/s) - ‘img/logo.png’ saved [41532/41532]
+
+--2021-01-29 22:02:04--  https://fund-rest-framework.s3.amazonaws.com/sentry130.png
+Connecting to fund-rest-framework.s3.amazonaws.com (fund-rest-framework.s3.amazonaws.com)|52.218.41.74|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 9877 (9.6K) [image/png]
+Saving to: ‘sentry130.png’
+
+     0K .........                                             100% 1.28M=0.007s
+
+2021-01-29 22:02:05 (1.28 MB/s) - ‘sentry130.png’ saved [9877/9877]
+
+--2021-01-29 22:02:05--  https://fund-rest-framework.s3.amazonaws.com/stream-130.png
+Reusing existing connection to fund-rest-framework.s3.amazonaws.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5273 (5.1K) [image/png]
+Saving to: ‘stream-130.png’
+
+     0K .....                                                 100%  818K=0.006s
+
+2021-01-29 22:02:05 (818 KB/s) - ‘stream-130.png’ saved [5273/5273]
+
+--2021-01-29 22:02:05--  https://fund-rest-framework.s3.amazonaws.com/esg-new-logo.png
+Reusing existing connection to fund-rest-framework.s3.amazonaws.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2119 (2.1K) [image/png]
+Saving to: ‘esg-new-logo.png’
+
+     0K ..                                                    100%  339K=0.006s
+
+2021-01-29 22:02:05 (339 KB/s) - ‘esg-new-logo.png’ saved [2119/2119]
+
+--2021-01-29 22:02:05--  https://fund-rest-framework.s3.amazonaws.com/rollbar2.png
+Reusing existing connection to fund-rest-framework.s3.amazonaws.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 9392 (9.2K) [image/png]
+Saving to: ‘rollbar2.png’
+
+     0K .........                                             100%  111M=0s
+
+2021-01-29 22:02:05 (111 MB/s) - ‘rollbar2.png’ saved [9392/9392]
+
+--2021-01-29 22:02:05--  https://fund-rest-framework.s3.amazonaws.com/retool-sidebar.png
+Reusing existing connection to fund-rest-framework.s3.amazonaws.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4435 (4.3K) [image/png]
+Saving to: ‘retool-sidebar.png’
+
+     0K ....                                                  100% 94.6M=0s
+
+2021-01-29 22:02:06 (94.6 MB/s) - ‘retool-sidebar.png’ saved [4435/4435]
+
+--2021-01-29 22:02:06--  https://fund-rest-framework.s3.amazonaws.com/bitio_logo_gold_background.png
+Reusing existing connection to fund-rest-framework.s3.amazonaws.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 16881 (16K) [image/png]
+Saving to: ‘bitio_logo_gold_background.png’
+
+     0K .......... ......                                     100% 1.22M=0.01s
+
+2021-01-29 22:02:06 (1.22 MB/s) - ‘bitio_logo_gold_background.png’ saved [16881/16881]
+
+--2021-01-29 22:02:06--  https://fund.django-rest-framework.org/sidebar_include.js
+Connecting to fund.django-rest-framework.org (fund.django-rest-framework.org)|176.34.101.201|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/javascript]
+Saving to: ‘sidebar_include.js’
+
+     0K                                                        33.6M=0s
+
+2021-01-29 22:02:07 (33.6 MB/s) - ‘sidebar_include.js’ saved [551]
+
+--2021-01-29 22:02:07--  https://www.django-rest-framework.org/js/jquery-1.8.1-min.js
+Connecting to www.django-rest-framework.org (www.django-rest-framework.org)|185.199.110.153|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 92791 (91K) [application/javascript]
+Saving to: ‘js/jquery-1.8.1-min.js’
+
+     0K .......... .......... .......... .......... .......... 55%  384K 0s
+    50K .......... .......... .......... ..........           100%  929K=0.2s
+
+2021-01-29 22:02:08 (521 KB/s) - ‘js/jquery-1.8.1-min.js’ saved [92791/92791]
+
+--2021-01-29 22:02:08--  https://www.django-rest-framework.org/js/prettify-1.0.js
+Reusing existing connection to www.django-rest-framework.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 13632 (13K) [application/javascript]
+Saving to: ‘js/prettify-1.0.js’
+
+     0K .......... ...                                        100% 1.20M=0.01s
+
+2021-01-29 22:02:08 (1.20 MB/s) - ‘js/prettify-1.0.js’ saved [13632/13632]
+
+--2021-01-29 22:02:08--  https://www.django-rest-framework.org/js/bootstrap-2.1.1-min.js
+Reusing existing connection to www.django-rest-framework.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 25688 (25K) [application/javascript]
+Saving to: ‘js/bootstrap-2.1.1-min.js’
+
+     0K .......... .......... .....                           100% 3.68M=0.007s
+
+2021-01-29 22:02:08 (3.68 MB/s) - ‘js/bootstrap-2.1.1-min.js’ saved [25688/25688]
+
+--2021-01-29 22:02:08--  https://www.django-rest-framework.org/js/theme.js
+Reusing existing connection to www.django-rest-framework.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 802 [application/javascript]
+Saving to: ‘js/theme.js’
+
+     0K                                                       100%  134K=0.006s
+
+2021-01-29 22:02:08 (134 KB/s) - ‘js/theme.js’ saved [802/802]
+
+--2021-01-29 22:02:08--  https://www.django-rest-framework.org/search/main.js
+Reusing existing connection to www.django-rest-framework.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2766 (2.7K) [application/javascript]
+Saving to: ‘search/main.js’
+
+     0K ..                                                    100% 27.0M=0s
+
+2021-01-29 22:02:09 (27.0 MB/s) - ‘search/main.js’ saved [2766/2766]
+
+--2021-01-29 22:02:09--  https://www.django-rest-framework.org/img/glyphicons-halflings.png
+Reusing existing connection to www.django-rest-framework.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 12799 (12K) [image/png]
+Saving to: ‘img/glyphicons-halflings.png’
+
+     0K .......... ..                                         100% 1.39M=0.009s
+
+2021-01-29 22:02:09 (1.39 MB/s) - ‘img/glyphicons-halflings.png’ saved [12799/12799]
+
+--2021-01-29 22:02:09--  https://www.django-rest-framework.org/img/glyphicons-halflings-white.png
+Reusing existing connection to www.django-rest-framework.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 8777 (8.6K) [image/png]
+Saving to: ‘img/glyphicons-halflings-white.png’
+
+     0K ........                                              100% 1.05M=0.008s
+
+2021-01-29 22:02:09 (1.05 MB/s) - ‘img/glyphicons-halflings-white.png’ saved [8777/8777]
+
+--2021-01-29 22:02:09--  https://www.django-rest-framework.org/img/grid.png
+Reusing existing connection to www.django-rest-framework.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1458 (1.4K) [image/png]
+Saving to: ‘img/grid.png’
+
+     0K .                                                     100% 23.6M=0s
+
+2021-01-29 22:02:09 (23.6 MB/s) - ‘img/grid.png’ saved [1458/1458]
+
+FINISHED --2021-01-29 22:02:09--
+Total wall clock time: 24s
+Downloaded: 26 files, 425K in 0.7s (578 KB/s)
+Converting links in index.html... 47-80
+Converting links in github-btn.html@user=encode&repo=django-rest-framework&type=watch&count=true.html... 2-0
+Converting links in css/bootstrap-responsive.css... nothing to do.
+Converting links in css/bootstrap.css... 2-0
+Converting links in css/prettify.css... nothing to do.
+Converting links in css/default.css... 1-0
+Converted links in 6 files in 0.004 seconds.

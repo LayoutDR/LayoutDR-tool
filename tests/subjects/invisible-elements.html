@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        visibility Test Subject
+    </title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: lightpink;
+        }
+
+        div,
+        p {
+            background-color: lightgreen;
+            border-color: grey;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 6px;
+            margin-left: 2px;
+            margin-right: 2px;
+            margin-top: 4px;
+            margin-bottom: 4px;
+            padding-left: 2px;
+        }
+    </style>
+
+    <div style="background-color: rgba(0,0,0,0); border-color: transparent; color: transparent;">
+        Test
+        <p>background-color: normal; border-color: normal;</p>
+        <div style="color:black;">
+            <div>
+                <p>background-color: normal; border-color: normal;</p>
+            </div>
+        </div>
+    </div>
+
+    <div style="visibility: hidden;">
+        <p>visibility: hidden</p>
+        <div>
+            <div style="visibility: visible;">
+                <p>visibility: visible</p>
+            </div>
+        </div>
+    </div>
+
+    <div style="opacity: 0;">
+        <p>opacity: 0</p>
+        <div>
+            <div style="opacity: 1;">
+                <p>opacity: 1 </p>
+            </div>
+        </div>
+    </div>
+
+    <div style="filter: opacity(0);">
+        <p>filter: opacity(0)</p>
+        <div>
+            <div style="filter: opacity(1);">
+                <p>filter: opacity(1)</p>
+            </div>
+        </div>
+    </div>
+
+    <div style="transform: scale(0);">
+        <p>transform: scale(0)</p>
+        <div>
+            <div style="transform: scale(0.9);">
+                <p>transform: scale(0.9)</p>
+            </div>
+        </div>
+    </div>
+
+    <div style="clip-path: circle(0);">
+        <p>clip-path: circle(0)</p>
+        <div>
+            <div style="clip-path: circle(10em at 500px 300px);">
+                <p>clip-path: circle(10em at 500px 300px);</p>
+            </div>
+        </div>
+    </div>
+
+    <div style="display: none;">
+        <p>display: none</p>
+        <div>
+            <div style="display: initial;">
+                <p>display: initial</p>
+            </div>
+        </div>
+    </div>
+
+    <div style="height: 0; overflow: hidden; border-width: 0;">
+        <p>height: 0; overflow: hidden</p>
+        <div>
+            <div style="overflow: visible;">
+                <p>overflow: visible</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

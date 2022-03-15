@@ -1,0 +1,266 @@
+@charset  "utf-8";
+
+body {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 62.5%;
+    line-height: normal;
+    font-family: "Trebuchet MS",sans-serif;
+    margin: 0;
+}
+
+select {
+    min-width: 200px;
+}
+
+.hidden {
+    display: none;
+}
+
+#header-block {
+    width: 100%;
+    height: 20px;
+    background: url(header.png) repeat-x;
+}
+
+#logo-wrapper {
+    padding: 50px 5px;
+}
+
+#logo-container img {
+    width: 100%;
+    height: auto;
+}
+
+#logo-container p {
+    float: right;
+    margin-top: 5px;
+    font-size: large;
+    font-style: italic;
+    margin-right: 3px;
+    text-shadow: #ccc 1px 1px;
+    color: #333;
+}
+
+#logo-container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+}
+
+#main-content-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    margin-top: 2%;
+}
+
+#main-content {
+    min-width: 200px;
+    margin-top: 40px;
+}
+
+#results-content-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+}
+
+#results-content {
+    min-width: 200px;
+}
+
+.tab-content {
+    padding: 10px !important;
+}
+
+#user-controls {
+    position: absolute;
+    top: 22px;
+    right: 10px;
+    width: 200px;
+}
+
+#user-controls a {
+    font-weight: 700;
+    font-size: small;
+    float: right;
+}
+
+#user-controls p {
+    float: left;
+    font-size: small;
+    margin: 7px 0 0;
+}
+
+.tab-content label {
+    font-weight: 700;
+    float: left;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+.tab-content .select-jazz {
+    float: left;
+}
+
+.form-option {
+    clear: both;
+    margin-top: 10px;
+}
+
+.form-option input[type="text"] {
+    width: 99%;
+    font-size: 26px;
+    box-shadow: #888 4px 4px 4px;
+}
+
+.form-option input[type="submit"],.form-option a {
+    vertical-align: top;
+    font-weight: 700;
+    float: right;
+    font-size: small;
+}
+
+.form-option input[type="submit"] {
+    margin-top: 8px;
+}
+
+.info-wrapper {
+    border: 0 solid #595959;
+    border-radius: 5px;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #cde1fb;
+}
+
+.info-header {
+    padding-left: 25px;
+    height: 20px;
+    font-weight: 700;
+    background: url(info.png) no-repeat;
+}
+
+.info-content {
+    font-size: small;
+}
+
+.info-content ul {
+    padding-left: 22px;
+}
+
+.info-content li {
+    margin-bottom: 3px;
+}
+
+#footer {
+    font-size: small;
+    text-align: center;
+}
+
+#footer a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#results-header {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #bfbfbf;
+    margin-top: 30px;
+}
+
+#results-logo img {
+    width: 280px;
+    height: auto;
+}
+
+#results-logo {
+    float: left;
+    width: 300px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #bfbfbf;
+}
+
+#results-searchterm {
+    float: left;
+    font-size: large;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+#results-newsearch {
+    float: right;
+    margin-top: 15px;
+}
+
+#results-header-spacer {
+    clear: both;
+    height: 15px;
+}
+
+.results-item {
+    margin: 10px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #bfbfbf;
+    padding: 10px;
+}
+
+.results-item-icon {
+    float: left;
+}
+
+.results-item-header p {
+    font-weight: 700;
+    margin-left: 10px;
+    float: left;
+    margin-top: 5px;
+    font-size: medium !important;
+}
+
+.results-item p {
+    font-size: small;
+}
+
+.results-button-wrapper {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    float: right;
+}
+
+.results-item-content {
+    clear: both;
+}
+
+.helpbutton {
+    float: left;
+    cursor: pointer;
+}
+
+.helpbutton img {
+    margin-top: 6px;
+}
+
+.helpbutton-wrapper {
+    float: left;
+    margin-left: 10px;
+}
+
+.select-wrapper {
+    float: left;
+}
+
+.popup-text-container {
+    display: none;
+}

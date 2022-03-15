@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1440px" height="362px" viewBox="0 0 1440 362" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>bg-waves</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="74.2361902%" id="linearGradient-1">
+            <stop stop-color="#FFEFC2" offset="0%"></stop>
+            <stop stop-color="#FFF2D1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="65.1400414%" id="linearGradient-2">
+            <stop stop-color="#FFEDBB" offset="0%"></stop>
+            <stop stop-color="#FFE7AB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="26.6802875%" x2="50%" y2="110.630399%" id="linearGradient-3">
+            <stop stop-color="#FFF4D5" offset="0%"></stop>
+            <stop stop-color="#FCE4AB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="welcome" transform="translate(0.000000, -938.000000)">
+            <g id="trending-stores" transform="translate(-96.000000, 632.000000)">
+                <g id="bg---waves">
+                    <g id="bg-waves" transform="translate(0.000000, 281.000000)">
+                        <path d="M28.0859375,103.671109 C28.0859375,103.671109 456.421875,-4.34368261 733.617187,32.737622 C1010.8125,69.8189266 1018.57812,219.74531 1325.90625,173.197718 C1633.23437,126.650126 1683.92187,0.5 1683.92187,0.5 L1662.46094,385.395232 C1662.46094,385.395232 10.1426135,358.992808 2.07130675,385.395232 C-6,411.797657 28.0859375,103.671109 28.0859375,103.671109 Z" id="Path-2878" fill="url(#linearGradient-1)"></path>
+                        <path d="M53.8567392,18 C53.8567392,18 467.114563,118.96737 719.192688,107.691537 C971.270813,96.4157045 1305.99731,17.3495221 1759.45825,47.1255573 C2212.91919,76.9015925 1596.44268,363.749198 1604.66143,379.845907 C1612.88018,395.942616 45,379.845907 45,379.845907 L53.8567392,18 Z" id="Path-2877" fill="url(#linearGradient-2)"></path>
+                        <path d="M96,134.971008 C96,134.971008 425.429688,88.1755254 770.664062,182.231696 C1115.89844,276.287866 1368.03474,99.5818835 1679.86719,109.048934 C1991.69963,118.515984 2051.98083,168.300853 2051.98083,168.300853 C2051.98083,168.300853 2060.02894,324.463608 2049.84505,324.463615 C2039.66116,324.463622 1726.21542,394.502221 1726.21542,384.677458 C1726.21542,374.852694 69,387 69,387 L44.578125,204.477853 L96,134.971008 Z" id="Path-2876" fill="url(#linearGradient-3)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

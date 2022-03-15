@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>icon / product-logo / 64x64px / site-search / color</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon-/-product-logo-/-64x64px-/-site-search-/-color" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo-site-search-64x64-color" transform="translate(5.999898, 5.000000)">
+            <path d="M4.18290165,17 L0.747901653,23.87 C-1.57909835,28.524 1.80590165,34 7.00890165,34 L19.6829017,34 L28.1829017,17 L4.18290165,17 Z" id="Fill-1" fill="#343741"></path>
+            <polygon id="Fill-4" fill="#00BFB3" points="28.1829017 17 36.6829017 0 12.6829017 0 4.18290165 17"></polygon>
+            <path d="M45.6995017,17 L33.7315017,17 L15.1695017,54 C15.1695017,54 41.3285017,45.825 51.8535017,27.337 C54.4775017,22.726 51.0055017,17 45.6995017,17" id="Fill-6" fill="#FA744E"></path>
+        </g>
+    </g>
+</svg>

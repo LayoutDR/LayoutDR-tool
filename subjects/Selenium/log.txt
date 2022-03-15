@@ -1,0 +1,471 @@
+--2021-01-29 22:02:09--  http://xn--user-agent=mozilla-kl9ja/5.0%20(X11;%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/86.0.4240.198%20Safari/537.36
+Resolving xn--user-agent=mozilla-kl9ja (xn--user-agent=mozilla-kl9ja)... failed: Name or service not known.
+wget: unable to resolve host address ‘xn--user-agent=mozilla-kl9ja’
+--2021-01-29 22:02:09--  http://xn--execute-406ca/
+Resolving xn--execute-406ca (xn--execute-406ca)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘xn--execute-406ca’
+--2021-01-29 22:02:09--  http://robots=off/
+Resolving robots=off (robots=off)... failed: Name or service not known.
+wget: unable to resolve host address ‘robots=off’
+‐‐refer=http://google.com: Scheme missing.
+--2021-01-29 22:02:09--  http://xn--random-wait-kf3fa/
+Resolving xn--random-wait-kf3fa (xn--random-wait-kf3fa)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘xn--random-wait-kf3fa’
+--2021-01-29 22:02:09--  https://www.selenium.dev/
+Resolving www.selenium.dev (www.selenium.dev)... 185.199.110.153, 185.199.111.153, 185.199.108.153, ...
+Connecting to www.selenium.dev (www.selenium.dev)|185.199.110.153|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 14980 (15K) [text/html]
+Saving to: ‘index.html’
+
+     0K .......... ....                                       100% 1.74M=0.008s
+
+2021-01-29 22:02:10 (1.74 MB/s) - ‘index.html’ saved [14980/14980]
+
+Loading robots.txt; please ignore errors.
+--2021-01-29 22:02:10--  https://www.selenium.dev/robots.txt
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-29 22:02:10 ERROR 404: Not Found.
+
+Loading robots.txt; please ignore errors.
+--2021-01-29 22:02:10--  https://fonts.googleapis.com/robots.txt
+Resolving fonts.googleapis.com (fonts.googleapis.com)... 216.58.205.202, 2a00:1450:4006:806::200a
+Connecting to fonts.googleapis.com (fonts.googleapis.com)|216.58.205.202|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/plain]
+Saving to: ‘robots.txt’
+
+     0K                                                        2.43M=0s
+
+2021-01-29 22:02:11 (2.43 MB/s) - ‘robots.txt’ saved [25]
+
+Loading robots.txt; please ignore errors.
+--2021-01-29 22:02:11--  https://www.paypal.com/robots.txt
+Resolving www.paypal.com (www.paypal.com)... 151.101.65.21
+Connecting to www.paypal.com (www.paypal.com)|151.101.65.21|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 0
+Saving to: ‘robots.txt.html’
+
+     0K                                                        0.00 =0s
+
+2021-01-29 22:02:12 (0.00 B/s) - ‘robots.txt.html’ saved [0/0]
+
+--2021-01-29 22:02:12--  https://www.selenium.dev/css/header.css
+Connecting to www.selenium.dev (www.selenium.dev)|185.199.110.153|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3768 (3.7K) [text/css]
+Saving to: ‘css/header.css’
+
+     0K ...                                                   100% 63.5M=0s
+
+2021-01-29 22:02:13 (63.5 MB/s) - ‘css/header.css’ saved [3768/3768]
+
+--2021-01-29 22:02:13--  https://www.selenium.dev/images/selenium_logo_large.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 138350 (135K) [image/png]
+Saving to: ‘images/selenium_logo_large.png’
+
+     0K .......... .......... .......... .......... .......... 37%  363K 0s
+    50K .......... .......... .......... .......... .......... 74%  433K 0s
+   100K .......... .......... .......... .....                100% 1.19M=0.3s
+
+2021-01-29 22:02:13 (479 KB/s) - ‘images/selenium_logo_large.png’ saved [138350/138350]
+
+--2021-01-29 22:02:13--  https://www.selenium.dev/images/selenium_logo_square_green.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 156812 (153K) [image/png]
+Saving to: ‘images/selenium_logo_square_green.png’
+
+     0K .......... .......... .......... .......... .......... 32% 2.34M 0s
+    50K .......... .......... .......... .......... .......... 65% 3.98M 0s
+   100K .......... .......... .......... .......... .......... 97% 1.75M 0s
+   150K ...                                                   100% 28.5M=0.06s
+
+2021-01-29 22:02:14 (2.45 MB/s) - ‘images/selenium_logo_square_green.png’ saved [156812/156812]
+
+--2021-01-29 22:02:14--  https://www.selenium.dev/images/selenium_logo_square_white.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1375 (1.3K) [image/png]
+Saving to: ‘images/selenium_logo_square_white.png’
+
+     0K .                                                     100% 44.9M=0s
+
+2021-01-29 22:02:14 (44.9 MB/s) - ‘images/selenium_logo_square_white.png’ saved [1375/1375]
+
+--2021-01-29 22:02:14--  https://www.selenium.dev/images/search.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1013 [image/png]
+Saving to: ‘images/search.png’
+
+     0K                                                       100%  173K=0.006s
+
+2021-01-29 22:02:14 (173 KB/s) - ‘images/search.png’ saved [1013/1013]
+
+--2021-01-29 22:02:14--  https://www.selenium.dev/css/main.css
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 7753 (7.6K) [text/css]
+Saving to: ‘css/main.css’
+
+     0K .......                                               100% 5.78M=0.001s
+
+2021-01-29 22:02:15 (5.78 MB/s) - ‘css/main.css’ saved [7753/7753]
+
+--2021-01-29 22:02:15--  https://www.selenium.dev/css/index.css
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5728 (5.6K) [text/css]
+Saving to: ‘css/index.css’
+
+     0K .....                                                 100%  229M=0s
+
+2021-01-29 22:02:15 (229 MB/s) - ‘css/index.css’ saved [5728/5728]
+
+--2021-01-29 22:02:15--  https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,700
+Connecting to fonts.googleapis.com (fonts.googleapis.com)|216.58.205.202|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: ‘css@family=Encode+Sans+Condensed%3A400,700.css’
+
+     0K                                                        23.7M=0s
+
+2021-01-29 22:02:15 (23.7 MB/s) - ‘css@family=Encode+Sans+Condensed%3A400,700.css’ saved [454]
+
+Loading robots.txt; please ignore errors.
+--2021-01-29 22:02:15--  https://fonts.gstatic.com/robots.txt
+Resolving fonts.gstatic.com (fonts.gstatic.com)... 216.58.212.99, 2a00:1450:4006:802::2003
+Connecting to fonts.gstatic.com (fonts.gstatic.com)|216.58.212.99|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-01-29 22:02:16 ERROR 404: Not Found.
+
+--2021-01-29 22:02:16--  https://fonts.googleapis.com/css?family=Encode+Sans:300,700
+Connecting to fonts.googleapis.com (fonts.googleapis.com)|216.58.205.202|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: ‘css@family=Encode+Sans%3A300,700.css’
+
+     0K                                                        29.6M=0s
+
+2021-01-29 22:02:17 (29.6 MB/s) - ‘css@family=Encode+Sans%3A300,700.css’ saved [504]
+
+--2021-01-29 22:02:17--  https://www.selenium.dev/images/selenium_logo_square_red.png
+Connecting to www.selenium.dev (www.selenium.dev)|185.199.110.153|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6886 (6.7K) [image/png]
+Saving to: ‘images/selenium_logo_square_red.png’
+
+     0K ......                                                100%  823K=0.008s
+
+2021-01-29 22:02:18 (823 KB/s) - ‘images/selenium_logo_square_red.png’ saved [6886/6886]
+
+--2021-01-29 22:02:18--  https://www.selenium.dev/images/selenium_ide_logo_square.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 60278 (59K) [image/png]
+Saving to: ‘images/selenium_ide_logo_square.png’
+
+     0K .......... .......... .......... .......... .......... 84%  384K 0s
+    50K ........                                              100%  880K=0.1s
+
+2021-01-29 22:02:18 (420 KB/s) - ‘images/selenium_ide_logo_square.png’ saved [60278/60278]
+
+--2021-01-29 22:02:18--  https://www.selenium.dev/images/selenium_grid_logo_square.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 65414 (64K) [image/png]
+Saving to: ‘images/selenium_grid_logo_square.png’
+
+     0K .......... .......... .......... .......... .......... 78% 2.61M 0s
+    50K .......... ...                                        100% 7.61M=0.02s
+
+2021-01-29 22:02:18 (3.05 MB/s) - ‘images/selenium_grid_logo_square.png’ saved [65414/65414]
+
+--2021-01-29 22:02:18--  https://www.selenium.dev/images/sponsors/perfecto-perforce.jpg
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 52696 (51K) [image/jpeg]
+Saving to: ‘images/sponsors/perfecto-perforce.jpg’
+
+     0K .......... .......... .......... .......... .......... 97% 1.62M 0s
+    50K .                                                     100% 24.5M=0.03s
+
+2021-01-29 22:02:19 (1.66 MB/s) - ‘images/sponsors/perfecto-perforce.jpg’ saved [52696/52696]
+
+--2021-01-29 22:02:19--  https://www.selenium.dev/images/sponsors/browserstack.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 34137 (33K) [image/png]
+Saving to: ‘images/sponsors/browserstack.png’
+
+     0K .......... .......... .......... ...                  100% 2.30M=0.01s
+
+2021-01-29 22:02:19 (2.30 MB/s) - ‘images/sponsors/browserstack.png’ saved [34137/34137]
+
+--2021-01-29 22:02:19--  https://www.selenium.dev/images/sponsors/saucelabs.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 43270 (42K) [image/png]
+Saving to: ‘images/sponsors/saucelabs.png’
+
+     0K .......... .......... .......... .......... ..        100% 1.61M=0.03s
+
+2021-01-29 22:02:19 (1.61 MB/s) - ‘images/sponsors/saucelabs.png’ saved [43270/43270]
+
+--2021-01-29 22:02:19--  https://www.selenium.dev/images/sponsors/experitest.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 25482 (25K) [image/png]
+Saving to: ‘images/sponsors/experitest.png’
+
+     0K .......... .......... ....                            100% 2.20M=0.01s
+
+2021-01-29 22:02:19 (2.20 MB/s) - ‘images/sponsors/experitest.png’ saved [25482/25482]
+
+--2021-01-29 22:02:19--  https://www.selenium.dev/images/sponsors/synthetics.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 22276 (22K) [image/png]
+Saving to: ‘images/sponsors/synthetics.png’
+
+     0K .......... .......... .                               100% 1.42M=0.02s
+
+2021-01-29 22:02:19 (1.42 MB/s) - ‘images/sponsors/synthetics.png’ saved [22276/22276]
+
+--2021-01-29 22:02:19--  https://www.selenium.dev/images/sponsors/CBT.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5805 (5.7K) [image/png]
+Saving to: ‘images/sponsors/CBT.png’
+
+     0K .....                                                 100%  895K=0.006s
+
+2021-01-29 22:02:20 (895 KB/s) - ‘images/sponsors/CBT.png’ saved [5805/5805]
+
+--2021-01-29 22:02:20--  https://www.selenium.dev/images/sponsors/applitools.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 35655 (35K) [image/png]
+Saving to: ‘images/sponsors/applitools.png’
+
+     0K .......... .......... .......... ....                 100% 2.41M=0.01s
+
+2021-01-29 22:02:20 (2.41 MB/s) - ‘images/sponsors/applitools.png’ saved [35655/35655]
+
+--2021-01-29 22:02:20--  https://www.selenium.dev/images/sponsors/selocity_banner_seleniumhq.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 12281 (12K) [image/png]
+Saving to: ‘images/sponsors/selocity_banner_seleniumhq.png’
+
+     0K .......... .                                          100% 87.7M=0s
+
+2021-01-29 22:02:20 (87.7 MB/s) - ‘images/sponsors/selocity_banner_seleniumhq.png’ saved [12281/12281]
+
+--2021-01-29 22:02:20--  https://www.selenium.dev/images/sponsors/microfocus_logo.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4231 (4.1K) [image/png]
+Saving to: ‘images/sponsors/microfocus_logo.png’
+
+     0K ....                                                  100%  108M=0s
+
+2021-01-29 22:02:20 (108 MB/s) - ‘images/sponsors/microfocus_logo.png’ saved [4231/4231]
+
+--2021-01-29 22:02:20--  https://www.selenium.dev/images/sponsors/subject7_logo.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 54175 (53K) [image/png]
+Saving to: ‘images/sponsors/subject7_logo.png’
+
+     0K .......... .......... .......... .......... .......... 94% 5.65M 0s
+    50K ..                                                    100% 5541G=0.009s
+
+2021-01-29 22:02:21 (5.97 MB/s) - ‘images/sponsors/subject7_logo.png’ saved [54175/54175]
+
+--2021-01-29 22:02:21--  https://www.selenium.dev/images/sponsors/testbirds.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 7960 (7.8K) [image/png]
+Saving to: ‘images/sponsors/testbirds.png’
+
+     0K .......                                               100%  991K=0.008s
+
+2021-01-29 22:02:21 (991 KB/s) - ‘images/sponsors/testbirds.png’ saved [7960/7960]
+
+--2021-01-29 22:02:21--  https://www.selenium.dev/images/sponsors/multilogin.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 13095 (13K) [image/png]
+Saving to: ‘images/sponsors/multilogin.png’
+
+     0K .......... ..                                         100%  915K=0.01s
+
+2021-01-29 22:02:21 (915 KB/s) - ‘images/sponsors/multilogin.png’ saved [13095/13095]
+
+--2021-01-29 22:02:21--  https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif
+Connecting to www.paypal.com (www.paypal.com)|151.101.65.21|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif [following]
+--2021-01-29 22:02:22--  https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif
+Resolving www.paypalobjects.com (www.paypalobjects.com)... 151.101.114.133
+Connecting to www.paypalobjects.com (www.paypalobjects.com)|151.101.114.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2984 (2.9K) [image/gif]
+Saving to: ‘en_US/i/btn/btn_donateCC_LG.gif’
+
+     0K ..                                                    100%  486K=0.006s
+
+2021-01-29 22:02:23 (486 KB/s) - ‘en_US/i/btn/btn_donateCC_LG.gif’ saved [2984/2984]
+
+--2021-01-29 22:02:23--  https://www.paypal.com/en_US/i/scr/pixel.gif
+Connecting to www.paypal.com (www.paypal.com)|151.101.65.21|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.paypalobjects.com/en_US/i/scr/pixel.gif [following]
+--2021-01-29 22:02:24--  https://www.paypalobjects.com/en_US/i/scr/pixel.gif
+Connecting to www.paypalobjects.com (www.paypalobjects.com)|151.101.114.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 42 [image/gif]
+Saving to: ‘en_US/i/scr/pixel.gif’
+
+     0K                                                       100% 1.04M=0s
+
+2021-01-29 22:02:24 (1.04 MB/s) - ‘en_US/i/scr/pixel.gif’ saved [42/42]
+
+--2021-01-29 22:02:24--  https://www.selenium.dev/css/footer.css
+Connecting to www.selenium.dev (www.selenium.dev)|185.199.110.153|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2631 (2.6K) [text/css]
+Saving to: ‘css/footer.css’
+
+     0K ..                                                    100%  440K=0.006s
+
+2021-01-29 22:02:25 (440 KB/s) - ‘css/footer.css’ saved [2631/2631]
+
+--2021-01-29 22:02:25--  https://www.selenium.dev/images/mail.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1777 (1.7K) [image/png]
+Saving to: ‘images/mail.png’
+
+     0K .                                                     100% 8.93M=0s
+
+2021-01-29 22:02:25 (8.93 MB/s) - ‘images/mail.png’ saved [1777/1777]
+
+--2021-01-29 22:02:25--  https://www.selenium.dev/images/github.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1591 (1.6K) [image/png]
+Saving to: ‘images/github.png’
+
+     0K .                                                     100%  269K=0.006s
+
+2021-01-29 22:02:26 (269 KB/s) - ‘images/github.png’ saved [1591/1591]
+
+--2021-01-29 22:02:26--  https://www.selenium.dev/images/twitter.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1913 (1.9K) [image/png]
+Saving to: ‘images/twitter.png’
+
+     0K .                                                     100%  324K=0.006s
+
+2021-01-29 22:02:26 (324 KB/s) - ‘images/twitter.png’ saved [1913/1913]
+
+--2021-01-29 22:02:26--  https://www.selenium.dev/images/facebook.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 850 [image/png]
+Saving to: ‘images/facebook.png’
+
+     0K                                                       100% 19.7M=0s
+
+2021-01-29 22:02:26 (19.7 MB/s) - ‘images/facebook.png’ saved [850/850]
+
+--2021-01-29 22:02:26--  https://www.selenium.dev/images/youtube.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1223 (1.2K) [image/png]
+Saving to: ‘images/youtube.png’
+
+     0K .                                                     100%  211K=0.006s
+
+2021-01-29 22:02:26 (211 KB/s) - ‘images/youtube.png’ saved [1223/1223]
+
+--2021-01-29 22:02:26--  https://www.selenium.dev/images/rss.png
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2381 (2.3K) [image/png]
+Saving to: ‘images/rss.png’
+
+     0K ..                                                    100%  219K=0.01s
+
+2021-01-29 22:02:27 (219 KB/s) - ‘images/rss.png’ saved [2381/2381]
+
+--2021-01-29 22:02:27--  https://www.selenium.dev/images/green-bg-opt.jpg
+Reusing existing connection to www.selenium.dev:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 25186 (25K) [image/jpeg]
+Saving to: ‘images/green-bg-opt.jpg’
+
+     0K .......... .......... ....                            100% 1.68M=0.01s
+
+2021-01-29 22:02:27 (1.68 MB/s) - ‘images/green-bg-opt.jpg’ saved [25186/25186]
+
+--2021-01-29 22:02:27--  https://fonts.gstatic.com/s/encodesanscondensed/v5/j8_16_LD37rqfuwxyIuaZhE6cRXOLtm2gfT2hq-J.ttf
+Connecting to fonts.gstatic.com (fonts.gstatic.com)|216.58.212.99|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 45936 (45K) [font/ttf]
+Saving to: ‘s/encodesanscondensed/v5/j8_16_LD37rqfuwxyIuaZhE6cRXOLtm2gfT2hq-J.ttf’
+
+     0K .......... .......... .......... .......... ....      100%  110K=0.4s
+
+2021-01-29 22:02:28 (110 KB/s) - ‘s/encodesanscondensed/v5/j8_16_LD37rqfuwxyIuaZhE6cRXOLtm2gfT2hq-J.ttf’ saved [45936/45936]
+
+--2021-01-29 22:02:28--  https://fonts.gstatic.com/s/encodesanscondensed/v5/j8_46_LD37rqfuwxyIuaZhE6cRXOLtm2gfT-PYqZAC4N.ttf
+Reusing existing connection to fonts.gstatic.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 45920 (45K) [font/ttf]
+Saving to: ‘s/encodesanscondensed/v5/j8_46_LD37rqfuwxyIuaZhE6cRXOLtm2gfT-PYqZAC4N.ttf’
+
+     0K .......... .......... .......... .......... ....      100%  402K=0.1s
+
+2021-01-29 22:02:28 (402 KB/s) - ‘s/encodesanscondensed/v5/j8_46_LD37rqfuwxyIuaZhE6cRXOLtm2gfT-PYqZAC4N.ttf’ saved [45920/45920]
+
+--2021-01-29 22:02:28--  https://fonts.gstatic.com/s/encodesans/v7/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGD_jVtKF6A.ttf
+Reusing existing connection to fonts.gstatic.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 28564 (28K) [font/ttf]
+Saving to: ‘s/encodesans/v7/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGD_jVtKF6A.ttf’
+
+     0K .......... .......... .......                         100% 1.39M=0.02s
+
+2021-01-29 22:02:28 (1.39 MB/s) - ‘s/encodesans/v7/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGD_jVtKF6A.ttf’ saved [28564/28564]
+
+--2021-01-29 22:02:28--  https://fonts.gstatic.com/s/encodesans/v7/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGIbkVtKF6A.ttf
+Reusing existing connection to fonts.gstatic.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 28752 (28K) [font/ttf]
+Saving to: ‘s/encodesans/v7/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGIbkVtKF6A.ttf’
+
+     0K .......... .......... ........                        100% 13.4M=0.002s
+
+2021-01-29 22:02:29 (13.4 MB/s) - ‘s/encodesans/v7/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGIbkVtKF6A.ttf’ saved [28752/28752]
+
+FINISHED --2021-01-29 22:02:29--
+Total wall clock time: 19s
+Downloaded: 41 files, 942K in 1.3s (742 KB/s)
+Converting links in index.html... 38-37
+Converting links in robots.txt.html... nothing to do.
+Converting links in css@family=Encode+Sans%3A300,700.css... 2-0
+Converting links in css/index.css... 1-0
+Converting links in css/main.css... nothing to do.
+Converting links in css/footer.css... nothing to do.
+Converting links in css/header.css... nothing to do.
+Converting links in css@family=Encode+Sans+Condensed%3A400,700.css... 2-0
+Converted links in 8 files in 0.003 seconds.

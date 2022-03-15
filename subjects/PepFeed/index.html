@@ -1,0 +1,662 @@
+<!DOCTYPE html><html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en"><!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 ie" lang="en"> <![endif]--><!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8 ie" lang="en"> <![endif]--><!--[if IE 8]>    <html class="no-js lt-ie9 ie" lang="en"> <![endif]--><!--[if IE 9]>    <html class="no-js ie9 ie" lang="en"> <![endif]--><!--[if gt IE 9]><!--><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      
+
+      <!--
+        ____             ______              __
+        ██████╗ ███████╗██████╗ ███████╗███████╗███████╗██████╗
+        ██╔══██╗██╔════╝██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗
+        ██████╔╝█████╗  ██████╔╝█████╗  █████╗  █████╗  ██║  ██║
+        ██╔═══╝ ██╔══╝  ██╔═══╝ ██╔══╝  ██╔══╝  ██╔══╝  ██║  ██║
+        ██║     ███████╗██║     ██║     ███████╗███████╗██████╔╝
+        ╚═╝     ╚══════╝╚═╝     ╚═╝     ╚══════╝╚══════╝╚═════╝
+
+        .d88888b                      dP            dP
+        88.    "'                     88            88
+        `Y88888b. .d8888b. dP    dP d8888P .d8888b. 88 .d8888b.
+              `8b 88'  `"" 88    88   88   88'  `88 88 88ooood8
+        d8'   .8P 88.  ... 88.  .88   88   88.  .88 88 88.  ...
+         Y88888P  `88888P' `8888P88   dP   `88888P8 dP `88888P'
+                                .88
+                            d8888P
+      -->
+
+      <!-- Mixpanel -->
+      
+
+      
+
+    <meta name="google-site-verification" content="D1LCrVoBkaHE4IKcO3xsqGIch2efxadG6kmKyznASMQ">
+
+    <title>PepFeed - Buy Tech, With no Regret</title>
+    <meta name="keywords" content="smart shopper, tech product, deals, reviews, cheaper, buyer, best choice, compare prices, experts, favorite products, app">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:description" content="Get the best content about any gadget you're looking for, anywhere.">
+
+    <meta property="og:image" content="http://www.pepfeed.com/static/img/og/apps.png">
+    <meta property="og:image:url" content="http://www.pepfeed.com/static/img/og/apps.png">
+    <meta property="og:image:secure_url" content="https://www.pepfeed.com/static/img/og/apps.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="500">
+
+    <meta property="og:image" content="http://www.pepfeed.com/static/img/og/pep.png">
+    <meta property="og:image:url" content="http://www.pepfeed.com/static/img/og/pep.png">
+    <meta property="og:image:secure_url" content="https://www.pepfeed.com/static/img/og/pep.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="500">
+
+    <meta property="og:image" content="http://www.pepfeed.com/static/img/og/logo.png">
+    <meta property="og:image:url" content="http://www.pepfeed.com/static/img/og/logo.png">
+    <meta property="og:image:secure_url" content="https://www.pepfeed.com/static/img/og/logo.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="500">
+
+    <meta property="og:site_name" content="PepFeed">
+    <meta property="og:title" content="PepFeed | Buy Tech, With no Regret">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.pepfeed.com">
+
+    <meta itemprop="name" content="PepFeed">
+    <meta itemprop="description" content="Get the best content about any gadget you're looking for, anywhere.">
+    <meta itemprop="image" content="https://www.pepfeed.com/static/img/og/logo.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image:src" content="https://www.pepfeed.com/static/img/og/logo.png">
+    <meta name="twitter:site" content="@PepFeed">
+    <meta name="twitter:url" content="http://www.pepfeed.com">
+    <meta name="twitter:description" content="Get the best content about any gadget you're looking for, anywhere.">
+    <meta name="twitter:title" content="Buy Tech, With no Regret - PepFeed">
+
+    <style>
+    .pf-footer-content .pf-copyright {
+        padding-bottom: 90px!important;
+    }
+    </style>
+    <link href="search.css" rel="stylesheet">
+    <link href="search_responsive.css" rel="stylesheet">
+
+    <link href="ouibounce.min.css" rel="stylesheet">
+    <style type="text/css"></style>
+
+    
+
+  
+
+    <!-- Facebook Pixel Code -->
+        
+
+        
+    <!-- End Facebook Pixel Code -->
+
+      <meta name="author" content="PepFeed">
+      <meta name="description" content="Get the best content about any gadget you're looking for, anywhere.">
+      <meta name="language" content="English">
+      <meta name="contact" content="hello@pepfeed.com">
+      <meta name="distribution" content="global">
+      <meta name="rating" content="general">
+      <meta name="googlebot" content="noarchive">
+      <meta name="creation_date" content="2015">
+
+      <link rel="shortcut icon" href="http://www.pepfeed.com/static/img/pepfeed.ico" type="image/x-icon">
+
+      <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/epfdmjiafaachinlbnfenehjeandnoib">
+
+      
+
+      <!-- Begin Inspectlet Embed Code -->
+      
+      <!-- End Inspectlet Embed Code -->
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="css_family_Open+Sans_700_300.css" rel="stylesheet" type="text/css">
+      <link href="main.css" rel="stylesheet">
+
+      
+
+
+      <!--[if lt IE 9]>
+          <link href="/static/lib/respond/src/respond.min.js" rel="stylesheet">
+          <script src="https://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+      <![endif]-->
+
+      <!--[if gte IE 9]>
+          <style type="text/css">
+              .gradient {
+                  filter: none;
+              }
+          </style>
+      <![endif]-->
+    <!-- FB SDK -->
+    <style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style></head><body><div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="xd_arbiter.php_versi_36.htm" style="border: none;"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="xd_arbiter.php_versi_37.htm" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+    
+    
+
+
+  
+  
+
+    <nav class="navbar navbar-default pf-logo-bar-mobile visible-xs">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://www.pepfeed.com/us">
+            <div class="pf-logo">
+              <div class="quarter-circle one ex7"></div>
+              <div class="quarter-circle two ex7"></div>
+              <div class="quarter-circle three ex7"></div>
+              <div class="quarter-circle four ex7"></div>
+              <div class="quarter-circle five ex7"></div>
+            </div>
+            <div class="pf-title">
+              PepFeed
+            </div>
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav pf-tabs text-center" role="tablist">
+              <li id="liTourMobile" role="presentation" class="active">
+                  <a href="http://www.pepfeed.com/us">Home</a>
+              </li>
+              <li id="liAppsMobile" role="presentation" class="">
+                  <a href="http://www.pepfeed.com/us/apps">Apps</a>
+              </li>
+              <!-- <li role="presentation" class="">
+                  <a href="/us/search">Search</a>
+              </li> -->
+              <li role="presentation" class="">
+                  <a href="http://www.pepfeed.com/us/blog">Blog</a>
+              </li>
+              <li role="presentation" class="">
+                  <a href="http://www.pepfeed.com/us/browser-extension-support">Support</a>
+              </li>
+              
+              <li role="presentation">
+                  <a href="http://www.pepfeed.com/us/sweepstakes">Win $100</a>
+              </li>
+              
+          </ul>
+          <ul class="nav navbar-nav navbar-right text-center pf-other-tabs">
+            <li>
+              <a href="http://www.pepfeed.com/us/aboutus">About</a>
+            </li>
+            <li>
+              <a href="http://www.pepfeed.com/us/termsofservice">Terms</a>
+            </li>
+            <li>
+              <a href="http://www.pepfeed.com/us/privacypolicy">Privacy</a>
+            </li>
+            <li>
+              <a href="http://www.pepfeed.com/us/press">Press</a>
+            </li>
+            <li>
+              <a href="http://www.pepfeed.com/us/opportunities">Opportunities</a>
+            </li>
+            <li>
+              <a href="http://www.pepfeed.com/us/supportedwebsiteslist">Supported Websites</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+
+    <!-- Desktop Top Bar -->
+    <div class="row pf-logo-bar hidden-xs">
+      <div class="container pf-inner text-center">
+        <ul class="nav pf-tabs" role="tablist">
+            <li id="liTour" role="presentation" class="pull-left active">
+                <a href="http://www.pepfeed.com/us">Home</a>
+            </li>
+            <li id="liApps" role="presentation" class="pull-left ">
+                <a href="http://www.pepfeed.com/us/apps">Apps</a>
+            </li>
+            <!-- <li role="presentation" class="pull-left ">
+                <a href="/us/search">Search</a>
+            </li> -->
+            <li role="presentation" class="pull-right ">
+                <a href="http://www.pepfeed.com/us/browser-extension-support">Support</a>
+            </li>
+            
+            <li role="presentation" class="pull-right">
+                <img class="pf-contest-card" src="gift-card-1.png">
+                <a style="float: left;" href="http://www.pepfeed.com/us/sweepstakes">Win $100</a>
+            </li>
+            
+            <li role="presentation" class="pull-left ">
+                <a href="http://www.pepfeed.com/us/blog">Blog</a>
+            </li>
+        </ul>
+        <a href="http://www.pepfeed.com/us">
+            <div class="centered">
+                <div class="pf-logo">
+                  <div class="quarter-circle one ex7"></div>
+                  <div class="quarter-circle two ex7"></div>
+                  <div class="quarter-circle three ex7"></div>
+                  <div class="quarter-circle four ex7"></div>
+                  <div class="quarter-circle five ex7"></div>
+                </div>
+                <div class="pf-title">
+                    PepFeed
+                </div>
+            </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="row">
+        <div class="col-md-12 tab-content">
+            
+
+
+<div class="sticky-bar">
+  <div style="text-align:center;margin:auto;display:table;">
+    <div style="position: absolute;top: -15px;">
+      <img style="width:65px;" src="chrome.png">
+    </div>
+    <div style="padding-left: 100px;padding-right: 40px;" class="sticky-motto">Don't let a bad purchase haunt you anymore.</div>
+    <!-- <a style="width:120px;padding:0;display: table-cell;font-family: Montserrat, sans-serif;" class="btn btn-success btn-start-green chrome-color" data-toggle="modal" data-target="#myModal">
+      Install now
+    </a> -->
+    <a id="bottom-banner-install" style="width:120px;padding:0;display: table-cell;font-family: Montserrat, sans-serif;" class="btn btn-success btn-start-green chrome-color">
+      Install now
+    </a>
+  </div>
+</div>
+
+
+
+<div role="tabpanel" class="tab-pane active" id="tour">
+  <div class="row pf-main-content">
+
+    <!-- Section 1 CTA & Screens -->
+    <div class="pf-top-content pf-top-content-background">
+      <div class="container container-background">
+        <div class="section-one-left">
+          <h1 class="section-one-motto">
+            Buy Tech,<br>with no Regret
+          </h1>
+          <div class="section-one-cta">
+            <!-- Install -->
+            
+            
+            <!-- <a class="btn btn-lg btn-get-it-free" data-toggle="modal" data-target="#myModal">
+              Get it Free
+            </a> -->
+            <a class="btn btn-lg btn-get-it-free">
+              Get it Free
+            </a>
+            
+
+            
+            <!-- Video -->
+            <a class="btn btn-lg btn-watch-video scroll" href="index.htm#watchVideo">
+              Watch the Video
+            </a>
+          </div>
+        </div>
+        <div class="twodevices-mockup">
+          <img style="width:90%;" src="twodevices.png">
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 2 - Explainer-->
+    <div class="container pf-lower-content container-limit">
+      <div class="row pf-items row-sources">
+        <!-- Column 1 -->
+        <div class="col-xs-9 column-explainer">
+
+          <!-- Switch -->
+          
+          <div class="switch-explainer">
+            <img class="desktop-explainer explainer-full-opacity" src="desktop.png">
+            <img class="smartphone-explainer" src="smartphone.png">
+          </div>
+          
+
+          
+          <div class="explainer-desktop">
+            <div class="explainer-one">
+              <img src="extension-1.png" class="pf-icon-img">
+              <span class="pf-icon-img-text">Visit any tech product page</span>
+            </div>
+            <div class="explainer-two">
+              <img src="extension-2.png" class="pf-icon-img">
+              <span class="pf-icon-img-text">Check other prices and reviews</span>
+            </div>
+            <div class="explainer-three" style="margin-left:4px;">
+              <img src="extension-3.png" class="pf-icon-img">
+              <span class="pf-icon-img-text">Shop fast and confidently</span>
+            </div>
+          </div>
+          <div class="explainer-mobile hidden">
+            <div class="explainer-one">
+              <img src="app-1.png" class="pf-icon-img">
+              <span class="pf-icon-img-text">Scan a tech product label</span>
+            </div>
+            <div class="explainer-two">
+              <img src="app-2.png" class="pf-icon-img">
+              <span class="pf-icon-img-text">Check online prices and reviews</span>
+            </div>
+            <div class="explainer-three">
+              <img src="app-3.png" class="pf-icon-img">
+              <span class="pf-icon-img-text">Shop fast and confidently</span>
+            </div>
+          </div>
+          
+
+        </div>
+        <!-- Column 2 -->
+        <div class="col-xs-3 column-sources">
+          <span class="content-sources">Content from trusted sources</span>
+          <img src="amazon.png" class="sources-one">
+          <img src="best-buy.png" class="sources-two">
+          <img src="cnet.png" class="sources-three">
+          <img src="the-verge.png" class="sources-four">
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 3 - Video -->
+    <div class="container pf-lower-content container-limit">
+      <div class="row pf-items row-sources row-section-video" id="watchVideo" name="watchVideo">
+          <div class="pf-demo-title pf-video-title">
+            <span class="learn-how-pep">Learn how Pep became a</span>
+            <span class="fearless-consumer">Fearless Consumer</span>
+          </div>
+          <div class="pf-demo-title pf-video-subtitle">
+            Watch how he uses our mobile and browser apps
+          </div>
+          <div class="pf-video-container">
+          <div class="videoWrapper">
+            <iframe src="o_4i9r_AQzg_rel_0_controls_1_showinfo_0.htm" frameborder="0" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 5 - Latest Blog Posts -->
+    <div class="container pf-lower-content container-limit">
+        <h2 class="title row-items-title row-title-blog">Latest Articles from our Blog</h2>
+        <div class="row pf-items row-sources">
+            
+            <a class="blog-post-m" href="http://www.pepfeed.com/blog/10/5_Quick_Tips_to_Extend_Your_Phone%E2%80%99s_Battery_Life_Without_Compromises">
+              <div class="col-md-4">
+              <img class="blog-post-image-home" src="FVhBzZP.jpg">
+              <div style="font-family: Montserrat, sans-serif;margin-left: 10px;margin-right: 10px;margin-top:10px;font-size:16px;">5 Quick Tips to Extend Your Phone’s Battery Life, Without Compromises</div>
+              </div>
+            </a>
+            
+            <a class="blog-post-m" href="http://www.pepfeed.com/blog/9/Top_8_best_tech_podcasts_to_listen_to_in_2015_and_stay_in_the_loop">
+              <div class="col-md-4">
+              <img class="blog-post-image-home" src="podcasting_dog.jpg">
+              <div style="font-family: Montserrat, sans-serif;margin-left: 10px;margin-right: 10px;margin-top:10px;font-size:16px;">Top 8 best tech podcasts to listen to in 2015 and stay in the loop</div>
+              </div>
+            </a>
+            
+            <a class="blog-post-m" href="http://www.pepfeed.com/blog/8/Wearables_that_give_you_Superpowers">
+              <div class="col-md-4">
+              <img class="blog-post-image-home" src="iron_man_3.png">
+              <div style="font-family: Montserrat, sans-serif;margin-left: 10px;margin-right: 10px;margin-top:10px;font-size:16px;">Wearables that give you Superpowers</div>
+              </div>
+            </a>
+            
+        </div>
+    </div>
+
+    <!-- Section 6 - Newsletter -->
+    <div class="pf-newsletter">
+      <div class="container">
+        <div class="newsletter-section-bottom" style="text-align:center;">
+          <h1 class="title">Get amazing tech deals in your inbox too</h1>
+          <div id="mc_embed_signup">
+              <form class="subscription-form mailchimp form-inline" role="form" novalidate="true">
+                <input type="email" name="EMAIL" id="subscriber-email" placeholder="Your Email Address">
+                <button style="margin-top: -8px;margin-left: 5px;" type="submit" id="subscribe-button" class="btn btn-default standard-button">
+                  <div class="icon icon-subscribe"></div>
+                </button>
+                <h4 class="subscription-success mc-subs-msg" style="display: none;"></h4>
+                <h4 class="subscription-error mc-subs-msg"></h4>
+              </form>
+          </div>
+          <div style="padding-top: 25px;">
+            <h5 class="subtitle">Get the PepFeed app for iOS, Chrome and Firefox</h5>
+            <a class="btn btn-success btn-lg btn-start-green cta-app-store appstore-color" href="https://itunes.apple.com/us/app/pepfeed/id1040446613?ls=1&amp;mt=8" target="_blank">
+              <div class="icon icon-button icon-apple cta-icon-apple"></div>
+              <span class="cta-text-top">Download on the</span>
+              <span class="cta-text-down">App Store</span>
+            </a>
+            <a class="btn btn-success btn-lg btn-start-green cta-chrome-store chrome-color" href="https://chrome.google.com/webstore/detail/epfdmjiafaachinlbnfenehjeandnoib" target="_blank">
+              <div class="icon icon-button chrome-chrome cta-icon-chrome"></div>
+              <span class="cta-text-top">Download on</span>
+              <span class="cta-text-down">Chrome</span>
+            </a>
+            <a class="btn btn-success btn-lg btn-start-green cta-firefox-store firefox-color" href="https://addons.mozilla.org/pt-PT/firefox/addon/pepfeed/" target="_blank">
+              <div class="icon icon-button icon-firefox cta-icon-firefox"></div>
+              <span class="cta-text-top">Download on</span>
+              <span class="cta-text-down-ff">Firefox</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- end row pf-main-content -->
+</div> <!-- end tab-pane active -->
+
+<!-- Install Flow Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="padding-top:250px;">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close fb-modal-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title fb-login-title" id="myModalLabel"><b>PepFeed</b> - Step by step installation guide</h4>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <!-- Step 1 -->
+            <div class="col-xs-6 col-md-4" style="text-align:center;">
+              <button onclick="fbLogin();" type="button" class="btn btn-primary fb-login-button" style="margin-top:25px;">
+                <div class="icon icon-face fb-login-logo"></div>
+                <div class="fb-login-separator"></div>
+                <span>Signup with Facebook</span>
+              </button>
+              <img src="checkMark.png" class="fb-check-mark hidden">
+            </div>
+            <!-- Step 2 -->
+            
+            <div class="col-xs-6 col-md-4" style="text-align:center;">
+              <button id="get-access-chrome" type="button" class="btn btn-default fb-add-chrome fb-login-gray-scale" style="margin-top:25px;" disabled="">
+                <div class="icon icon-button chrome-chrome fb-chrome-icon"></div>
+                Add to Chrome
+              </button>
+              <img src="checkMark.png" class="chrome-check-mark hidden">
+            </div>
+            
+            <!-- Step 3 -->
+            <div class="col-xs-6 col-md-4" style="text-align:center;">
+              <div class="fb-share-button fb-login-gray-scale fb_iframe_widget" data-href="http://www.pepfeed.com" data-layout="button_count" style="margin-top:33px;" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=560885714029965&amp;container_width=0&amp;href=http%3A%2F%2Fwww.pepfeed.com%2F&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey"><span style="vertical-align: bottom; width: 95px; height: 20px;"><iframe name="f251dab068a5c7c" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:share_button Facebook Social Plugin" src="share_button.php_app_id_560885714029965_channel_ht.com_2F_la.htm" class="" style="border: none; visibility: visible; width: 95px; height: 20px;"></iframe></span></div>
+            </div>
+          </div>
+          <div class="row" style="margin-top:20px;margin-bottom:10px;">
+            <div class="col-xs-6 col-md-4" style="text-align:center;">
+              <span>1. Register</span>
+            </div>
+            <div class="col-xs-6 col-md-4" style="text-align:center;">
+              <span>2. Install</span>
+            </div>
+            <div class="col-xs-6 col-md-4" style="text-align:center;">
+              <span>3. Share it with your friends!</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- iOS Beta Flow Modal -->
+<div class="modal fade" id="myModalBetaiOS" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="padding-top:150px;">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close fb-modal-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title fb-login-title" id="myModalLabel"><b>PepFeed</b> - Coming Soon for iOS</h4>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row" style="text-align:center;">
+            <span style="margin-bottom: 20px;display: block;">Be the first to know when <b>PepFeed</b> will be available for your iPhone.</span>
+            <div id="mc_embed_signup">
+            <form action="http://pepfeed.us8.list-manage.com/subscribe/post?u=a381a0d2e2e9746c5cc217a80&amp;id=0bc883bcc4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                <div id="mc_embed_signup_scroll">
+            	<label for="mce-EMAIL" style="font-weight:400!important;">Subscribe to get notified: </label>
+            	<input style="display: block;width: 100%;max-width: 200px;margin: auto;top: 0;left: 0;bottom: 0;right: 0;" type="email" value="" name="EMAIL" class="email subscribe-other-browser-input" id="mce-EMAIL" placeholder="Your Email address" required="">
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_a381a0d2e2e9746c5cc217a80_0bc883bcc4" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button subscribe-other-browser"></div>
+                </div>
+            </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Exit Intent Survey -->
+<div id="ouibounce-modal" style="display: none;">
+  <div class="underlay"></div>
+  <div class="modal">
+    <div class="modal-title">
+      <h3>Before you go...</h3>
+    </div>
+    <div class="modal-body" style="text-align:center;font-size:18px;">
+      <p>Can you tell us what made you leave?</p>
+      <form role="form">
+        <div class="radio">
+          <label style="font-size: 14px;"><input type="radio" name="optradio" id="optionsRadios1" value="option1">I was just browsing around.</label>
+        </div>
+        <div class="radio">
+          <label style="font-size: 14px;"><input type="radio" name="optradio" id="optionsRadios2" value="option2">I don't find it useful.</label>
+        </div>
+        <div class="radio">
+          <label style="font-size: 14px;"><input type="radio" name="optradio" id="optionsRadios3" value="option3">I found a better alternative.</label>
+        </div>
+        <div class="radio">
+          <label style="font-size: 14px;"><input type="radio" name="optradio" id="optionsRadios4" value="option4">I don't understand what it does.</label>
+        </div>
+        <div class="radio">
+          <label style="font-size: 14px;"><input type="radio" name="optradio" id="optionsRadios5" value="optionOther">Other: <input id="inputsm" class="form-control input-sm exit-other-radio" type="text"></label>
+        </div>
+      </form>
+      <button id="btnSubmit" type="button" class="btn button-submit button-submit-exit">Submit</button>
+    </div>
+    <div class="modal-footer">
+      <p>No thanks</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="filler" class="row"></div>
+    <div id="footer" class="row pf-footer-content">
+      <div class="container upper-footer">
+        <div class="row">
+          <div class="col-md-2 col-sm-3 col-xs-7 pf-icons">
+              <a href="https://www.facebook.com/PepFeed" target="_blank">
+                <div class="icon icon-facebook pull-left"></div>
+              </a>
+              <a href="https://twitter.com/pepfeed" target="_blank">
+                <div class="icon icon-twitter pull-left"></div>
+              </a>
+              <a href="mailto:hello@pepfeed.com?Subject=Hello">
+                <div class="icon icon-mail pull-left"></div>
+              </a>
+          </div>
+          <div class="col-md-8 col-sm-6 pf-footer-links hidden-xs">
+            <ul>
+              <!-- <li>
+                <a href="/us/search">Search</a>
+              </li> -->
+              <li>
+                <a href="http://www.pepfeed.com/us/blog">Blog</a>
+              </li>
+              <li>
+                <a href="http://www.pepfeed.com/us/aboutus">About</a>
+              </li>
+              <li>
+                <a href="http://www.pepfeed.com/us/press">Press</a>
+              </li>
+              <li>
+                <a href="http://www.pepfeed.com/us/opportunities">Opportunities</a>
+              </li>
+              <li>
+                <a href="http://www.pepfeed.com/us/termsofservice">Terms</a>
+              </li>
+              <li>
+                <a href="http://www.pepfeed.com/us/privacypolicy">Privacy</a>
+              </li>
+            </ul>
+          </div>
+          <div id="pepLang" data-language="us" class="col-md-2 col-sm-3 col-xs-5 pf-locales">
+              <a href="http://www.pepfeed.com/us" data-lang="us" class="active">EN</a>
+              <a href="http://www.pepfeed.com/pt" data-lang="pt">PT</a>
+          </div>
+        </div>
+      </div>
+      <div class="row pf-copyright text-center">
+        <div class="col-md-12">
+            <b>PepFeed</b> © 2016. All rights reserved.
+        </div>
+        <a href="https://mixpanel.com/f/partner"><img class="mp-alig" src="badge_blue.png" alt="Mobile Analytics"></a>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+</body></html>

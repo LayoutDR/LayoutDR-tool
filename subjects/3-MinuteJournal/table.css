@@ -1,0 +1,18 @@
+@charset  "utf-8";
+
+table.paleblue thead th,table.paleblue thead td {
+    background: url(../img/header-bg.png) left bottom repeat-x #fcfcfc;
+}
+
+table.paleblue thead th.orderable > a {
+    padding-right: 20px;
+    background: url(../img/arrow-inactive-up.png) right center no-repeat;
+}
+
+table.paleblue thead th.orderable.asc > a {
+    background-image: url(../img/arrow-active-up.png);
+}
+
+table.paleblue thead th.orderable.desc > a {
+    background-image: url(../img/arrow-active-down.png);
+}

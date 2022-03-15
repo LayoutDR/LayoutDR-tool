@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>icon-security-settings-32-color</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon-security-settings-32-color" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(2.000000, 0.000000)">
+            <path d="M2,6.8164 L2,12.0714 C2,19.9354 6.697,26.8694 14,29.8404 C21.303,26.8694 26,19.9354 26,12.0714 L26,6.8164 L14,2.2014 L2,6.8164 Z M14,31.9874 L13.641,31.8494 C5.354,28.6624 0,20.8984 0,12.0714 L0,5.4434 L14,0.0584 L28,5.4434 L28,12.0714 C28,20.8984 22.646,28.6624 14.359,31.8494 L14,31.9874 Z" id="Fill-1" fill="#535966"></path>
+            <polygon id="Fill-3" fill="#00BFB3" points="9 23 11 23 11 18 9 18"></polygon>
+            <path d="M10,14 C9.448,14 9,13.552 9,13 C9,12.448 9.448,12 10,12 C10.552,12 11,12.448 11,13 C11,13.552 10.552,14 10,14 M11,10.185 L11,7 L9,7 L9,10.185 C7.839,10.599 7,11.698 7,13 C7,14.654 8.346,16 10,16 C11.654,16 13,14.654 13,13 C13,11.698 12.161,10.599 11,10.185" id="Fill-5" fill="#00BFB3"></path>
+            <polygon id="Fill-6" fill="#00BFB3" points="17 12 19 12 19 7 17 7"></polygon>
+            <path d="M18,18 C17.448,18 17,17.552 17,17 C17,16.448 17.448,16 18,16 C18.552,16 19,16.448 19,17 C19,17.552 18.552,18 18,18 M21,17 C21,15.346 19.654,14 18,14 C16.346,14 15,15.346 15,17 C15,18.302 15.839,19.401 17,19.815 L17,23 L19,23 L19,19.815 C20.161,19.401 21,18.302 21,17" id="Fill-7" fill="#00BFB3"></path>
+        </g>
+    </g>
+</svg>

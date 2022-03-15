@@ -1,0 +1,676 @@
+--2021-02-22 17:42:26--  http://xn--user-agent=mozilla-kl9ja/5.0%20(X11;%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/86.0.4240.198%20Safari/537.36
+Resolving xn--user-agent=mozilla-kl9ja (xn--user-agent=mozilla-kl9ja)... failed: Name or service not known.
+wget: unable to resolve host address ‘xn--user-agent=mozilla-kl9ja’
+--2021-02-22 17:42:26--  http://xn--execute-406ca/
+Resolving xn--execute-406ca (xn--execute-406ca)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘xn--execute-406ca’
+--2021-02-22 17:42:26--  http://robots=off/
+Resolving robots=off (robots=off)... failed: Name or service not known.
+wget: unable to resolve host address ‘robots=off’
+‐‐refer=http://google.com: Scheme missing.
+--2021-02-22 17:42:26--  http://xn--random-wait-kf3fa/
+Resolving xn--random-wait-kf3fa (xn--random-wait-kf3fa)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘xn--random-wait-kf3fa’
+--2021-02-22 17:42:26--  https://bower.io/
+Resolving bower.io (bower.io)... 18.198.68.141, 46.101.121.244, 2a03:b0c0:3:d0::d23:4001, ...
+Connecting to bower.io (bower.io)|18.198.68.141|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 24260 (24K) [text/html]
+Saving to: ‘index.html’
+
+     0K .......... .......... ...                             100% 76.7K=0.3s
+
+2021-02-22 17:42:27 (76.7 KB/s) - ‘index.html’ saved [24260/24260]
+
+Loading robots.txt; please ignore errors.
+--2021-02-22 17:42:27--  https://bower.io/robots.txt
+Reusing existing connection to bower.io:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-02-22 17:42:27 ERROR 404: Not Found.
+
+Loading robots.txt; please ignore errors.
+--2021-02-22 17:42:27--  https://i.imgur.com/robots.txt
+Resolving i.imgur.com (i.imgur.com)... 151.101.112.193
+Connecting to i.imgur.com (i.imgur.com)|151.101.112.193|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://imgur.com/robots.txt [following]
+--2021-02-22 17:42:33--  https://imgur.com/robots.txt
+Resolving imgur.com (imgur.com)... 151.101.12.193
+Connecting to imgur.com (imgur.com)|151.101.12.193|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 446 [text/plain]
+Saving to: ‘robots.txt’
+
+     0K                                                       100% 29.6M=0s
+
+2021-02-22 17:42:39 (29.6 MB/s) - ‘robots.txt’ saved [446/446]
+
+Loading robots.txt; please ignore errors.
+--2021-02-22 17:42:39--  https://images.opencollective.com/robots.txt
+Resolving images.opencollective.com (images.opencollective.com)... 172.67.71.29, 104.26.13.145, 104.26.12.145, ...
+Connecting to images.opencollective.com (images.opencollective.com)|172.67.71.29|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 22 [text/plain]
+Saving to: ‘robots.txt’
+
+     0K                                                       100% 1.28M=0s
+
+2021-02-22 17:42:41 (1.28 MB/s) - ‘robots.txt’ saved [22/22]
+
+Loading robots.txt; please ignore errors.
+--2021-02-22 17:42:41--  https://img.shields.io/robots.txt
+Resolving img.shields.io (img.shields.io)... 172.67.129.60, 104.21.2.130, 2606:4700:3037::6815:282, ...
+Connecting to img.shields.io (img.shields.io)|172.67.129.60|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-02-22 17:42:44 ERROR 404: Not Found.
+
+Loading robots.txt; please ignore errors.
+--2021-02-22 17:42:44--  https://platform.twitter.com/robots.txt
+Resolving platform.twitter.com (platform.twitter.com)... 199.232.136.157, 2606:2800:234:59:254c:406:2366:268c
+Connecting to platform.twitter.com (platform.twitter.com)|199.232.136.157|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2021-02-22 17:42:45 ERROR 403: Forbidden.
+
+--2021-02-22 17:42:45--  https://bower.io/assets/global-320b821f1e88569dd9f60658d4f804d3.css
+Connecting to bower.io (bower.io)|18.198.68.141|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 13388 (13K) [text/css]
+Saving to: ‘assets/global-320b821f1e88569dd9f60658d4f804d3.css’
+
+     0K .......... ...                                        100% 65.0K=0.2s
+
+2021-02-22 17:42:46 (65.0 KB/s) - ‘assets/global-320b821f1e88569dd9f60658d4f804d3.css’ saved [13388/13388]
+
+--2021-02-22 17:42:46--  https://bower.io/img/bower-logo.svg
+Reusing existing connection to bower.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4645 (4.5K) [image/svg+xml]
+Saving to: ‘img/bower-logo.svg’
+
+     0K ....                                                  100%  837K=0.005s
+
+2021-02-22 17:42:47 (837 KB/s) - ‘img/bower-logo.svg’ saved [4645/4645]
+
+--2021-02-22 17:42:47--  https://i.imgur.com/QlUE6Wj.png
+Connecting to i.imgur.com (i.imgur.com)|151.101.112.193|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 12972 (13K) [image/png]
+Saving to: ‘QlUE6Wj.png’
+
+     0K .......... ..                                         100% 27.8M=0s
+
+2021-02-22 17:42:48 (27.8 MB/s) - ‘QlUE6Wj.png’ saved [12972/12972]
+
+--2021-02-22 17:42:48--  https://i.imgur.com/CFT6Rdk.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 18995 (19K) [image/png]
+Saving to: ‘CFT6Rdk.png’
+
+     0K .......... ........                                   100% 32.2M=0.001s
+
+2021-02-22 17:42:48 (32.2 MB/s) - ‘CFT6Rdk.png’ saved [18995/18995]
+
+--2021-02-22 17:42:48--  https://i.imgur.com/uybwrjU.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3439 (3.4K) [image/png]
+Saving to: ‘uybwrjU.png’
+
+     0K ...                                                   100% 20.9M=0s
+
+2021-02-22 17:42:48 (20.9 MB/s) - ‘uybwrjU.png’ saved [3439/3439]
+
+--2021-02-22 17:42:48--  https://i.imgur.com/9Qxie3r.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3735 (3.6K) [image/png]
+Saving to: ‘9Qxie3r.png’
+
+     0K ...                                                   100% 20.2M=0s
+
+2021-02-22 17:42:48 (20.2 MB/s) - ‘9Qxie3r.png’ saved [3735/3735]
+
+--2021-02-22 17:42:48--  https://i.imgur.com/mQxmvRm.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 10791 (11K) [image/png]
+Saving to: ‘mQxmvRm.png’
+
+     0K ..........                                            100% 27.8M=0s
+
+2021-02-22 17:42:48 (27.8 MB/s) - ‘mQxmvRm.png’ saved [10791/10791]
+
+--2021-02-22 17:42:48--  https://i.imgur.com/PFHQKo4.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 12472 (12K) [image/png]
+Saving to: ‘PFHQKo4.png’
+
+     0K .......... ..                                         100% 29.4M=0s
+
+2021-02-22 17:42:49 (29.4 MB/s) - ‘PFHQKo4.png’ saved [12472/12472]
+
+--2021-02-22 17:42:49--  https://i.imgur.com/KvKV1Tj.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 9495 (9.3K) [image/png]
+Saving to: ‘KvKV1Tj.png’
+
+     0K .........                                             100% 22.0M=0s
+
+2021-02-22 17:42:49 (22.0 MB/s) - ‘KvKV1Tj.png’ saved [9495/9495]
+
+--2021-02-22 17:42:49--  https://i.imgur.com/v9RLvQ7.jpg
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4524 (4.4K) [image/jpeg]
+Saving to: ‘v9RLvQ7.jpg’
+
+     0K ....                                                  100% 23.1M=0s
+
+2021-02-22 17:42:49 (23.1 MB/s) - ‘v9RLvQ7.jpg’ saved [4524/4524]
+
+--2021-02-22 17:42:49--  https://images.opencollective.com/proxy/images?src=https%3A%2F%2Fopencollective-production.s3-us-west-1.amazonaws.com%2Fdde88120-e914-11e8-a662-278259d35390.png&height=100
+Connecting to images.opencollective.com (images.opencollective.com)|172.67.71.29|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4439 (4.3K) [image/png]
+Saving to: ‘proxy/images@src=https%3A%2F%2Fopencollective-production.s3-us-west-1.amazonaws.com%2Fdde88120-e914-11e8-a662-278259d35390.png&height=100’
+
+     0K ....                                                  100% 3.91M=0.001s
+
+2021-02-22 17:42:50 (3.91 MB/s) - ‘proxy/images@src=https%3A%2F%2Fopencollective-production.s3-us-west-1.amazonaws.com%2Fdde88120-e914-11e8-a662-278259d35390.png&height=100’ saved [4439/4439]
+
+--2021-02-22 17:42:50--  https://i.imgur.com/5ObBbYs.png
+Connecting to i.imgur.com (i.imgur.com)|151.101.112.193|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5894 (5.8K) [image/png]
+Saving to: ‘5ObBbYs.png’
+
+     0K .....                                                 100% 20.5M=0s
+
+2021-02-22 17:42:51 (20.5 MB/s) - ‘5ObBbYs.png’ saved [5894/5894]
+
+--2021-02-22 17:42:51--  https://i.imgur.com/d6J9fq1.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 29684 (29K) [image/png]
+Saving to: ‘d6J9fq1.png’
+
+     0K .......... .......... ........                        100% 1.83M=0.02s
+
+2021-02-22 17:42:51 (1.83 MB/s) - ‘d6J9fq1.png’ saved [29684/29684]
+
+--2021-02-22 17:42:51--  https://i.imgur.com/K2EU3HD.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 21695 (21K) [image/png]
+Saving to: ‘K2EU3HD.png’
+
+     0K .......... .......... .                               100% 35.3M=0.001s
+
+2021-02-22 17:42:51 (35.3 MB/s) - ‘K2EU3HD.png’ saved [21695/21695]
+
+--2021-02-22 17:42:51--  https://i.imgur.com/kIU9679.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5964 (5.8K) [image/png]
+Saving to: ‘kIU9679.png’
+
+     0K .....                                                 100% 21.6M=0s
+
+2021-02-22 17:42:51 (21.6 MB/s) - ‘kIU9679.png’ saved [5964/5964]
+
+--2021-02-22 17:42:51--  https://i.imgur.com/iHdPKSV.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4986 (4.9K) [image/png]
+Saving to: ‘iHdPKSV.png’
+
+     0K ....                                                  100% 20.9M=0s
+
+2021-02-22 17:42:51 (20.9 MB/s) - ‘iHdPKSV.png’ saved [4986/4986]
+
+--2021-02-22 17:42:51--  https://i.imgur.com/H1PtPJh.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 27448 (27K) [image/png]
+Saving to: ‘H1PtPJh.png’
+
+     0K .......... .......... ......                          100% 29.6M=0.001s
+
+2021-02-22 17:42:52 (29.6 MB/s) - ‘H1PtPJh.png’ saved [27448/27448]
+
+--2021-02-22 17:42:52--  https://i.imgur.com/A4YRujZ.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 16584 (16K) [image/png]
+Saving to: ‘A4YRujZ.png’
+
+     0K .......... ......                                     100% 80.1M=0s
+
+2021-02-22 17:42:52 (80.1 MB/s) - ‘A4YRujZ.png’ saved [16584/16584]
+
+--2021-02-22 17:42:52--  https://i.imgur.com/Hwa8g6o.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 10398 (10K) [image/png]
+Saving to: ‘Hwa8g6o.png’
+
+     0K ..........                                            100% 71.3M=0s
+
+2021-02-22 17:42:52 (71.3 MB/s) - ‘Hwa8g6o.png’ saved [10398/10398]
+
+--2021-02-22 17:42:52--  https://i.imgur.com/4HmKudj.jpg
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 86971 (85K) [image/jpeg]
+Saving to: ‘4HmKudj.jpg’
+
+     0K .......... .......... .......... .......... .......... 58% 3.01M 0s
+    50K .......... .......... .......... ....                 100%  185K=0.2s
+
+2021-02-22 17:42:52 (415 KB/s) - ‘4HmKudj.jpg’ saved [86971/86971]
+
+--2021-02-22 17:42:52--  https://i.imgur.com/pR2FWUY.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 18228 (18K) [image/png]
+Saving to: ‘pR2FWUY.png’
+
+     0K .......... .......                                    100%  106M=0s
+
+2021-02-22 17:42:53 (106 MB/s) - ‘pR2FWUY.png’ saved [18228/18228]
+
+--2021-02-22 17:42:53--  https://i.imgur.com/ep5ANQ5.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 62098 (61K) [image/png]
+Saving to: ‘ep5ANQ5.png’
+
+     0K .......... .......... .......... .......... .......... 82% 1.35M 0s
+    50K ..........                                            100%  149M=0.04s
+
+2021-02-22 17:42:53 (1.64 MB/s) - ‘ep5ANQ5.png’ saved [62098/62098]
+
+--2021-02-22 17:42:53--  https://i.imgur.com/ijP6bcQ.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 11322 (11K) [image/png]
+Saving to: ‘ijP6bcQ.png’
+
+     0K .......... .                                          100% 1.19M=0.009s
+
+2021-02-22 17:42:53 (1.19 MB/s) - ‘ijP6bcQ.png’ saved [11322/11322]
+
+--2021-02-22 17:42:53--  https://i.imgur.com/1jaPeJk.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 29596 (29K) [image/png]
+Saving to: ‘1jaPeJk.png’
+
+     0K .......... .......... ........                        100% 11.9M=0.002s
+
+2021-02-22 17:42:53 (11.9 MB/s) - ‘1jaPeJk.png’ saved [29596/29596]
+
+--2021-02-22 17:42:53--  https://i.imgur.com/oQYK4B9.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 36290 (35K) [image/png]
+Saving to: ‘oQYK4B9.png’
+
+     0K .......... .......... .......... .....                100% 10.8M=0.003s
+
+2021-02-22 17:42:53 (10.8 MB/s) - ‘oQYK4B9.png’ saved [36290/36290]
+
+--2021-02-22 17:42:53--  https://i.imgur.com/Mqb22QZ.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 25745 (25K) [image/png]
+Saving to: ‘Mqb22QZ.png’
+
+     0K .......... .......... .....                           100% 81.9M=0s
+
+2021-02-22 17:42:54 (81.9 MB/s) - ‘Mqb22QZ.png’ saved [25745/25745]
+
+--2021-02-22 17:42:54--  https://i.imgur.com/IbhCD2k.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 54176 (53K) [image/png]
+Saving to: ‘IbhCD2k.png’
+
+     0K .......... .......... .......... .......... .......... 94% 7.36M 0s
+    50K ..                                                    100% 5543G=0.007s
+
+2021-02-22 17:42:54 (7.79 MB/s) - ‘IbhCD2k.png’ saved [54176/54176]
+
+--2021-02-22 17:42:54--  https://i.imgur.com/BqDzi36.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 22453 (22K) [image/png]
+Saving to: ‘BqDzi36.png’
+
+     0K .......... .......... .                               100% 1.97M=0.01s
+
+2021-02-22 17:42:54 (1.97 MB/s) - ‘BqDzi36.png’ saved [22453/22453]
+
+--2021-02-22 17:42:54--  https://i.imgur.com/sf5e7KT.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 13129 (13K) [image/png]
+Saving to: ‘sf5e7KT.png’
+
+     0K .......... ..                                         100% 2.33M=0.005s
+
+2021-02-22 17:42:54 (2.33 MB/s) - ‘sf5e7KT.png’ saved [13129/13129]
+
+--2021-02-22 17:42:54--  https://i.imgur.com/Bb3PdNj.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 21297 (21K) [image/png]
+Saving to: ‘Bb3PdNj.png’
+
+     0K .......... ..........                                 100% 1.41M=0.01s
+
+2021-02-22 17:42:54 (1.41 MB/s) - ‘Bb3PdNj.png’ saved [21297/21297]
+
+--2021-02-22 17:42:54--  https://i.imgur.com/bmkNZfZ.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 30974 (30K) [image/png]
+Saving to: ‘bmkNZfZ.png’
+
+     0K .......... .......... ..........                      100% 10.4M=0.003s
+
+2021-02-22 17:42:54 (10.4 MB/s) - ‘bmkNZfZ.png’ saved [30974/30974]
+
+--2021-02-22 17:42:54--  https://i.imgur.com/2NBJr2b.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 58640 (57K) [image/png]
+Saving to: ‘2NBJr2b.png’
+
+     0K .......... .......... .......... .......... .......... 87% 1.52M 0s
+    50K .......                                               100% 74.4M=0.03s
+
+2021-02-22 17:42:55 (1.73 MB/s) - ‘2NBJr2b.png’ saved [58640/58640]
+
+--2021-02-22 17:42:55--  https://i.imgur.com/NLC1TOn.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 20697 (20K) [image/png]
+Saving to: ‘NLC1TOn.png’
+
+     0K .......... ..........                                 100%  101M=0s
+
+2021-02-22 17:42:55 (101 MB/s) - ‘NLC1TOn.png’ saved [20697/20697]
+
+--2021-02-22 17:42:55--  https://i.imgur.com/wBKloLa.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 10241 (10K) [image/png]
+Saving to: ‘wBKloLa.png’
+
+     0K ..........                                            100% 85.0M=0s
+
+2021-02-22 17:42:55 (85.0 MB/s) - ‘wBKloLa.png’ saved [10241/10241]
+
+--2021-02-22 17:42:55--  https://i.imgur.com/TGzM7H2.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 11457 (11K) [image/png]
+Saving to: ‘TGzM7H2.png’
+
+     0K .......... .                                          100%  823K=0.01s
+
+2021-02-22 17:42:55 (823 KB/s) - ‘TGzM7H2.png’ saved [11457/11457]
+
+--2021-02-22 17:42:55--  https://i.imgur.com/WQf4Lxi.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 9241 (9.0K) [image/png]
+Saving to: ‘WQf4Lxi.png’
+
+     0K .........                                             100% 6.32M=0.001s
+
+2021-02-22 17:42:55 (6.32 MB/s) - ‘WQf4Lxi.png’ saved [9241/9241]
+
+--2021-02-22 17:42:55--  https://i.imgur.com/kHYrANI.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 22907 (22K) [image/png]
+Saving to: ‘kHYrANI.png’
+
+     0K .......... .......... ..                              100% 95.6M=0s
+
+2021-02-22 17:42:55 (95.6 MB/s) - ‘kHYrANI.png’ saved [22907/22907]
+
+--2021-02-22 17:42:55--  https://i.imgur.com/mj9YocC.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 10818 (11K) [image/png]
+Saving to: ‘mj9YocC.png’
+
+     0K ..........                                            100% 7.66M=0.001s
+
+2021-02-22 17:42:56 (7.66 MB/s) - ‘mj9YocC.png’ saved [10818/10818]
+
+--2021-02-22 17:42:56--  https://i.imgur.com/MCMrOiw.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 42826 (42K) [image/png]
+Saving to: ‘MCMrOiw.png’
+
+     0K .......... .......... .......... .......... .         100% 10.4M=0.004s
+
+2021-02-22 17:42:56 (10.4 MB/s) - ‘MCMrOiw.png’ saved [42826/42826]
+
+--2021-02-22 17:42:56--  https://i.imgur.com/mQkLkbs.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 18582 (18K) [image/png]
+Saving to: ‘mQkLkbs.png’
+
+     0K .......... ........                                   100%  214M=0s
+
+2021-02-22 17:42:56 (214 MB/s) - ‘mQkLkbs.png’ saved [18582/18582]
+
+--2021-02-22 17:42:56--  https://i.imgur.com/tB0Kg9v.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 15043 (15K) [image/png]
+Saving to: ‘tB0Kg9v.png’
+
+     0K .......... ....                                       100%  234M=0s
+
+2021-02-22 17:42:56 (234 MB/s) - ‘tB0Kg9v.png’ saved [15043/15043]
+
+--2021-02-22 17:42:56--  https://i.imgur.com/VtnZTO7.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 18442 (18K) [image/png]
+Saving to: ‘VtnZTO7.png’
+
+     0K .......... ........                                   100% 58.8M=0s
+
+2021-02-22 17:42:56 (58.8 MB/s) - ‘VtnZTO7.png’ saved [18442/18442]
+
+--2021-02-22 17:42:56--  https://i.imgur.com/fdzFdru.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 21839 (21K) [image/png]
+Saving to: ‘fdzFdru.png’
+
+     0K .......... .......... .                               100%  102M=0s
+
+2021-02-22 17:42:57 (102 MB/s) - ‘fdzFdru.png’ saved [21839/21839]
+
+--2021-02-22 17:42:57--  https://i.imgur.com/PMqdGyT.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 12031 (12K) [image/png]
+Saving to: ‘PMqdGyT.png’
+
+     0K .......... .                                          100% 9.49M=0.001s
+
+2021-02-22 17:42:57 (9.49 MB/s) - ‘PMqdGyT.png’ saved [12031/12031]
+
+--2021-02-22 17:42:57--  https://i.imgur.com/wfJLQHP.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 10002 (9.8K) [image/png]
+Saving to: ‘wfJLQHP.png’
+
+     0K .........                                             100% 1.16M=0.008s
+
+2021-02-22 17:42:57 (1.16 MB/s) - ‘wfJLQHP.png’ saved [10002/10002]
+
+--2021-02-22 17:42:57--  https://i.imgur.com/y1t4VKt.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 301870 (295K) [image/png]
+Saving to: ‘y1t4VKt.png’
+
+     0K .......... .......... .......... .......... .......... 16% 5.05M 0s
+    50K .......... .......... .......... .......... .......... 33% 1.35M 0s
+   100K .......... .......... .......... .......... .......... 50%  452K 0s
+   150K .......... .......... .......... .......... .......... 67% 3.54M 0s
+   200K .......... .......... .......... .......... .......... 84% 10.2M 0s
+   250K .......... .......... .......... .......... ....      100% 6.88M=0.2s
+
+2021-02-22 17:42:57 (1.59 MB/s) - ‘y1t4VKt.png’ saved [301870/301870]
+
+--2021-02-22 17:42:57--  https://i.imgur.com/2efEU47.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 30115 (29K) [image/png]
+Saving to: ‘2efEU47.png’
+
+     0K .......... .......... .........                       100% 10.9M=0.003s
+
+2021-02-22 17:42:57 (10.9 MB/s) - ‘2efEU47.png’ saved [30115/30115]
+
+--2021-02-22 17:42:57--  https://i.imgur.com/0hknMf1.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 14028 (14K) [image/png]
+Saving to: ‘0hknMf1.png’
+
+     0K .......... ...                                        100% 98.2M=0s
+
+2021-02-22 17:42:58 (98.2 MB/s) - ‘0hknMf1.png’ saved [14028/14028]
+
+--2021-02-22 17:42:58--  https://i.imgur.com/Bikortt.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 7493 (7.3K) [image/png]
+Saving to: ‘Bikortt.png’
+
+     0K .......                                               100%  383M=0s
+
+2021-02-22 17:42:58 (383 MB/s) - ‘Bikortt.png’ saved [7493/7493]
+
+--2021-02-22 17:42:58--  https://i.imgur.com/va4ERjc.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 22527 (22K) [image/png]
+Saving to: ‘va4ERjc.png’
+
+     0K .......... .......... .                               100%  125M=0s
+
+2021-02-22 17:42:58 (125 MB/s) - ‘va4ERjc.png’ saved [22527/22527]
+
+--2021-02-22 17:42:58--  https://i.imgur.com/mgql2fW.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 62349 (61K) [image/png]
+Saving to: ‘mgql2fW.png’
+
+     0K .......... .......... .......... .......... .......... 82% 6.53M 0s
+    50K ..........                                            100% 55.0M=0.008s
+
+2021-02-22 17:42:58 (7.75 MB/s) - ‘mgql2fW.png’ saved [62349/62349]
+
+--2021-02-22 17:42:58--  https://i.imgur.com/VNxKJd8.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 12864 (13K) [image/png]
+Saving to: ‘VNxKJd8.png’
+
+     0K .......... ..                                         100% 76.0M=0s
+
+2021-02-22 17:42:58 (76.0 MB/s) - ‘VNxKJd8.png’ saved [12864/12864]
+
+--2021-02-22 17:42:58--  https://i.imgur.com/eNFurtn.png
+Reusing existing connection to i.imgur.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 17026 (17K) [image/png]
+Saving to: ‘eNFurtn.png’
+
+     0K .......... ......                                     100% 10.9M=0.001s
+
+2021-02-22 17:42:59 (10.9 MB/s) - ‘eNFurtn.png’ saved [17026/17026]
+
+--2021-02-22 17:42:59--  https://img.shields.io/npm/v/bower.svg?maxAge=2592000
+Connecting to img.shields.io (img.shields.io)|172.67.129.60|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [image/svg+xml]
+Saving to: ‘npm/v/bower.svg@maxAge=2592000’
+
+     0K .                                                      10.7M=0s
+
+2021-02-22 17:43:00 (10.7 MB/s) - ‘npm/v/bower.svg@maxAge=2592000’ saved [1130]
+
+--2021-02-22 17:43:00--  https://platform.twitter.com/widgets.js
+Connecting to platform.twitter.com (platform.twitter.com)|199.232.136.157|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 97317 (95K) [application/javascript]
+Saving to: ‘widgets.js’
+
+     0K .......... .......... .......... .......... .......... 52%  272K 0s
+    50K .......... .......... .......... .......... .....     100%  327K=0.3s
+
+2021-02-22 17:43:01 (296 KB/s) - ‘widgets.js’ saved [97317/97317]
+
+--2021-02-22 17:43:01--  https://bower.io/assets/global-5e174ca2fbd94d4d7e924b69bffa4c76.js
+Connecting to bower.io (bower.io)|18.198.68.141|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1365808 (1.3M) [application/javascript]
+Saving to: ‘assets/global-5e174ca2fbd94d4d7e924b69bffa4c76.js’
+
+     0K .......... .......... .......... .......... ..........  3%  165K 8s
+    50K .......... .......... .......... .......... ..........  7%  356K 5s
+   100K .......... .......... .......... .......... .......... 11%  443K 4s
+   150K .......... .......... .......... .......... .......... 14%  405K 4s
+   200K .......... .......... .......... .......... .......... 18%  536K 3s
+   250K .......... .......... .......... .......... .......... 22% 1.14M 3s
+   300K .......... .......... .......... .......... .......... 26%  386K 3s
+   350K .......... .......... .......... .......... .......... 29%  409K 2s
+   400K .......... .......... .......... .......... .......... 33%  480K 2s
+   450K .......... .......... .......... .......... .......... 37% 1.62M 2s
+   500K .......... .......... .......... .......... .......... 41%  381K 2s
+   550K .......... .......... .......... .......... .......... 44%  386K 2s
+   600K .......... .......... .......... .......... .......... 48%  434K 2s
+   650K .......... .......... .......... .......... .......... 52%  484K 2s
+   700K .......... .......... .......... .......... .......... 56%  602K 1s
+   750K .......... .......... .......... .......... .......... 59%  845K 1s
+   800K .......... .......... .......... .......... .......... 63%  446K 1s
+   850K .......... .......... .......... .......... .......... 67%  398K 1s
+   900K .......... .......... .......... .......... .......... 71%  476K 1s
+   950K .......... .......... .......... .......... .......... 74%  416K 1s
+  1000K .......... .......... .......... .......... .......... 78% 1.29M 1s
+  1050K .......... .......... .......... .......... .......... 82%  371K 1s
+  1100K .......... .......... .......... .......... .......... 86%  404K 0s
+  1150K .......... .......... .......... .......... .......... 89%  484K 0s
+  1200K .......... .......... .......... .......... .......... 93% 1.34M 0s
+  1250K .......... .......... .......... .......... .......... 97%  427K 0s
+  1300K .......... .......... .......... ...                  100%  338K=2.9s
+
+2021-02-22 17:43:05 (454 KB/s) - ‘assets/global-5e174ca2fbd94d4d7e924b69bffa4c76.js’ saved [1365808/1365808]
+
+FINISHED --2021-02-22 17:43:05--
+Total wall clock time: 39s
+Downloaded: 59 files, 2.7M in 4.4s (645 KB/s)
+Converting links in index.html... 60-20
+Converting links in assets/global-320b821f1e88569dd9f60658d4f804d3.css... nothing to do.
+Converted links in 2 files in 0.003 seconds.

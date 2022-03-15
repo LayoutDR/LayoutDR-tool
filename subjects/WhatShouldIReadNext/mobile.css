@@ -1,0 +1,296 @@
+@charset  "utf-8";
+
+@media handheld and (max-width: 480px),screen and (max-device-width: 480px),screen and (max-width: 600px),only screen and (max-device-width: 480px) {
+    body {
+        font-size: 1.05em;
+    }
+
+    .small {
+        font-size: 1em;
+    }
+
+    h1 {
+        width: 108px;
+        height: 86px;
+    }
+
+    h1 a {
+        width: 108px;
+        height: 86px;
+        background-image: url(logo_small.png);
+    }
+
+    h2 {
+    }
+
+    .bottommobile {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+    }
+
+    .bottommobile .bottomlinks {
+        display: block;
+    }
+
+    .footer .bottomlinks {
+        display: none;
+    }
+
+    .useractions {
+        width: 95%;
+        text-align: center;
+        padding: 5px 0;
+        margin: 1em auto 2em;
+        border-radius: 5px;
+        border: 2px solid #b4d8fa;
+        font-size: 1em;
+        background-color: #e4f1fd;
+    }
+
+    .useractions label {
+        display: block;
+        clear: both;
+        font-weight: 400;
+        margin-bottom: 5px;
+    }
+
+    .useractions .input {
+        width: 90%;
+        margin-bottom: 5px;
+        border: 2px solid #b4d8fa;
+    }
+
+    .listchoice select {
+        max-width: 250px;
+        font-size: 1em;
+    }
+
+    .listchoice .button {
+        clear: both;
+        margin: .5em auto 1em;
+    }
+
+    .toplinks {
+        display: block;
+        clear: both;
+        margin: 10px 0;
+    }
+
+    .toplinks li {
+        margin-right: 10px;
+        padding-left: 10px;
+    }
+
+    .toplinks li.first {
+        border-left-style: none;
+    }
+
+    .content {
+        width: 95%;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .intro,.booksearch,.box {
+        width: auto;
+    }
+
+    .mobileoff {
+        display: none;
+    }
+
+    .box {
+        padding: 10px;
+    }
+
+    .booksearch label {
+        font-weight: 400;
+    }
+
+    .booksearch label div.mobileoff,.booksearch label.mobileoff {
+        display: none;
+    }
+
+    .input {
+        padding: 2px 5px;
+        font-size: 1.2em;
+    }
+
+    .bookinput {
+        margin-bottom: .5em;
+        width: 90%;
+    }
+
+    ul.choice,ul.choice li,ul.choice li a {
+        width: auto;
+    }
+
+    ul.choice {
+        margin: 0;
+    }
+
+    ul.choice li a {
+        padding: 14px 10px;
+        border-bottom-width: 1px;
+        border-bottom-style: dotted;
+        border-bottom-color: #999;
+    }
+
+    ul.row {
+        padding: 3px 0;
+    }
+
+    ul.row li.checkbox {
+        width: 20px;
+        padding-bottom: 3px;
+    }
+
+    ul.row li.checkbox input {
+        width: 20px;
+        height: 20px;
+    }
+
+    ul.row li.mobileoff {
+        display: none;
+    }
+
+    ul.row li.title {
+        width: 250px;
+        padding-bottom: 3px;
+    }
+
+    ul.row li.recommendation {
+        width: 250px;
+        padding-bottom: 3px;
+    }
+
+    ul.row li.recommendation-logged-out {
+        width: 284px;
+        padding-bottom: 3px;
+    }
+
+    ul.row li.listitem {
+        width: 284px;
+        padding-bottom: 3px;
+    }
+
+    ul.row li.buy {
+        width: 100px;
+        clear: left;
+    }
+
+    ul.row li.rename {
+        width: 85px;
+        clear: left;
+    }
+
+    input.wsirn {
+        float: left;
+        font-size: 1.2em;
+    }
+
+    input.update {
+        font-size: 1.2em;
+        margin-bottom: 1em;
+    }
+
+    div.selectall {
+        clear: both;
+        float: left;
+        margin-bottom: 1em;
+    }
+
+    select.chooselist {
+        max-width: 250px;
+        font-size: 1em;
+        margin-bottom: 1em;
+    }
+
+    #url {
+        width: 150px;
+    }
+
+    #emailaddress {
+    }
+
+    #isbn {
+        width: 150px;
+    }
+
+    .footer {
+        margin-top: 2em;
+    }
+
+    .socialmedialinks {
+        margin-bottom: 1em;
+    }
+
+    .bottomlinks {
+        width: 95%;
+        text-align: center;
+    }
+
+    .bottomlinks li {
+        border-right-style: none;
+        font-size: 1em;
+        display: block;
+        margin-left: 0;
+        overflow: hidden;
+    }
+
+    .bottomlinks li.nolink {
+        width: 100%;
+        padding: 10px 0;
+        border-bottom-width: 1px;
+        border-bottom-style: dotted;
+        border-bottom-color: #ccc;
+    }
+
+    .bottomlinks li a {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+        overflow: hidden;
+        border-bottom-width: 1px;
+        border-bottom-style: dotted;
+        border-bottom-color: #ccc;
+    }
+
+    .faq h3 {
+        margin-bottom: 30px;
+    }
+
+    .contact textarea {
+        height: 100px;
+        font-size: 1.2em;
+    }
+
+    .contact img {
+        margin: 1em 0;
+    }
+
+    .contact p {
+        margin: 1em 0;
+    }
+
+    .contact .button {
+        margin: 1em 0;
+    }
+
+    input[type="text"],input[type="email"],textarea {
+    }
+
+    .button {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
+    body {
+    }
+
+    .smbutton {
+        margin-right: 20px;
+    }
+}

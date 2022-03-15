@@ -1,0 +1,18 @@
+<svg width="270" height="365" viewBox="0 0 270 365" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Generic / Blue Background / patterns-hero-2-column-generic-top-left-270x365-mono-blue">
+<g clip-path="url(#clip0)">
+<g id="Group 2">
+<path id="Rectangle" fill-rule="evenodd" clip-rule="evenodd" d="M-353 -66.6893C-353 -83.3685 -344.683 -98.9494 -330.825 -108.231L-76.8253 -278.362C-59.989 -289.639 -38.011 -289.64 -21.1747 -278.362L232.825 -108.231C246.683 -98.9494 255 -83.3685 255 -66.6893V55.6892C255 72.3685 246.683 87.9494 232.825 97.2314L-21.1747 267.362C-38.011 278.639 -59.989 278.64 -76.8253 267.362L-330.825 97.2315C-344.683 87.9494 -353 72.3685 -353 55.6892V-66.6893Z" fill="#006ABB"/>
+<path id="Rectangle_2" fill-rule="evenodd" clip-rule="evenodd" d="M194.086 0H212V111L194 123.5L194.086 0Z" fill="#0077CC"/>
+<path id="Rectangle_3" fill-rule="evenodd" clip-rule="evenodd" d="M148 50L166 50V142L148 154.5V50Z" fill="#0077CC"/>
+<path id="Rectangle_4" fill-rule="evenodd" clip-rule="evenodd" d="M194 123.5L212 111V211H194.003L194 123.5Z" fill="#0883D5"/>
+<path id="Rectangle_5" fill-rule="evenodd" clip-rule="evenodd" d="M148 154L166 142V275H148.003L148 154Z" fill="#0883D5"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="270" height="365" fill="white"/>
+</clipPath>
+</defs>
+</svg>

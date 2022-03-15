@@ -1,0 +1,25 @@
+<svg width="145" height="250" viewBox="0 0 145 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Generic / Midnight Background / Color / pattern-footer-cta-module-top-left-145x250-color-midnight-bg">
+<g clip-path="url(#clip0)">
+<g id="Group 2">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="145" height="250">
+<rect id="Rectangle" x="145" y="250" width="145" height="250" transform="rotate(-180 145 250)" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+<g id="Group">
+<path id="Rectangle_2" fill-rule="evenodd" clip-rule="evenodd" d="M-423 -60.325C-423 -74.3903 -415.613 -87.422 -403.544 -94.646L-160.144 -240.343C-147.179 -248.104 -130.948 -247.897 -118.186 -239.808L126.413 -84.7802C137.987 -77.4451 145 -64.6966 145 -50.9946L145 47.9946C145 61.6966 137.987 74.4451 126.413 81.7802L-118.186 236.808C-130.948 244.897 -147.179 245.104 -160.144 237.344L-403.544 91.646C-415.613 84.422 -423 71.3903 -423 57.325L-423 -60.325Z" fill="#26282F"/>
+<path id="Rectangle_3" fill-rule="evenodd" clip-rule="evenodd" d="M38.0861 35L56 35L56 134L38 145.7L38.0861 35Z" fill="#F04E98"/>
+<path id="Rectangle_4" fill-rule="evenodd" clip-rule="evenodd" d="M38 137.5L56 126.5L55.9969 249.5H38L38 137.5Z" fill="#F990C6"/>
+<path id="Rectangle_5" fill-rule="evenodd" clip-rule="evenodd" d="M84.0861 -17L102 -17L102 104.35L84 116L84.0861 -17Z" fill="#F04E98"/>
+<path id="Rectangle_6" fill-rule="evenodd" clip-rule="evenodd" d="M84 108L102 97.5L101.997 201.5H84L84 108Z" fill="#F990C6"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="145" height="250" fill="white"/>
+</clipPath>
+</defs>
+</svg>

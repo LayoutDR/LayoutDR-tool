@@ -1,0 +1,18 @@
+#NPM
+node_modules
+
+#OUTPUT AND TESTING
+output
+tests/images/*.png
+tests/*.png
+*.json
+!package.json
+settings.txt
+src/log.txt
+
+
+#VSCODE WORKSPACE
+*.code-workspace
+
+#R
+*.Rhistory

@@ -1,0 +1,472 @@
+@charset  "utf-8";
+
+@media only screen and (max-width: 1024px) {
+    div .overview-column-3 {
+        width: 110px;
+        margin-left: 0;
+    }
+
+    div .overview-column-4 {
+        width: 110px;
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (max-width: 964px) {
+    div .row .row-bottom {
+        margin-left: 170px;
+    }
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .banner-right {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    div .row .row-bottom {
+        margin-left: 110px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    div .row .row-bottom {
+        margin-left: 90px;
+    }
+
+    div .overview-column-3 {
+        width: 150px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    div .overview-column-4 {
+        width: 150px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 736px) {
+    div .row .row-bottom {
+        margin-left: 90px;
+    }
+
+    .banner-right {
+        display: none;
+    }
+
+    .reviews-column-3,.videos-column-3,.deals-column-3 {
+        display: none;
+    }
+
+    div .overview-row-reviews,div .overview-row-videos,div .overview-row-deals {
+        width: 580px;
+    }
+
+    div .overview-column-3 {
+        width: 150px;
+        margin-left: -20px;
+        margin-top: 10px;
+    }
+
+    div .overview-column-4 {
+        width: 150px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    div .row .row-bottom {
+        margin-left: 60px;
+    }
+
+    div .overview-row-reviews,div .overview-row-videos,div .overview-row-deals {
+        width: 525px;
+    }
+
+    div .overview-column-3 {
+        width: 110px;
+        margin-left: -20px;
+        margin-top: 10px;
+    }
+
+    div .overview-column-4 {
+        width: 110px;
+        margin-left: 60px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    div .row .row-bottom {
+        margin-left: 60px;
+    }
+
+    div .overview-row-reviews,div .overview-row-videos,div .overview-row-deals {
+        width: 525px;
+    }
+
+    div .overview-column-3 {
+        width: 110px;
+        margin-left: -30px;
+        margin-top: 10px;
+    }
+
+    div .overview-column-4 {
+        width: 110px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    div .row .row-bottom {
+        margin-left: 30px;
+    }
+
+    div .overview-column-3 {
+        width: 150px;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+
+    div .overview-column-4 {
+        width: 150px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .overview-avg-rating,.overview-rating,.total-reviews-counter {
+        margin-left: 0 !important;
+    }
+
+    div .row .row-bottom {
+        margin-left: -40px;
+    }
+
+    .overview-title {
+        text-align: center;
+    }
+
+    div .overview-column {
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+
+    div .overview-column-2 {
+        margin: 0;
+    }
+
+    div .overview-column-3 {
+        width: 150px;
+        margin-left: -10px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+
+    div .overview-column-4 {
+        width: 105px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .reviews-column-2,.deals-column-2 {
+        width: 200px;
+    }
+
+    .videos-column-2 {
+        width: 150px;
+    }
+
+    .reviews-column-3,.videos-column-3,.deals-column-3,.btn-green-desktop,.overview-seller {
+        display: none !important;
+    }
+
+    .o-review-title {
+        max-width: 200px;
+        min-width: 200px;
+        float: none;
+    }
+
+    .o-video-title {
+        min-width: 160px;
+    }
+
+    .o-deal-title {
+        min-width: 190px;
+    }
+
+    .o-deal-price,.o-deal-save {
+        font-size: 18px;
+    }
+
+    .o-video-date,.o-video-view_count {
+        margin-top: 0;
+        font-size: 11px;
+        color: #3b3d3d;
+    }
+
+    div .overview-row-reviews,div .overview-row-videos,div .overview-row-deals {
+        width: 325px;
+    }
+
+    .overview-image-container {
+        margin-left: 55px;
+    }
+
+    .overview-image {
+        width: 175px;
+        height: 175px;
+        box-shadow: none;
+    }
+
+    .btn-green-mobile {
+        margin-top: 15px !important;
+        width: 100% !important;
+        box-shadow: none !important;
+    }
+
+    .overview-title {
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    .search-row-sources {
+        margin-top: -60px;
+    }
+
+    .btn-green-mobile {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    div .overview-column-2 {
+        margin-top: 10px !important;
+    }
+
+    div .row .row-bottom {
+        margin-left: -15px;
+    }
+
+    div .trending-card {
+        width: 265px;
+    }
+
+    .trending-image {
+        width: 265px;
+    }
+
+    .trending-image::before {
+        width: 265px;
+    }
+
+    .trending-dealby {
+        margin-right: 110px;
+        text-align: left;
+    }
+
+    .trending-rating,.trending-ratedby {
+        margin-right: -30px;
+    }
+
+    .trending-price {
+        font-size: 20px;
+    }
+
+    .trending-savings {
+        font-size: 14px;
+    }
+
+    .trending-column {
+        column-count: 1;
+        margin-left: 0;
+    }
+
+    .trending-brand {
+        margin-left: 0;
+    }
+
+    div .overview-column-3 {
+        margin-left: -30px;
+    }
+
+    div .overview-row-reviews,div .overview-row-videos,div .overview-row-deals {
+        width: 300px;
+    }
+
+    .reviews-column-2,.deals-column-2 {
+        width: 190px;
+    }
+
+    .o-review-title {
+        max-width: 190px;
+        min-width: 190px;
+        font-size: 12px;
+    }
+
+    .o-review-publisher {
+        font-size: 12px;
+    }
+
+    .videos-column-2 {
+        width: 140px;
+    }
+
+    .o-video-title {
+        min-width: 130px;
+        font-size: 12px;
+    }
+
+    .o-video-channel,.o-deal-title {
+        font-size: 12px;
+    }
+
+    .overview-star {
+        width: 11px !important;
+    }
+
+    .o-deal-price,.o-deal-save {
+        font-size: 16px;
+    }
+
+    .o-deal-store {
+        font-size: 14px;
+    }
+
+    .overview-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .overview-image-container {
+        margin-left: 80px;
+    }
+
+    .overview-title {
+        font-size: 18px;
+    }
+
+    .row-sources {
+        padding-bottom: 20px !important;
+    }
+
+    div .overview-column-3 {
+        width: 150px;
+        margin: 10px 20px 10px -30px;
+    }
+
+    div .overview-column-4 {
+        width: 105px;
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    div .row .row-bottom {
+        margin-left: -35px;
+    }
+
+    div .trending-card {
+        width: 265px;
+    }
+
+    .trending-image {
+        width: 265px;
+    }
+
+    .trending-image::before {
+        width: 265px;
+    }
+
+    .trending-dealby {
+        margin-right: 110px;
+        text-align: left;
+    }
+
+    .trending-rating,.trending-ratedby {
+        margin-right: -30px;
+    }
+
+    .trending-price {
+        font-size: 20px;
+    }
+
+    .trending-savings {
+        font-size: 14px;
+    }
+
+    div .overview-column-3,div .overview-column-4 {
+        width: 150px;
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+
+    .search-title {
+        font-size: 24px !important;
+    }
+
+    div .overview-row-reviews,div .overview-row-videos,div .overview-row-deals {
+        width: 250px;
+    }
+
+    .reviews-column-2,.deals-column-2 {
+        width: 140px;
+    }
+
+    .o-review-title {
+        max-width: 130px;
+        min-width: 130px;
+        font-size: 12px;
+        -webkit-line-clamp: 3;
+        max-height: 60px;
+    }
+
+    .o-video-image {
+        width: 120px;
+        height: 75px;
+    }
+
+    .o-video-duration {
+        margin-top: -21px;
+        margin-right: 5px;
+    }
+
+    .videos-column-1 {
+        width: 120px;
+    }
+
+    .videos-column-2 {
+        width: 100px;
+    }
+
+    .o-deal-title {
+        min-width: 150px;
+    }
+
+    .o-deal-save {
+        display: none;
+    }
+
+    .o-deal-store {
+        font-size: 16px;
+    }
+
+    .o-deal-price {
+        color: #36bc60;
+        width: 120px;
+        text-align: left;
+    }
+
+    .overview-image-container {
+        margin-left: 30px;
+    }
+}

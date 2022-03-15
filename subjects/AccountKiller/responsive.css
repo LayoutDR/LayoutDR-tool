@@ -1,0 +1,70 @@
+@charset  "utf-8";
+
+@media only screen and (max-width: 480px) {
+    #cj2 {
+        width: 310px;
+    }
+
+    .account li {
+        width: 124px;
+    }
+
+    .account li.last {
+        width: 124px;
+        margin-right: 12px;
+    }
+
+    #footer {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #title span {
+        font-size: 1.5em;
+    }
+
+    #logo {
+        width: 50px;
+    }
+
+    #searchbox {
+        font-size: 12px;
+    }
+
+    input#search {
+        line-height: 15px;
+        height: 15px;
+        font-size: 15px;
+    }
+
+    div.navi {
+        border-radius: 0;
+    }
+
+    div.navi a {
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #aac;
+    }
+
+    div.navi a:last-child {
+        border-right-width: 1px;
+        border-right-style: solid;
+        border-right-color: #aac;
+        width: 117px;
+    }
+
+    .pane {
+        margin: 4px;
+    }
+
+    .pane h1,.pane h2 {
+        font-size: 1em;
+    }
+
+    .pane p {
+        font-size: .8em;
+        margin-bottom: 2px;
+    }
+}
